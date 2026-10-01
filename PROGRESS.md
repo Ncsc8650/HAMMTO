@@ -14,3 +14,5 @@
 ข้อจำกัด: MyHora blocked, ไม่ยืนยัน schedule completeness, บางวิธี planned/disabled, ไม่มี prospective prediction / calibrated probability / public write-back admin. ข้อมูลจริง single_source ไม่ใช่ demo; ไม่มี mock metrics.
 
 อัปเดตหน้าแรก: เลขทดลอง 6 หลัก 5 ชุด แยกหมวดรางวัลที่ 1–5/ข้างเคียง ลดเมนูหลักเหลือ 3 รายการ พร้อมคัดลอก/บันทึก ไม่มีการอ้างรับประกัน 100%. เพิ่ม 4 tests ตรวจจำนวนชุด ศูนย์นำหน้า แยกประเภท ข้อมูลหลัง cutoff และ deterministic random รวมผ่าน 14 tests.
+
+อัปเดตสถิติรายชุดและรายการสนใจ: เพิ่ม evidence module และ 3 tests รวม 17 tests ผ่าน ตรวจ browser จริงว่าบันทึกแล้ว reload ยังอยู่ ตัวกรองเดือนพร้อมวันที่แสดง 7 งวด (เทียบ 2026-10-16) และต้องเลือกวันก่อนใช้ตัวกรองปฏิทิน; ทดสอบคัดลอกและจอ 390px ไม่มี overflow. เปอร์เซ็นต์เป็นความถี่ในอดีต ไม่อ้างความมั่นใจในการทำนาย.
