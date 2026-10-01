@@ -12,3 +12,5 @@
 - [x] GitHub Pages HTTP 200 / Actions success; ทดสอบ desktop และ 390px mobile: ไม่มี page overflow, heatmap 100 cells, ranking และ backtest ใช้งานได้
 
 ข้อจำกัด: MyHora blocked, ไม่ยืนยัน schedule completeness, บางวิธี planned/disabled, ไม่มี prospective prediction / calibrated probability / public write-back admin. ข้อมูลจริง single_source ไม่ใช่ demo; ไม่มี mock metrics.
+
+อัปเดตหน้าแรก: เลขทดลอง 6 หลัก 5 ชุด แยกหมวดรางวัลที่ 1–5/ข้างเคียง ลดเมนูหลักเหลือ 3 รายการ พร้อมคัดลอก/บันทึก ไม่มีการอ้างรับประกัน 100%. เพิ่ม 4 tests ตรวจจำนวนชุด ศูนย์นำหน้า แยกประเภท ข้อมูลหลัง cutoff และ deterministic random รวมผ่าน 14 tests.

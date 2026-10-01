@@ -38,6 +38,7 @@ jobs:
       - run: node scripts/registry.mjs
       - run: node scripts/reproduce.mjs
       - run: node scripts/export-database.mjs
+      - run: node scripts/six-digit-data.mjs
       - name: Preserve snapshots and audit history
         run: |
           git config user.name "github-actions[bot]"

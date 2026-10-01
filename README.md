@@ -64,3 +64,11 @@ Google Sheets เก็บ snapshot เริ่มต้น 14 ตาราง 
 `node --test tests/*.test.mjs` ครอบคลุมศูนย์นำหน้า, derived target, null/conflict, duplicate date, frequency denominators, repeated prizes, normalization, deterministic Top K, future leakage, Wilson/Holm references, analytic multi-prize baseline, group size, empty data, CSV injection และครบทุกงวดแพ้
 
 อ่านสเปกต้นฉบับใน `CODEX_LOTTERY_ANALYTICS_SPEC.md` และสถานะใน `PROGRESS.md`
+
+## หน้าแรกแบบง่าย — เลขทดลอง 6 หลัก
+
+เปิด `/HAMMTO/` หรือ `#next` เพื่อดู 5 ชุดต่อประเภทรางวัล: ที่ 1–5 และข้างเคียงรางวัลที่ 1 (L6 ไม่มีรางวัลที่ 6) สร้างจากผลย้อนหลังของหมวดนั้นโดยตรงใน raw GLO ที่ตรวจ checksum แล้ว เก็บประวัติครบใน `six-digit-history.json` และชุดเลข/พารามิเตอร์ใน `six-digit-sets.json` อัปเดตทุกครั้งที่ workflow ทำงาน
+
+โมเดลใช้ผลคูณความถี่รายหลักที่ปรับเรียบ alpha=1 และเลือก Top 5 ด้วย beam search แบบ deterministic. เป็นคะแนนทดลอง ไม่แสดงเป็นโอกาสจริง ไม่ได้รับการยืนยันจาก backtest/calibration ของโมเดล 6 หลัก และไม่รับรองถูก 100%. โอกาสพื้นฐานรางวัลที่ 1 สำหรับ 5 เลขไม่ซ้ำคือ 5/1,000,000 = 0.0005% ภายใต้ uniform.
+
+หน้าแรกมีปุ่มคัดลอกทีละเลข บันทึกทั้ง 5 ชุด และดูผลล่าสุด เมนูซับซ้อนและตัวกรองย้ายเข้ารายการเพิ่มเติม. `node scripts/six-digit-data.mjs` สร้างไฟล์ก่อน build; GitHub Actions เรียกให้อัตโนมัติ.
