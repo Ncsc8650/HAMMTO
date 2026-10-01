@@ -1,5 +1,137 @@
 [
   {
+    "id": "2023-09-16",
+    "drawDate": "2023-09-16",
+    "firstPrize": "320812",
+    "last2": "46",
+    "front3": [
+      "037",
+      "699"
+    ],
+    "last3": [
+      "057",
+      "344"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:33:25.412Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "0c3327cb0a00d59b7f97829988ef2057959f2d73dbae3cf1f128479059bd390d",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/906e4427-b8cd-423f-912c-1e8cfcb8a152"
+  },
+  {
+    "id": "2023-10-01",
+    "drawDate": "2023-10-01",
+    "firstPrize": "727202",
+    "last2": "66",
+    "front3": [
+      "324",
+      "355"
+    ],
+    "last3": [
+      "426",
+      "615"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:33:19.564Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "96c5cb5609b16489f439dab15847239fbbb43aae216db28ad7819518ab63d1a4",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/98180dae-7d04-43d5-8c5c-4bb1e080dc66"
+  },
+  {
+    "id": "2023-10-16",
+    "drawDate": "2023-10-16",
+    "firstPrize": "931446",
+    "last2": "44",
+    "front3": [
+      "167",
+      "398"
+    ],
+    "last3": [
+      "272",
+      "970"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:33:13.792Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "507803591658ffdeedc47a9c0524a294f777df00dd24b55040461dbe5b686e65",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/bfb44c52-4e51-48a7-9f83-40ae66a377bb"
+  },
+  {
+    "id": "2023-11-01",
+    "drawDate": "2023-11-01",
+    "firstPrize": "743951",
+    "last2": "63",
+    "front3": [
+      "335",
+      "913"
+    ],
+    "last3": [
+      "019",
+      "349"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:33:08.053Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "f4656734274a23764c7f1f3da9e9fc4deaa5ed0ebde2a4aa09676b4bcfa6627d",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/4bf1fcae-9035-481f-94f5-6a0aef08a6f3"
+  },
+  {
+    "id": "2023-11-16",
+    "drawDate": "2023-11-16",
+    "firstPrize": "557990",
+    "last2": "14",
+    "front3": [
+      "346",
+      "412"
+    ],
+    "last3": [
+      "778",
+      "961"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:33:02.255Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "f13ffdff266b5ecf825cbdbdd7849d1666f147cde5bcfd07b5c7a12d59cb90b0",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/c690240f-a7d8-4cd2-a0b9-dd55af8570b5"
+  },
+  {
+    "id": "2023-12-01",
+    "drawDate": "2023-12-01",
+    "firstPrize": "251097",
+    "last2": "91",
+    "front3": [
+      "055",
+      "265"
+    ],
+    "last3": [
+      "092",
+      "280"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-01T16:32:56.457Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "0d22e23b671d3e4efe4356157d38ccfa0de658a281687a66e0e1c3aa79921635",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/e2b121d4-bb5f-45b7-b269-d34baf857b36"
+  },
+  {
     "id": "2023-12-16",
     "drawDate": "2023-12-16",
     "firstPrize": "356757",
