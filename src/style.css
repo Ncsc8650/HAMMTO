@@ -4,3 +4,39 @@
 
 .brand small{letter-spacing:0;font-size:9px;line-height:1.6}.next-hero{padding-top:10px;padding-bottom:24px}.honesty-note{margin:14px 0 18px}.six-cards{margin-bottom:22px}
 .evidence-controls{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0 10px}.evidence-controls label{flex:1;min-width:210px}.evidence-caption{font-size:11px;color:#78866e;line-height:1.8}.six-cards.with-evidence{grid-template-columns:repeat(2,minmax(0,1fr))}.set-evidence{text-align:left;border-top:1px dashed #d5dfc8;margin-bottom:12px}.set-evidence>div{display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px;padding:12px 5px;border-bottom:1px solid #e1e9d6}.set-evidence span{font-size:11px;color:#758569}.set-evidence b{font:22px Consolas,monospace;color:#365d42;letter-spacing:2px}.set-evidence small{grid-column:1/-1;font-size:10px;line-height:1.8;color:#667858}.set-evidence .lower-pick{background:#eef3e3}.set-evidence details{padding:9px;font-size:10px;background:#fafcf6}.set-evidence details p{font-size:10px;overflow-wrap:anywhere}.interest-number{width:100%;font-size:11px;padding:10px;border-color:#d8e1ca;margin-bottom:10px;background:#f8fbf1}.interest-number[aria-pressed=true]{color:#fff;background:#35674b;border-color:#35674b}.interest-list{background:#fafcf7}.interest-list>div{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.saved-set{font-size:11px;background:#edf2e5;padding:9px;border-radius:6px;line-height:1.8}.saved-set b{font-family:Consolas,monospace;letter-spacing:1px}.saved-set button{font-size:10px;padding:4px 8px;margin-left:9px}.interest-list p{font-size:10px;color:#7d8a74}#export-interests{font-size:11px}@media(min-width:1450px){.six-cards.with-evidence{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:680px){.six-cards.with-evidence{grid-template-columns:1fr}.set-evidence,.interest-number{grid-column:1/-1}.six-card:has(.set-evidence) .six-number{grid-column:1/-1;text-align:center;font-size:37px;padding:18px 0}.six-card:has(.set-evidence) .copy-number{grid-column:1/-1;margin:0;padding:10px}.evidence-controls label{min-width:0;width:100%;flex-basis:100%}.set-evidence>div{padding:10px 5px}.evidence-caption{font-size:10px}.interest-number{margin:0 0 8px}}
+
+/* Dark appearance shared by desktop and mobile. */
+:root{color-scheme:dark;color:#eef2f5;background:#11161c;--green:#8ddbc2;--muted:#adb9c5;--border:#34414e}
+body{background:#11161c;color:#eef2f5}
+button,input,select{color:#eef2f5;background:#202b36;border-color:#465563}
+button:hover{background:#304151}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #91dcca;outline-offset:3px}
+aside,header{background:#161e27}
+.brand,.next-hero h1{color:#f3f6f8}
+.brand small,.nav-label,nav button,.side-note,.side-note p,.eyebrow,label,.control-note,.control-note strong,.metric>span,.metric p,.metric strong small,.panel-title>span,.prize-grid span,.bar-row b,.number-grid article span,.number-grid small,.empty,footer,.advanced-nav summary,.home-kicker,.next-hero p,.home-data-date,.step-label,.pick-heading p,.ticket-top,.home-explain summary,.mini-label,.quick-result-body span,.plain-fact p,.prize-footnote,.evidence-caption,.set-evidence span,.set-evidence small,.interest-list p{color:#b8c4cf}
+nav button.active{background:#284c45;color:#edfff8}
+.controls,.metric,.panel,.filter-details,.pick-panel{background:#1a232d;border-color:var(--border)}
+.metric strong,.first-number,.prize-grid b,.chance,.number-grid b,.six-number,.quick-result-body b,.plain-fact strong,.set-evidence b{color:#f1f6f8}
+.latest,.six-card{background:linear-gradient(140deg,#202e38,#1c2931);border-color:#3b514f}
+.badge,.notice,.honesty-note{background:#302d24;color:#f0d9a4;border-color:#655b40}
+.honesty-note span{color:#dfcfac}
+.tag,.method-pill,.step-label>span,.hero-mark{background:#2b3c38;color:#c5e6d9;border-color:#466058}
+.bar-row>div{background:#2c3945}.bar-row i{background:#86c9af}
+th{background:#25323f;color:#dce6ed}td{border-color:#34414e}
+.heatmap>div{background:color-mix(in srgb,#42735e calc(var(--strength)*85%),#202d38);color:#f4f7f8}.heatmap small{color:#d4e7dd}
+details,.prize-grid,.pick-heading,.set-evidence,.set-evidence>div{border-color:#3b4c57}
+.number-grid article,.home-explain,.quick-result,.plain-fact,.interest-list,.set-evidence details{background:#1b2731;border-color:#384b56}
+.prize-tabs button,.interest-number{background:#263640;color:#eef4f6;border-color:#46605f}
+.prize-tabs button:hover,.interest-number:hover{background:#354e54}
+.prize-tabs button.selected,.interest-number[aria-pressed=true],.primary-action,.form-grid button,#run-backtest{background:#326552;color:#fff;border-color:#508c75}
+.primary-action:hover{background:#3e7963}
+.copy-number,.quick-result button{color:#d7e8e1;border-color:#4a605e;background:transparent}
+.copy-number:hover,.quick-result button:hover{background:#2b4144}
+.set-evidence .lower-pick,.saved-set{background:#293f3d;color:#eef6f2}
+#copy-status{color:#a1e2c5}.dot{background:#8ddbc2}
+input,select{min-height:44px;font-size:14px}
+button{min-height:44px}summary{line-height:1.8}
+.evidence-caption,.set-evidence span,.set-evidence small,.set-evidence details,.set-evidence details p,.interest-list p,.ticket-top,.home-explain p,.honesty-note span,.prize-footnote{font-size:12px}
+.interest-number,.copy-number{font-size:13px}
+@media(min-width:681px){.workspace{min-width:0}.six-cards.with-evidence{gap:16px}.six-card{padding:18px 16px}.six-number{font-size:36px}.set-evidence>div{padding:14px 6px}}
+@media(max-width:680px){.advanced-nav>div{background:#202d38}main{padding-left:12px;padding-right:12px}.pick-panel{padding:16px 12px}.prize-tabs button{font-size:12px;min-height:48px}.method-pill{white-space:normal;max-width:115px;line-height:1.7}.pick-heading{gap:8px}.six-card{padding:14px}.home-data-date,.home-kicker,.step-label{font-size:12px}.set-evidence small{font-size:12px}.evidence-controls label{font-size:12px}.home-actions button{min-height:48px}.six-card:not(:has(.set-evidence)) .interest-number,.six-card:not(:has(.set-evidence)) .copy-number{grid-column:1/-1}.six-card:not(:has(.set-evidence)) .six-number{grid-column:1/-1}.form-grid label{min-width:0;flex-basis:100%}.sheet-link{font-size:11px}}
