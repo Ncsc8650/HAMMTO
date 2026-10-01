@@ -35,7 +35,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.050Z",
+    "generatedAt": "2026-10-01T16:54:13.786Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
@@ -75,7 +75,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.050Z",
+    "generatedAt": "2026-10-01T16:54:13.787Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
@@ -115,7 +115,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.051Z",
+    "generatedAt": "2026-10-01T16:54:13.787Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
@@ -155,7 +155,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.052Z",
+    "generatedAt": "2026-10-01T16:54:13.789Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
@@ -195,7 +195,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.053Z",
+    "generatedAt": "2026-10-01T16:54:13.792Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
@@ -235,7 +235,7 @@
     "firstPrizeBaseline": 0.000005,
     "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-01T16:52:17.053Z",
+    "generatedAt": "2026-10-01T16:54:13.793Z",
     "dataSnapshotAt": "2026-10-01T16:33:31.397Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   }
