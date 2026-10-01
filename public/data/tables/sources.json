@@ -1,0 +1,16 @@
+[
+  {
+    "id": "glo",
+    "url": "https://gdcatalog.glo.or.th/th/dataset/dataset_c4-9_01",
+    "role": "primary",
+    "status": "available",
+    "license": "GLO catalog: Creative Commons Non-Commercial (Any)"
+  },
+  {
+    "id": "myhora",
+    "url": "https://myhora.com/lottery/stats.aspx?mx=09&vx=10",
+    "role": "secondary",
+    "status": "access_challenge; not bypassed",
+    "license": "Redistribution permission not established"
+  }
+]

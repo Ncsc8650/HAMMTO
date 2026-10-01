@@ -1,0 +1,14 @@
+{
+  "datasetHash": "2a722190832c474b2abec910336a88e6804ea865aed98fba65d675558c8a3eb1",
+  "version": "glo-1",
+  "generatedAt": "2026-10-01T16:22:03.054Z",
+  "count": 68,
+  "firstDate": "2023-12-16",
+  "lastDate": "2026-10-01",
+  "source": "GLO official API",
+  "verification": "single_source",
+  "completeness": "unknown: candidate-date backfill is not an official draw schedule",
+  "backfillRemaining": 429,
+  "license": "GLO catalog: Creative Commons Non-Commercial (Any)",
+  "myhora": "Direct requests blocked by access challenge; not bypassed"
+}

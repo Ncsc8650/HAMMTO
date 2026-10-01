@@ -1,0 +1,5714 @@
+[
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9978571428571439,
+    "logLoss": 4.941642422609305,
+    "actualProbability": 0.007142857142857143,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950000000000006,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.994631958114996,
+    "logLoss": 4.8041652282310405,
+    "actualProbability": 0.008195539564722598,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0032063999999998,
+    "logLoss": 5.339139361068292,
+    "actualProbability": 0.0048,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0055111111111101,
+    "logLoss": 5.41610040220442,
+    "actualProbability": 0.0044444444444444444,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9903545108519604,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9962773165172942,
+    "logLoss": 4.9179258959919885,
+    "actualProbability": 0.007314285714285714,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-08-16",
+    "trainEnd": "2025-08-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "63",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999992,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9837533323273489,
+    "logLoss": 4.255612709818223,
+    "actualProbability": 0.014184397163120567,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.995000000000001,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9884324765839687,
+    "logLoss": 4.484904803410594,
+    "actualProbability": 0.011277961093071045,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": true,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.964068916799369,
+    "logLoss": 3.720516539057119,
+    "actualProbability": 0.024221453287197235,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9868507560815275,
+    "logLoss": 4.356708826689592,
+    "actualProbability": 0.01282051282051282,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9933327505003989,
+    "logLoss": 4.7664383335842135,
+    "actualProbability": 0.00851063829787234,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9795769483803067,
+    "logLoss": 4.1579983815290475,
+    "actualProbability": 0.015638829582730048,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999992,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999992,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999992,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-01",
+    "trainEnd": "2025-08-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "31",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999992,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9981154532830783,
+    "logLoss": 4.955827057601261,
+    "actualProbability": 0.007042253521126761,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111118,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.994679330973005,
+    "logLoss": 4.808185114890579,
+    "actualProbability": 0.008162660553783035,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9922556107979412,
+    "logLoss": 4.570282926987651,
+    "actualProbability": 0.010355029585798817,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.001543209876543,
+    "logLoss": 4.969813299576001,
+    "actualProbability": 0.006944444444444444,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9892108913260468,
+    "logLoss": 4.550361949493096,
+    "actualProbability": 0.01056338028169014,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9923134143526847,
+    "logLoss": 4.675568924220762,
+    "actualProbability": 0.009320221129538573,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-09-16",
+    "trainEnd": "2025-09-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "58",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9981906205682425,
+    "logLoss": 4.962844630259907,
+    "actualProbability": 0.006993006993006993,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111115,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9946763664047772,
+    "logLoss": 4.81008731246394,
+    "actualProbability": 0.008147148319030508,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0015825397716571,
+    "logLoss": 5.167995104864462,
+    "actualProbability": 0.005695977216091135,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0035595414201193,
+    "logLoss": 5.337538079701318,
+    "actualProbability": 0.004807692307692308,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9935652148938862,
+    "logLoss": 4.780523073465953,
+    "actualProbability": 0.008391608391608392,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.996905412277379,
+    "logLoss": 4.958014732384244,
+    "actualProbability": 0.007026864200235507,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-01",
+    "trainEnd": "2025-09-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9704861111111125,
+    "logLoss": 3.871201010907891,
+    "actualProbability": 0.020833333333333332,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111118,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9826144961210913,
+    "logLoss": 4.257183614486915,
+    "actualProbability": 0.01416213231994614,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9784331656759645,
+    "logLoss": 4.065945087700403,
+    "actualProbability": 0.017146776406035662,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0021357795595385,
+    "logLoss": 5.1298987149230735,
+    "actualProbability": 0.00591715976331361,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9912333660959239,
+    "logLoss": 4.651359568457466,
+    "actualProbability": 0.009548611111111112,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9792155602749517,
+    "logLoss": 4.145033389852705,
+    "actualProbability": 0.015842906950160034,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-10-16",
+    "trainEnd": "2025-10-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "61",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9847324613555292,
+    "logLoss": 4.283586561860629,
+    "actualProbability": 0.013793103448275862,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9781944444444446,
+    "logLoss": 4.0943445622221,
+    "actualProbability": 0.016666666666666666,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9832871180342093,
+    "logLoss": 4.278889601133912,
+    "actualProbability": 0.013858041499825322,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9931616692848848,
+    "logLoss": 4.613468988802786,
+    "actualProbability": 0.009917355371900827,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0058510939001641,
+    "logLoss": 5.583496308781699,
+    "actualProbability": 0.0037593984962406013,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9896356755940583,
+    "logLoss": 4.5712686343124105,
+    "actualProbability": 0.010344827586206896,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9882745626478949,
+    "logLoss": 4.478382292879759,
+    "actualProbability": 0.011351762135461194,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-01",
+    "trainEnd": "2025-10-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "87",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9849878025896055,
+    "logLoss": 4.290459441148391,
+    "actualProbability": 0.0136986301369863,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111121,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9884918171292756,
+    "logLoss": 4.484443366477107,
+    "actualProbability": 0.011283166361713068,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9823389017596844,
+    "logLoss": 4.179502370562408,
+    "actualProbability": 0.01530612244897959,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0051700680272122,
+    "logLoss": 5.3471075307174685,
+    "actualProbability": 0.0047619047619047615,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9905499297047904,
+    "logLoss": 4.615881841583019,
+    "actualProbability": 0.00989345509893455,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9850447158437919,
+    "logLoss": 4.345419393025621,
+    "actualProbability": 0.012966069228300146,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-11-16",
+    "trainEnd": "2025-11-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "37",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9988430746448217,
+    "logLoss": 4.990432586778736,
+    "actualProbability": 0.006802721088435374,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111124,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948874586959807,
+    "logLoss": 4.81703898706365,
+    "actualProbability": 0.008090708398274546,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9958687953894663,
+    "logLoss": 4.753898025493896,
+    "actualProbability": 0.008618036318867343,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0075201845444066,
+    "logLoss": 5.541263545158426,
+    "actualProbability": 0.00392156862745098,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9912878929781612,
+    "logLoss": 4.653960350157523,
+    "actualProbability": 0.009523809523809523,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9943824170976093,
+    "logLoss": 4.789711527437548,
+    "actualProbability": 0.008314855643704079,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-01",
+    "trainEnd": "2025-11-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "22",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9989043097151197,
+    "logLoss": 4.997212273764115,
+    "actualProbability": 0.006756756756756757,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948611111111119,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948732116787731,
+    "logLoss": 4.8186246894603135,
+    "actualProbability": 0.008077889109051639,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9892475550735846,
+    "logLoss": 4.432006566978902,
+    "actualProbability": 0.011890606420927468,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9764700443786971,
+    "logLoss": 3.951243718581427,
+    "actualProbability": 0.019230769230769232,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.990063005814695,
+    "logLoss": 4.591747165655951,
+    "actualProbability": 0.010135135135135136,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9918099023032758,
+    "logLoss": 4.646600062702846,
+    "actualProbability": 0.00959416610427312,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2025-12-16",
+    "trainEnd": "2025-12-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "52",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9989640106301494,
+    "logLoss": 5.003946305945459,
+    "actualProbability": 0.006711409395973154,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222237,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948605581664476,
+    "logLoss": 4.820153993272024,
+    "actualProbability": 0.008065545003796037,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0061778303048012,
+    "logLoss": 5.670168238023439,
+    "actualProbability": 0.0034472852628555017,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9960101687733919,
+    "logLoss": 4.77912349311153,
+    "actualProbability": 0.008403361344537815,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9885237187228098,
+    "logLoss": 4.518438490163758,
+    "actualProbability": 0.010906040268456376,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9969659415412601,
+    "logLoss": 4.958767255859559,
+    "actualProbability": 0.0070215783090950105,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-02",
+    "trainEnd": "2025-12-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "16",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9990222222222204,
+    "logLoss": 5.0106352940962555,
+    "actualProbability": 0.006666666666666667,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222238,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948493603849407,
+    "logLoss": 4.821628986068877,
+    "actualProbability": 0.008053657152415598,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "position",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9961129629629619,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9998163452708921,
+    "logLoss": 5.10594547390058,
+    "actualProbability": 0.006060606060606061,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.992570670194003,
+    "logLoss": 4.722953221644475,
+    "actualProbability": 0.008888888888888889,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950217491344964,
+    "logLoss": 4.8329541168588035,
+    "actualProbability": 0.007962962962962963,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-01-17",
+    "trainEnd": "2026-01-02",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "02",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9990789877636957,
+    "logLoss": 5.017279836814924,
+    "actualProbability": 0.006622516556291391,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222231,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948394918357095,
+    "logLoss": 4.82305167246694,
+    "actualProbability": 0.008042207470514755,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "position",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0019272935461276,
+    "logLoss": 5.226015454792631,
+    "actualProbability": 0.005374899220639613,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9753741496598651,
+    "logLoss": 3.960813169597578,
+    "actualProbability": 0.019047619047619046,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9970983763591544,
+    "logLoss": 5.017279836814924,
+    "actualProbability": 0.006622516556291391,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9985165946509151,
+    "logLoss": 5.0821349298991,
+    "actualProbability": 0.006206644111074131,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-01",
+    "trainEnd": "2026-01-17",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9991343490304698,
+    "logLoss": 5.0238805208462765,
+    "actualProbability": 0.006578947368421052,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222237,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948308363626729,
+    "logLoss": 4.824423977819812,
+    "actualProbability": 0.008031178675322208,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9905995640597252,
+    "logLoss": 4.516599151806815,
+    "actualProbability": 0.0109261186264308,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9906412269049623,
+    "logLoss": 4.51085950651685,
+    "actualProbability": 0.01098901098901099,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9872741921965001,
+    "logLoss": 4.464264732910854,
+    "actualProbability": 0.011513157894736841,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9915222754878654,
+    "logLoss": 4.63844352504483,
+    "actualProbability": 0.009672741296529565,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-02-16",
+    "trainEnd": "2026-02-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "07",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9730445555128384,
+    "logLoss": 3.9318256327243257,
+    "actualProbability": 0.0196078431372549,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9613888888888903,
+    "logLoss": 3.6888794541139363,
+    "actualProbability": 0.025,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9773066913542353,
+    "logLoss": 4.087635982122851,
+    "actualProbability": 0.01677885221712041,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9877624911278579,
+    "logLoss": 4.394449154672439,
+    "actualProbability": 0.012345679012345678,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0057291666666681,
+    "logLoss": 5.480638923341991,
+    "actualProbability": 0.004166666666666667,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9860447785989249,
+    "logLoss": 4.4113987129862124,
+    "actualProbability": 0.012138188608776844,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9814770430587204,
+    "logLoss": 4.220095767527661,
+    "actualProbability": 0.014697236919459141,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-01",
+    "trainEnd": "2026-02-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9994096812278634,
+    "logLoss": 5.0369526024136295,
+    "actualProbability": 0.006493506493506494,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222227,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9949521076401058,
+    "logLoss": 4.827024771313172,
+    "actualProbability": 0.008010318376502608,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0037100315093994,
+    "logLoss": 5.427394408823179,
+    "actualProbability": 0.00439453125,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0050048828125,
+    "logLoss": 5.545177444479562,
+    "actualProbability": 0.00390625,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9901481686732151,
+    "logLoss": 4.59511985013459,
+    "actualProbability": 0.010101010101010102,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9969141716733824,
+    "logLoss": 4.962366797185026,
+    "actualProbability": 0.006996349281505532,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-03-16",
+    "trainEnd": "2026-03-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9994588969823118,
+    "logLoss": 5.043425116919247,
+    "actualProbability": 0.0064516129032258064,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333343,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9949371100087043,
+    "logLoss": 4.82825674446231,
+    "actualProbability": 0.008000455955712912,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9933335107314164,
+    "logLoss": 4.659895085677338,
+    "actualProbability": 0.009467455621301777,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9679012345679011,
+    "logLoss": 3.80666248977032,
+    "actualProbability": 0.02222222222222222,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9958350593792842,
+    "logLoss": 4.925642081262863,
+    "actualProbability": 0.007258064516129033,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9954081847456703,
+    "logLoss": 4.863201419844521,
+    "actualProbability": 0.007725711013552205,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-01",
+    "trainEnd": "2026-03-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "47",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9866863905325451,
+    "logLoss": 4.356708826689592,
+    "actualProbability": 0.01282051282051282,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9779166666666669,
+    "logLoss": 4.0943445622221,
+    "actualProbability": 0.016666666666666666,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9843794827624615,
+    "logLoss": 4.322775940992227,
+    "actualProbability": 0.013263015046586193,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9915793294831615,
+    "logLoss": 4.572646994282532,
+    "actualProbability": 0.010330578512396695,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9792034460843161,
+    "logLoss": 4.085976312551584,
+    "actualProbability": 0.01680672268907563,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9923677803084855,
+    "logLoss": 4.713383770628324,
+    "actualProbability": 0.008974358974358974,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989419046453012,
+    "logLoss": 4.536719007186226,
+    "actualProbability": 0.010708483435756163,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-04-16",
+    "trainEnd": "2026-04-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "77",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999998,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9868960201225218,
+    "logLoss": 4.363098624788362,
+    "actualProbability": 0.012738853503184714,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333343,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9923596686666206,
+    "logLoss": 4.6779237678698,
+    "actualProbability": 0.009298299287389681,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0015578785914694,
+    "logLoss": 5.231331408433986,
+    "actualProbability": 0.005346402316774337,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.00522801713278,
+    "logLoss": 5.529429087511423,
+    "actualProbability": 0.003968253968253968,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9864218549063785,
+    "logLoss": 4.427637145925933,
+    "actualProbability": 0.01194267515923567,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9908193876065267,
+    "logLoss": 4.60423958649033,
+    "actualProbability": 0.01000931032639824,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-02",
+    "trainEnd": "2026-04-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "43",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999993,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9997596539016175,
+    "logLoss": 5.062595033026967,
+    "actualProbability": 0.006329113924050633,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333348,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9949964574799398,
+    "logLoss": 4.831698486297176,
+    "actualProbability": 0.007972967782484467,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9913036466876596,
+    "logLoss": 4.567814399444322,
+    "actualProbability": 0.010380622837370243,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9943984220907306,
+    "logLoss": 4.579852378003801,
+    "actualProbability": 0.010256410256410256,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948612033073675,
+    "logLoss": 4.861924337564815,
+    "actualProbability": 0.007735583684950773,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945175069873337,
+    "logLoss": 4.809928762833738,
+    "actualProbability": 0.008148440148790551,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-05-16",
+    "trainEnd": "2026-05-02",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "08",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9998022230133299,
+    "logLoss": 5.0689042022202315,
+    "actualProbability": 0.006289308176100629,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333335,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9949801303426988,
+    "logLoss": 4.8327660681396996,
+    "actualProbability": 0.007964460528751667,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0070234327508993,
+    "logLoss": 5.983306359406519,
+    "actualProbability": 0.002520478890989288,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9980161476355248,
+    "logLoss": 4.848116364598481,
+    "actualProbability": 0.00784313725490196,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9901781123034238,
+    "logLoss": 4.598900572974496,
+    "actualProbability": 0.010062893081761008,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9982196916434857,
+    "logLoss": 5.0686521860898655,
+    "actualProbability": 0.006290893382950308,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-01",
+    "trainEnd": "2026-05-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "95",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9873437499999986,
+    "logLoss": 4.382026634673881,
+    "actualProbability": 0.0125,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9779166666666673,
+    "logLoss": 4.0943445622221,
+    "actualProbability": 0.016666666666666666,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.98290588724001,
+    "logLoss": 4.2697000196653825,
+    "actualProbability": 0.013985978042487862,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9917414410662225,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.010000000000000002,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9996712689020396,
+    "logLoss": 5.049856007249537,
+    "actualProbability": 0.00641025641025641,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9960226004464281,
+    "logLoss": 4.941642422609304,
+    "actualProbability": 0.0071428571428571435,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9909719095330167,
+    "logLoss": 4.617146377034807,
+    "actualProbability": 0.009880952380952381,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-06-16",
+    "trainEnd": "2026-06-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "48",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9999614212414637,
+    "logLoss": 5.081404364984463,
+    "actualProbability": 0.006211180124223602,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222227,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950444085943195,
+    "logLoss": 4.834790241511749,
+    "actualProbability": 0.007948355385127007,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.992288939877689,
+    "logLoss": 4.633539455972004,
+    "actualProbability": 0.009720293592541162,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0068359375,
+    "logLoss": 5.545177444479562,
+    "actualProbability": 0.00390625,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.99371120308777,
+    "logLoss": 4.793722292532682,
+    "actualProbability": 0.008281573498964804,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945819897379394,
+    "logLoss": 4.819475938626127,
+    "actualProbability": 0.008071015738576522,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-01",
+    "trainEnd": "2026-06-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "62",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0000000000000002,
+    "logLoss": 5.0875963352323845,
+    "actualProbability": 0.006172839506172839,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222226,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950259247681937,
+    "logLoss": 4.835749481946214,
+    "actualProbability": 0.007940734656893768,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9862462610501445,
+    "logLoss": 4.363677496005685,
+    "actualProbability": 0.012731481481481483,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9990234375,
+    "logLoss": 4.852030263919617,
+    "actualProbability": 0.0078125,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9924210945873038,
+    "logLoss": 4.7198715551070665,
+    "actualProbability": 0.008916323731138546,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9921664642856469,
+    "logLoss": 4.680589206772404,
+    "actualProbability": 0.009273548239597623,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-07-16",
+    "trainEnd": "2026-07-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "71",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0000376378486202,
+    "logLoss": 5.093750200806762,
+    "actualProbability": 0.006134969325153374,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222227,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950090654127279,
+    "logLoss": 4.836675174287314,
+    "actualProbability": 0.007933387380822436,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9907828446135094,
+    "logLoss": 4.555567191561633,
+    "actualProbability": 0.010508538187277162,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9727777777777773,
+    "logLoss": 3.912023005428146,
+    "actualProbability": 0.02,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9887688361003125,
+    "logLoss": 4.53413441287134,
+    "actualProbability": 0.010736196319018405,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.992472521360206,
+    "logLoss": 4.69656556481525,
+    "actualProbability": 0.009126567943816314,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-01",
+    "trainEnd": "2026-07-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "69",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0000743604997038,
+    "logLoss": 5.099866427824199,
+    "actualProbability": 0.006097560975609756,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333342,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9949937035094752,
+    "logLoss": 4.83756852126493,
+    "actualProbability": 0.007926303277935604,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9953667267646699,
+    "logLoss": 4.80146769663802,
+    "actualProbability": 0.008217677136596057,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9986753892733561,
+    "logLoss": 4.912654885736052,
+    "actualProbability": 0.007352941176470588,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9912859527114439,
+    "logLoss": 4.658033675545159,
+    "actualProbability": 0.00948509485094851,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9948622160361031,
+    "logLoss": 4.836667997022176,
+    "actualProbability": 0.007933444321051442,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-08-16",
+    "trainEnd": "2026-08-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "53",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0001101928374672,
+    "logLoss": 5.10594547390058,
+    "actualProbability": 0.006060606060606061,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333349,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.994979721691613,
+    "logLoss": 4.838430680471781,
+    "actualProbability": 0.007919472487625735,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9989586488888891,
+    "logLoss": 5.051457288616511,
+    "actualProbability": 0.0064,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9977324263038537,
+    "logLoss": 4.836281906951478,
+    "actualProbability": 0.007936507936507936,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9908566181293453,
+    "logLoss": 4.635941844654845,
+    "actualProbability": 0.009696969696969697,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9959424176806058,
+    "logLoss": 4.908188108976787,
+    "actualProbability": 0.007385858585858586,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-01",
+    "trainEnd": "2026-08-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "04",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999989,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9880969661779655,
+    "logLoss": 4.418840607796598,
+    "actualProbability": 0.012048192771084338,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9779166666666671,
+    "logLoss": 4.0943445622221,
+    "actualProbability": 0.016666666666666666,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9841576912971827,
+    "logLoss": 4.318672891238378,
+    "actualProbability": 0.013317545651599177,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9960893438125856,
+    "logLoss": 4.8548041908023425,
+    "actualProbability": 0.007790858725761772,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9974797282489589,
+    "logLoss": 4.762173934797756,
+    "actualProbability": 0.008547008547008548,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9901704926418236,
+    "logLoss": 4.601162164590552,
+    "actualProbability": 0.010040160642570281,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9907710123051027,
+    "logLoss": 4.60920457522267,
+    "actualProbability": 0.009959737379805463,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-09-16",
+    "trainEnd": "2026-09-01",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "64",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999995,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "uniform",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "frequency",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.000250995015957,
+    "logLoss": 5.117993812416755,
+    "actualProbability": 0.005988023952095809,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "recent",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222227,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "decay",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950379594730978,
+    "logLoss": 4.840065851167636,
+    "actualProbability": 0.007906533379995187,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "position",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950864848364043,
+    "logLoss": 4.795790545596741,
+    "actualProbability": 0.008264462809917356,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "markov",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9977324263038546,
+    "logLoss": 4.836281906951478,
+    "actualProbability": 0.007936507936507936,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "sum",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9862998269215775,
+    "logLoss": 4.42484663185681,
+    "actualProbability": 0.011976047904191617,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "ensemble",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9931985962251896,
+    "logLoss": 4.7395196401354385,
+    "actualProbability": 0.008742844888734927,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "fixed",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "random1",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "random2",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  },
+  {
+    "date": "2026-10-01",
+    "trainEnd": "2026-09-16",
+    "model": "random3",
+    "phase": "holdout",
+    "actual": "70",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999997,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "b5314f290541f237"
+  }
+]

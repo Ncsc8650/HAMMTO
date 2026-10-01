@@ -1,0 +1,38 @@
+[
+  {
+    "version": "analytics-1.0",
+    "target": "last2",
+    "seed": 42,
+    "minTrain": 30,
+    "parameters": {
+      "alpha": 1,
+      "window": 20
+    },
+    "trainDates": [
+      "2023-12-16",
+      "2025-08-01"
+    ],
+    "validationDates": [
+      "2025-08-16",
+      "2026-03-01"
+    ],
+    "holdoutDates": [
+      "2026-03-16",
+      "2026-10-01"
+    ],
+    "cutoffPolicy": "strict drawDate < evaluation date",
+    "trialCount": 12,
+    "pFamily": "12 models × 4 K; Holm; one-sided binomial",
+    "selection": "No tuning; fixed parameters; historical holdout is exploratory, not a frozen prospective test",
+    "event": "single result, exact match",
+    "status": "experimental",
+    "datasetHash": "2a722190832c474b2abec910336a88e6804ea865aed98fba65d675558c8a3eb1",
+    "sourceUrls": [
+      "https://www.glo.or.th/api/checking/getLotteryResult",
+      "https://www.glo.or.th/api/lottery/getLatestLottery"
+    ],
+    "gitCommit": "1ffef922097c772dea04f9e08e2cc278819b4291",
+    "nodeVersion": "v24.19.0",
+    "runId": "b5314f290541f237"
+  }
+]

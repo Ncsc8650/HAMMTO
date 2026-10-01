@@ -1,0 +1,1 @@
+{"name":"hammto-lottery-lab","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build --base=/HAMMTO/","test":"node --test tests/*.test.mjs","ingest":"node scripts/ingest.mjs","reproduce":"node scripts/reproduce.mjs"},"devDependencies":{"vite":"^7.1.7"}}
