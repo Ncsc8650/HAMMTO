@@ -14,7 +14,7 @@ async function fetchDraw(url,body){
  if(!r?.date||!r?.data?.first?.number?.length){log.status='no_result';return;}
  const nums=k=>r.data[k]?.number?.map(n=>n.value)??null;
  const d={id:r.date,drawDate:r.date,firstPrize:nums('first')?.[0]??null,last2:nums('last2')?.[0]??null,front3:nums('last3f'),last3:nums('last3b'),regimeId:r.date>='2015-09-01'?'L6-front3-2015':'L6-legacy',sourceUrl:url,retrievedAt:at,publishedAt:null,verification:'single_source',rawHash,datasetVersion:'glo-1',pdfUrl:r.pdf_url??null};
- if(!/^\d{4}-\d{2}-\d{2}$/.test(d.drawDate)||d.drawDate>at.slice(0,10)||!/^\d{6}$/.test(d.firstPrize)||!/^\d{2}$/.test(d.last2)||[...(d.front3??[]),...(d.last3??[])].some(n=>!/^\d{3}$/.test(n))){log.status='quarantined';log.reason='Invalid result schema';return;}
+ if((body.year&&d.drawDate!==`${body.year}-${body.month}-${body.date}`)||!/^\d{4}-\d{2}-\d{2}$/.test(d.drawDate)||d.drawDate>at.slice(0,10)||!/^\d{6}$/.test(d.firstPrize)||!/^\d{2}$/.test(d.last2)||[...(d.front3??[]),...(d.last3??[])].some(n=>!/^\d{3}$/.test(n))){log.status='quarantined';log.reason='Invalid result schema';return;}
  const prev=map.get(d.drawDate), keys=['firstPrize','last2','front3','last3'];
  if(prev&&keys.some(k=>JSON.stringify(prev[k])!==JSON.stringify(d[k]))){conflicts.push({drawDate:d.drawDate,previous:prev,incoming:d,resolved:false});map.set(d.drawDate,{...prev,verification:'conflict'});log.status='conflict';}else if(!prev){map.set(d.drawDate,d);log.status='accepted';}else log.status='unchanged';
  console.log(d.drawDate,log.status);

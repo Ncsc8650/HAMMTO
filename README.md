@@ -39,7 +39,7 @@ MyHora เป็นแหล่งอ้างอิงรูปแบบสถ�
 
 Raw response แบบไม่แก้ไขอยู่ `public/data/raw/<SHA256>.json`; draws, imports, conflicts, manifest และ database.json เก็บใน Git และเผยแพร่พร้อมเว็บ การแก้ผลเดิมสร้าง conflict และแยกออกจากการวิเคราะห์ ไม่แก้ทับเงียบ
 
-Google Sheets เก็บ snapshot เริ่มต้นเป็นตารางข้อความ (รักษา 03/007/000123) และแท็บ `live_draws` ดึง CSV ที่เผยแพร่บน GitHub ผ่าน IMPORTDATA พร้อม padding ตัวเลขตาม schema. Google อาจต้องอนุญาตการดึงข้อมูลภายนอกครั้งแรกและ refresh ไม่ทันที ฐานข้อมูลอ้างอิงที่ทำซ้ำได้คือ JSON พร้อม hash ใน Git; การแก้ Sheets ไม่เขียนกลับเว็บอัตโนมัติ
+Google Sheets เก็บ snapshot เริ่มต้น 14 ตาราง รวม frequency 4,200 แถว / รายหลัก 160 แถว / รูปแบบ 1,203 แถว เป็นตารางข้อความ (รักษา 03/007/000123) และแท็บ `live_draws` ดึง CSV ที่เผยแพร่บน GitHub ผ่าน IMPORTDATA พร้อม padding ตัวเลขตาม schema. Google อาจต้องอนุญาตการดึงข้อมูลภายนอกครั้งแรกและ refresh ไม่ทันที ฐานข้อมูลอ้างอิงที่ทำซ้ำได้คือ JSON พร้อม hash ใน Git; การแก้ Sheets ไม่เขียนกลับเว็บอัตโนมัติ
 
 ## สถิติและการทดลอง
 
