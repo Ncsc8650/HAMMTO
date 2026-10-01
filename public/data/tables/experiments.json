@@ -31,8 +31,8 @@
       "https://www.glo.or.th/api/checking/getLotteryResult",
       "https://www.glo.or.th/api/lottery/getLatestLottery"
     ],
-    "gitCommit": "1ffef922097c772dea04f9e08e2cc278819b4291",
-    "nodeVersion": "v24.19.0",
-    "runId": "b5314f290541f237"
+    "gitCommit": "5210d5773ba357d3aa66519732bbfadf12d2101c",
+    "nodeVersion": "v22.23.3",
+    "runId": "74260ba6c33149ca"
   }
 ]
