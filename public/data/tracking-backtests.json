@@ -1,0 +1,3455 @@
+{
+  "generatedAt": "2026-10-01T17:48:59.013Z",
+  "datasetHash": "1639b05cf89265d6aff4e2053481c5a103e4f70ea4e5213e369d1853538d1d35",
+  "notice": "Retrospective comparison, fixed top 5, expanding history, not calibration or proof of future advantage. Random expectation conditions on distinct actual winners, not assumptions about prize drawing rules.",
+  "results": [
+    {
+      "target": "front3",
+      "version": "draw-frequency-top5-v1",
+      "type": "retrospective-walk-forward",
+      "minTrain": 30,
+      "k": 5,
+      "seed": 20261002,
+      "n": 44,
+      "hits": 0,
+      "rate": 0,
+      "ci": [
+        6.938893903907228e-18,
+        0.08029831778201396
+      ],
+      "randomHits": 1,
+      "randomRate": 0.022727272727272728,
+      "expectedRandomRate": 0.009979979979979903,
+      "rows": [
+        {
+          "date": "2024-12-16",
+          "trainThrough": "2024-12-01",
+          "trainDraws": 30,
+          "picks": [
+            "648",
+            "975",
+            "011",
+            "016",
+            "036"
+          ],
+          "randomPicks": [
+            "063",
+            "417",
+            "220",
+            "395",
+            "281"
+          ],
+          "actual": [
+            "290",
+            "742"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-01-02",
+          "trainThrough": "2024-12-16",
+          "trainDraws": 31,
+          "picks": [
+            "648",
+            "975",
+            "011",
+            "016",
+            "036"
+          ],
+          "randomPicks": [
+            "290",
+            "937",
+            "862",
+            "979",
+            "463"
+          ],
+          "actual": [
+            "065",
+            "446"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-01-17",
+          "trainThrough": "2025-01-02",
+          "trainDraws": 32,
+          "picks": [
+            "648",
+            "975",
+            "011",
+            "016",
+            "036"
+          ],
+          "randomPicks": [
+            "441",
+            "188",
+            "193",
+            "246",
+            "172"
+          ],
+          "actual": [
+            "699",
+            "961"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-02-01",
+          "trainThrough": "2025-01-17",
+          "trainDraws": 33,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "030",
+            "780",
+            "660",
+            "802",
+            "539"
+          ],
+          "actual": [
+            "285",
+            "418"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-02-16",
+          "trainThrough": "2025-02-01",
+          "trainDraws": 34,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "148",
+            "135",
+            "887",
+            "606",
+            "773"
+          ],
+          "actual": [
+            "268",
+            "613"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-03-01",
+          "trainThrough": "2025-02-16",
+          "trainDraws": 35,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "538",
+            "358",
+            "628",
+            "825",
+            "742"
+          ],
+          "actual": [
+            "139",
+            "530"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-03-16",
+          "trainThrough": "2025-03-01",
+          "trainDraws": 36,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "392",
+            "806",
+            "354",
+            "850",
+            "411"
+          ],
+          "actual": [
+            "595",
+            "927"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-04-01",
+          "trainThrough": "2025-03-16",
+          "trainDraws": 37,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "115",
+            "795",
+            "760",
+            "091",
+            "847"
+          ],
+          "actual": [
+            "635",
+            "760"
+          ],
+          "hit": false,
+          "randomHit": true,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-04-16",
+          "trainThrough": "2025-04-01",
+          "trainDraws": 38,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "826",
+            "232",
+            "807",
+            "398",
+            "480"
+          ],
+          "actual": [
+            "254",
+            "413"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-05-02",
+          "trainThrough": "2025-04-16",
+          "trainDraws": 39,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "812",
+            "251",
+            "250",
+            "484",
+            "921"
+          ],
+          "actual": [
+            "116",
+            "826"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-05-16",
+          "trainThrough": "2025-05-02",
+          "trainDraws": 40,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "777",
+            "270",
+            "539",
+            "382",
+            "474"
+          ],
+          "actual": [
+            "109",
+            "231"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-06-01",
+          "trainThrough": "2025-05-16",
+          "trainDraws": 41,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "463",
+            "701",
+            "619",
+            "774",
+            "280"
+          ],
+          "actual": [
+            "134",
+            "349"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-06-16",
+          "trainThrough": "2025-06-01",
+          "trainDraws": 42,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "488",
+            "057",
+            "896",
+            "922",
+            "836"
+          ],
+          "actual": [
+            "017",
+            "243"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-07-01",
+          "trainThrough": "2025-06-16",
+          "trainDraws": 43,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "950",
+            "745",
+            "665",
+            "847",
+            "673"
+          ],
+          "actual": [
+            "169",
+            "680"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-07-16",
+          "trainThrough": "2025-07-01",
+          "trainDraws": 44,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "140",
+            "952",
+            "279",
+            "757",
+            "280"
+          ],
+          "actual": [
+            "171",
+            "995"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-08-01",
+          "trainThrough": "2025-07-16",
+          "trainDraws": 45,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "247",
+            "540",
+            "980",
+            "757",
+            "322"
+          ],
+          "actual": [
+            "142",
+            "525"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-08-16",
+          "trainThrough": "2025-08-01",
+          "trainDraws": 46,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "399",
+            "489",
+            "420",
+            "015",
+            "171"
+          ],
+          "actual": [
+            "247",
+            "602"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-09-01",
+          "trainThrough": "2025-08-16",
+          "trainDraws": 47,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "016"
+          ],
+          "randomPicks": [
+            "752",
+            "137",
+            "176",
+            "259",
+            "848"
+          ],
+          "actual": [
+            "012",
+            "131"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-09-16",
+          "trainThrough": "2025-09-01",
+          "trainDraws": 48,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "012"
+          ],
+          "randomPicks": [
+            "546",
+            "765",
+            "602",
+            "187",
+            "646"
+          ],
+          "actual": [
+            "512",
+            "740"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-10-01",
+          "trainThrough": "2025-09-16",
+          "trainDraws": 49,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "012"
+          ],
+          "randomPicks": [
+            "516",
+            "538",
+            "675",
+            "096",
+            "303"
+          ],
+          "actual": [
+            "532",
+            "843"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-10-16",
+          "trainThrough": "2025-10-01",
+          "trainDraws": 50,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "012"
+          ],
+          "randomPicks": [
+            "515",
+            "072",
+            "736",
+            "210",
+            "840"
+          ],
+          "actual": [
+            "531",
+            "955"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-11-01",
+          "trainThrough": "2025-10-16",
+          "trainDraws": 51,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "012"
+          ],
+          "randomPicks": [
+            "550",
+            "770",
+            "289",
+            "399",
+            "097"
+          ],
+          "actual": [
+            "328",
+            "449"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-11-16",
+          "trainThrough": "2025-11-01",
+          "trainDraws": 52,
+          "picks": [
+            "648",
+            "699",
+            "975",
+            "011",
+            "012"
+          ],
+          "randomPicks": [
+            "419",
+            "940",
+            "464",
+            "298",
+            "197"
+          ],
+          "actual": [
+            "242",
+            "602"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-12-01",
+          "trainThrough": "2025-11-16",
+          "trainDraws": 53,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "227",
+            "687",
+            "328",
+            "186",
+            "905"
+          ],
+          "actual": [
+            "389",
+            "655"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-12-16",
+          "trainThrough": "2025-12-01",
+          "trainDraws": 54,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "842",
+            "986",
+            "694",
+            "995",
+            "036"
+          ],
+          "actual": [
+            "176",
+            "431"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-01-02",
+          "trainThrough": "2025-12-16",
+          "trainDraws": 55,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "537",
+            "532",
+            "288",
+            "788",
+            "181"
+          ],
+          "actual": [
+            "347",
+            "694"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-01-17",
+          "trainThrough": "2026-01-02",
+          "trainDraws": 56,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "733",
+            "578",
+            "210",
+            "230",
+            "934"
+          ],
+          "actual": [
+            "299",
+            "815"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-02-01",
+          "trainThrough": "2026-01-17",
+          "trainDraws": 57,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "008",
+            "598",
+            "236",
+            "332",
+            "099"
+          ],
+          "actual": [
+            "195",
+            "917"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-02-16",
+          "trainThrough": "2026-02-01",
+          "trainDraws": 58,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "847",
+            "094",
+            "116",
+            "135",
+            "490"
+          ],
+          "actual": [
+            "241",
+            "527"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-03-01",
+          "trainThrough": "2026-02-16",
+          "trainDraws": 59,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "551",
+            "594",
+            "133",
+            "937",
+            "662"
+          ],
+          "actual": [
+            "054",
+            "479"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-03-16",
+          "trainThrough": "2026-03-01",
+          "trainDraws": 60,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "097",
+            "410",
+            "207",
+            "694",
+            "800"
+          ],
+          "actual": [
+            "510",
+            "983"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-04-01",
+          "trainThrough": "2026-03-16",
+          "trainDraws": 61,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "739",
+            "976",
+            "407",
+            "283",
+            "526"
+          ],
+          "actual": [
+            "113",
+            "406"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-04-16",
+          "trainThrough": "2026-04-01",
+          "trainDraws": 62,
+          "picks": [
+            "602",
+            "648",
+            "699",
+            "975",
+            "011"
+          ],
+          "randomPicks": [
+            "169",
+            "940",
+            "542",
+            "718",
+            "158"
+          ],
+          "actual": [
+            "108",
+            "355"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-05-02",
+          "trainThrough": "2026-04-16",
+          "trainDraws": 63,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "889",
+            "421",
+            "733",
+            "744",
+            "370"
+          ],
+          "actual": [
+            "267",
+            "318"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-05-16",
+          "trainThrough": "2026-05-02",
+          "trainDraws": 64,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "355",
+            "358",
+            "637",
+            "578",
+            "874"
+          ],
+          "actual": [
+            "091",
+            "298"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-06-01",
+          "trainThrough": "2026-05-16",
+          "trainDraws": 65,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "870",
+            "891",
+            "757",
+            "559",
+            "920"
+          ],
+          "actual": [
+            "415",
+            "848"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-06-16",
+          "trainThrough": "2026-06-01",
+          "trainDraws": 66,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "083",
+            "395",
+            "340",
+            "183",
+            "575"
+          ],
+          "actual": [
+            "434",
+            "758"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-07-01",
+          "trainThrough": "2026-06-16",
+          "trainDraws": 67,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "082",
+            "320",
+            "583",
+            "077",
+            "157"
+          ],
+          "actual": [
+            "001",
+            "980"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-07-16",
+          "trainThrough": "2026-07-01",
+          "trainDraws": 68,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "930",
+            "443",
+            "460",
+            "343",
+            "830"
+          ],
+          "actual": [
+            "683",
+            "709"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-08-01",
+          "trainThrough": "2026-07-16",
+          "trainDraws": 69,
+          "picks": [
+            "355",
+            "602",
+            "648",
+            "699",
+            "975"
+          ],
+          "randomPicks": [
+            "249",
+            "139",
+            "328",
+            "802",
+            "878"
+          ],
+          "actual": [
+            "413",
+            "672"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-08-16",
+          "trainThrough": "2026-08-01",
+          "trainDraws": 70,
+          "picks": [
+            "355",
+            "413",
+            "602",
+            "648",
+            "699"
+          ],
+          "randomPicks": [
+            "095",
+            "372",
+            "524",
+            "024",
+            "729"
+          ],
+          "actual": [
+            "429",
+            "731"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-09-01",
+          "trainThrough": "2026-08-16",
+          "trainDraws": 71,
+          "picks": [
+            "355",
+            "413",
+            "429",
+            "602",
+            "648"
+          ],
+          "randomPicks": [
+            "174",
+            "854",
+            "727",
+            "369",
+            "328"
+          ],
+          "actual": [
+            "257",
+            "346"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-09-16",
+          "trainThrough": "2026-09-01",
+          "trainDraws": 72,
+          "picks": [
+            "346",
+            "355",
+            "413",
+            "429",
+            "602"
+          ],
+          "randomPicks": [
+            "191",
+            "556",
+            "505",
+            "118",
+            "102"
+          ],
+          "actual": [
+            "060",
+            "521"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-10-01",
+          "trainThrough": "2026-09-16",
+          "trainDraws": 73,
+          "picks": [
+            "346",
+            "355",
+            "413",
+            "429",
+            "602"
+          ],
+          "randomPicks": [
+            "705",
+            "000",
+            "142",
+            "600",
+            "391"
+          ],
+          "actual": [
+            "791",
+            "912"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        }
+      ]
+    },
+    {
+      "target": "last3",
+      "version": "draw-frequency-top5-v1",
+      "type": "retrospective-walk-forward",
+      "minTrain": 30,
+      "k": 5,
+      "seed": 20261002,
+      "n": 44,
+      "hits": 0,
+      "rate": 0,
+      "ci": [
+        6.938893903907228e-18,
+        0.08029831778201396
+      ],
+      "randomHits": 1,
+      "randomRate": 0.022727272727272728,
+      "expectedRandomRate": 0.009979979979979903,
+      "rows": [
+        {
+          "date": "2024-12-16",
+          "trainThrough": "2024-12-01",
+          "trainDraws": 30,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "008"
+          ],
+          "randomPicks": [
+            "063",
+            "417",
+            "220",
+            "395",
+            "281"
+          ],
+          "actual": [
+            "339",
+            "881"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-01-02",
+          "trainThrough": "2024-12-16",
+          "trainDraws": 31,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "008"
+          ],
+          "randomPicks": [
+            "290",
+            "937",
+            "862",
+            "979",
+            "463"
+          ],
+          "actual": [
+            "297",
+            "376"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-01-17",
+          "trainThrough": "2025-01-02",
+          "trainDraws": 32,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "008"
+          ],
+          "randomPicks": [
+            "441",
+            "188",
+            "193",
+            "246",
+            "172"
+          ],
+          "actual": [
+            "448",
+            "477"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-02-01",
+          "trainThrough": "2025-01-17",
+          "trainDraws": 33,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "008"
+          ],
+          "randomPicks": [
+            "030",
+            "780",
+            "660",
+            "802",
+            "539"
+          ],
+          "actual": [
+            "685",
+            "824"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-02-16",
+          "trainThrough": "2025-02-01",
+          "trainDraws": 34,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "008"
+          ],
+          "randomPicks": [
+            "148",
+            "135",
+            "887",
+            "606",
+            "773"
+          ],
+          "actual": [
+            "001",
+            "652"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-03-01",
+          "trainThrough": "2025-02-16",
+          "trainDraws": 35,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "538",
+            "358",
+            "628",
+            "825",
+            "742"
+          ],
+          "actual": [
+            "656",
+            "781"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-03-16",
+          "trainThrough": "2025-03-01",
+          "trainDraws": 36,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "392",
+            "806",
+            "354",
+            "850",
+            "411"
+          ],
+          "actual": [
+            "309",
+            "457"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-04-01",
+          "trainThrough": "2025-03-16",
+          "trainDraws": 37,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "115",
+            "795",
+            "760",
+            "091",
+            "847"
+          ],
+          "actual": [
+            "180",
+            "666"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-04-16",
+          "trainThrough": "2025-04-01",
+          "trainDraws": 38,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "826",
+            "232",
+            "807",
+            "398",
+            "480"
+          ],
+          "actual": [
+            "474",
+            "760"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-05-02",
+          "trainThrough": "2025-04-16",
+          "trainDraws": 39,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "812",
+            "251",
+            "250",
+            "484",
+            "921"
+          ],
+          "actual": [
+            "167",
+            "662"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-05-16",
+          "trainThrough": "2025-05-02",
+          "trainDraws": 40,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "777",
+            "270",
+            "539",
+            "382",
+            "474"
+          ],
+          "actual": [
+            "631",
+            "965"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-06-01",
+          "trainThrough": "2025-05-16",
+          "trainDraws": 41,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "463",
+            "701",
+            "619",
+            "774",
+            "280"
+          ],
+          "actual": [
+            "044",
+            "307"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-06-16",
+          "trainThrough": "2025-06-01",
+          "trainDraws": 42,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "488",
+            "057",
+            "896",
+            "922",
+            "836"
+          ],
+          "actual": [
+            "299",
+            "736"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-07-01",
+          "trainThrough": "2025-06-16",
+          "trainDraws": 43,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "950",
+            "745",
+            "665",
+            "847",
+            "673"
+          ],
+          "actual": [
+            "261",
+            "918"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-07-16",
+          "trainThrough": "2025-07-01",
+          "trainDraws": 44,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "140",
+            "952",
+            "279",
+            "757",
+            "280"
+          ],
+          "actual": [
+            "084",
+            "336"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-08-01",
+          "trainThrough": "2025-07-16",
+          "trainDraws": 45,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "247",
+            "540",
+            "980",
+            "757",
+            "322"
+          ],
+          "actual": [
+            "512",
+            "891"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-08-16",
+          "trainThrough": "2025-08-01",
+          "trainDraws": 46,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "399",
+            "489",
+            "420",
+            "015",
+            "171"
+          ],
+          "actual": [
+            "834",
+            "989"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-09-01",
+          "trainThrough": "2025-08-16",
+          "trainDraws": 47,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "752",
+            "137",
+            "176",
+            "259",
+            "848"
+          ],
+          "actual": [
+            "022",
+            "209"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-09-16",
+          "trainThrough": "2025-09-01",
+          "trainDraws": 48,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "778",
+            "001"
+          ],
+          "randomPicks": [
+            "546",
+            "765",
+            "602",
+            "187",
+            "646"
+          ],
+          "actual": [
+            "308",
+            "703"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-10-01",
+          "trainThrough": "2025-09-16",
+          "trainDraws": 49,
+          "picks": [
+            "070",
+            "421",
+            "426",
+            "703",
+            "778"
+          ],
+          "randomPicks": [
+            "516",
+            "538",
+            "675",
+            "096",
+            "303"
+          ],
+          "actual": [
+            "280",
+            "605"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-10-16",
+          "trainThrough": "2025-10-01",
+          "trainDraws": 50,
+          "picks": [
+            "070",
+            "280",
+            "421",
+            "426",
+            "703"
+          ],
+          "randomPicks": [
+            "515",
+            "072",
+            "736",
+            "210",
+            "840"
+          ],
+          "actual": [
+            "476",
+            "889"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-11-01",
+          "trainThrough": "2025-10-16",
+          "trainDraws": 51,
+          "picks": [
+            "070",
+            "280",
+            "421",
+            "426",
+            "703"
+          ],
+          "randomPicks": [
+            "550",
+            "770",
+            "289",
+            "399",
+            "097"
+          ],
+          "actual": [
+            "111",
+            "690"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-11-16",
+          "trainThrough": "2025-11-01",
+          "trainDraws": 52,
+          "picks": [
+            "070",
+            "280",
+            "421",
+            "426",
+            "703"
+          ],
+          "randomPicks": [
+            "419",
+            "940",
+            "464",
+            "298",
+            "197"
+          ],
+          "actual": [
+            "239",
+            "389"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-12-01",
+          "trainThrough": "2025-11-16",
+          "trainDraws": 53,
+          "picks": [
+            "070",
+            "280",
+            "421",
+            "426",
+            "703"
+          ],
+          "randomPicks": [
+            "227",
+            "687",
+            "328",
+            "186",
+            "905"
+          ],
+          "actual": [
+            "137",
+            "995"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2025-12-16",
+          "trainThrough": "2025-12-01",
+          "trainDraws": 54,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "421",
+            "426"
+          ],
+          "randomPicks": [
+            "842",
+            "986",
+            "694",
+            "995",
+            "036"
+          ],
+          "actual": [
+            "014",
+            "449"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-01-02",
+          "trainThrough": "2025-12-16",
+          "trainDraws": 55,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "421",
+            "426"
+          ],
+          "randomPicks": [
+            "537",
+            "532",
+            "288",
+            "788",
+            "181"
+          ],
+          "actual": [
+            "288",
+            "765"
+          ],
+          "hit": false,
+          "randomHit": true,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-01-17",
+          "trainThrough": "2026-01-02",
+          "trainDraws": 56,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "421",
+            "426"
+          ],
+          "randomPicks": [
+            "733",
+            "578",
+            "210",
+            "230",
+            "934"
+          ],
+          "actual": [
+            "363",
+            "662"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-02-01",
+          "trainThrough": "2026-01-17",
+          "trainDraws": 57,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "421",
+            "426"
+          ],
+          "randomPicks": [
+            "008",
+            "598",
+            "236",
+            "332",
+            "099"
+          ],
+          "actual": [
+            "041",
+            "408"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-02-16",
+          "trainThrough": "2026-02-01",
+          "trainDraws": 58,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "408",
+            "421"
+          ],
+          "randomPicks": [
+            "847",
+            "094",
+            "116",
+            "135",
+            "490"
+          ],
+          "actual": [
+            "169",
+            "578"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-03-01",
+          "trainThrough": "2026-02-16",
+          "trainDraws": 59,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "408",
+            "421"
+          ],
+          "randomPicks": [
+            "551",
+            "594",
+            "133",
+            "937",
+            "662"
+          ],
+          "actual": [
+            "068",
+            "837"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-03-16",
+          "trainThrough": "2026-03-01",
+          "trainDraws": 60,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "408",
+            "421"
+          ],
+          "randomPicks": [
+            "097",
+            "410",
+            "207",
+            "694",
+            "800"
+          ],
+          "actual": [
+            "439",
+            "954"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-04-01",
+          "trainThrough": "2026-03-16",
+          "trainDraws": 61,
+          "picks": [
+            "070",
+            "137",
+            "280",
+            "408",
+            "421"
+          ],
+          "randomPicks": [
+            "739",
+            "976",
+            "407",
+            "283",
+            "526"
+          ],
+          "actual": [
+            "098",
+            "851"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-04-16",
+          "trainThrough": "2026-04-01",
+          "trainDraws": 62,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "169",
+            "940",
+            "542",
+            "718",
+            "158"
+          ],
+          "actual": [
+            "424",
+            "868"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-05-02",
+          "trainThrough": "2026-04-16",
+          "trainDraws": 63,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "889",
+            "421",
+            "733",
+            "744",
+            "370"
+          ],
+          "actual": [
+            "065",
+            "153"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-05-16",
+          "trainThrough": "2026-05-02",
+          "trainDraws": 64,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "355",
+            "358",
+            "637",
+            "578",
+            "874"
+          ],
+          "actual": [
+            "602",
+            "716"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-06-01",
+          "trainThrough": "2026-05-16",
+          "trainDraws": 65,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "870",
+            "891",
+            "757",
+            "559",
+            "920"
+          ],
+          "actual": [
+            "410",
+            "938"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-06-16",
+          "trainThrough": "2026-06-01",
+          "trainDraws": 66,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "083",
+            "395",
+            "340",
+            "183",
+            "575"
+          ],
+          "actual": [
+            "007",
+            "721"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-07-01",
+          "trainThrough": "2026-06-16",
+          "trainDraws": 67,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "082",
+            "320",
+            "583",
+            "077",
+            "157"
+          ],
+          "actual": [
+            "304",
+            "531"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-07-16",
+          "trainThrough": "2026-07-01",
+          "trainDraws": 68,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "930",
+            "443",
+            "460",
+            "343",
+            "830"
+          ],
+          "actual": [
+            "427",
+            "746"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-08-01",
+          "trainThrough": "2026-07-16",
+          "trainDraws": 69,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "280",
+            "408"
+          ],
+          "randomPicks": [
+            "249",
+            "139",
+            "328",
+            "802",
+            "878"
+          ],
+          "actual": [
+            "039",
+            "154"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-08-16",
+          "trainThrough": "2026-08-01",
+          "trainDraws": 70,
+          "picks": [
+            "070",
+            "098",
+            "137",
+            "154",
+            "280"
+          ],
+          "randomPicks": [
+            "095",
+            "372",
+            "524",
+            "024",
+            "729"
+          ],
+          "actual": [
+            "094",
+            "937"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-09-01",
+          "trainThrough": "2026-08-16",
+          "trainDraws": 71,
+          "picks": [
+            "070",
+            "094",
+            "098",
+            "137",
+            "154"
+          ],
+          "randomPicks": [
+            "174",
+            "854",
+            "727",
+            "369",
+            "328"
+          ],
+          "actual": [
+            "136",
+            "740"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-09-16",
+          "trainThrough": "2026-09-01",
+          "trainDraws": 72,
+          "picks": [
+            "070",
+            "094",
+            "098",
+            "137",
+            "154"
+          ],
+          "randomPicks": [
+            "191",
+            "556",
+            "505",
+            "118",
+            "102"
+          ],
+          "actual": [
+            "041",
+            "266"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        },
+        {
+          "date": "2026-10-01",
+          "trainThrough": "2026-09-16",
+          "trainDraws": 73,
+          "picks": [
+            "041",
+            "070",
+            "094",
+            "098",
+            "137"
+          ],
+          "randomPicks": [
+            "705",
+            "000",
+            "142",
+            "600",
+            "391"
+          ],
+          "actual": [
+            "058",
+            "396"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.009979979979979903
+        }
+      ]
+    },
+    {
+      "target": "last2",
+      "version": "draw-frequency-top5-v1",
+      "type": "retrospective-walk-forward",
+      "minTrain": 30,
+      "k": 5,
+      "seed": 20261002,
+      "n": 44,
+      "hits": 1,
+      "rate": 0.022727272727272728,
+      "ci": [
+        0.004023148385637013,
+        0.11807979131537633
+      ],
+      "randomHits": 0,
+      "randomRate": 0,
+      "expectedRandomRate": 0.050000000000000024,
+      "rows": [
+        {
+          "date": "2024-12-16",
+          "trainThrough": "2024-12-01",
+          "trainDraws": 30,
+          "picks": [
+            "46",
+            "61",
+            "79",
+            "89",
+            "00"
+          ],
+          "randomPicks": [
+            "06",
+            "41",
+            "22",
+            "39",
+            "28"
+          ],
+          "actual": [
+            "21"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-01-02",
+          "trainThrough": "2024-12-16",
+          "trainDraws": 31,
+          "picks": [
+            "21",
+            "46",
+            "61",
+            "79",
+            "89"
+          ],
+          "randomPicks": [
+            "29",
+            "93",
+            "86",
+            "97",
+            "46"
+          ],
+          "actual": [
+            "51"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-01-17",
+          "trainThrough": "2025-01-02",
+          "trainDraws": 32,
+          "picks": [
+            "21",
+            "46",
+            "61",
+            "79",
+            "89"
+          ],
+          "randomPicks": [
+            "44",
+            "18",
+            "19",
+            "24",
+            "17"
+          ],
+          "actual": [
+            "23"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-02-01",
+          "trainThrough": "2025-01-17",
+          "trainDraws": 33,
+          "picks": [
+            "21",
+            "46",
+            "61",
+            "79",
+            "89"
+          ],
+          "randomPicks": [
+            "03",
+            "78",
+            "66",
+            "80",
+            "53"
+          ],
+          "actual": [
+            "51"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-02-16",
+          "trainThrough": "2025-02-01",
+          "trainDraws": 34,
+          "picks": [
+            "21",
+            "46",
+            "51",
+            "61",
+            "79"
+          ],
+          "randomPicks": [
+            "14",
+            "13",
+            "88",
+            "60",
+            "77"
+          ],
+          "actual": [
+            "50"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-03-01",
+          "trainThrough": "2025-02-16",
+          "trainDraws": 35,
+          "picks": [
+            "21",
+            "46",
+            "51",
+            "61",
+            "79"
+          ],
+          "randomPicks": [
+            "53",
+            "35",
+            "62",
+            "82",
+            "74"
+          ],
+          "actual": [
+            "54"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-03-16",
+          "trainThrough": "2025-03-01",
+          "trainDraws": 36,
+          "picks": [
+            "21",
+            "46",
+            "51",
+            "61",
+            "79"
+          ],
+          "randomPicks": [
+            "39",
+            "80",
+            "35",
+            "85",
+            "41"
+          ],
+          "actual": [
+            "32"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-04-01",
+          "trainThrough": "2025-03-16",
+          "trainDraws": 37,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "11",
+            "79",
+            "76",
+            "09",
+            "84"
+          ],
+          "actual": [
+            "36"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-04-16",
+          "trainThrough": "2025-04-01",
+          "trainDraws": 38,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "82",
+            "23",
+            "80",
+            "39",
+            "48"
+          ],
+          "actual": [
+            "85"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-05-02",
+          "trainThrough": "2025-04-16",
+          "trainDraws": 39,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "81",
+            "25",
+            "48",
+            "92",
+            "77"
+          ],
+          "actual": [
+            "06"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-05-16",
+          "trainThrough": "2025-05-02",
+          "trainDraws": 40,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "27",
+            "53",
+            "38",
+            "47",
+            "46"
+          ],
+          "actual": [
+            "87"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-06-01",
+          "trainThrough": "2025-05-16",
+          "trainDraws": 41,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "70",
+            "61",
+            "77",
+            "28",
+            "48"
+          ],
+          "actual": [
+            "20"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-06-16",
+          "trainThrough": "2025-06-01",
+          "trainDraws": 42,
+          "picks": [
+            "21",
+            "32",
+            "46",
+            "51",
+            "61"
+          ],
+          "randomPicks": [
+            "05",
+            "89",
+            "92",
+            "83",
+            "95"
+          ],
+          "actual": [
+            "06"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-07-01",
+          "trainThrough": "2025-06-16",
+          "trainDraws": 43,
+          "picks": [
+            "06",
+            "21",
+            "32",
+            "46",
+            "51"
+          ],
+          "randomPicks": [
+            "74",
+            "66",
+            "84",
+            "67",
+            "14"
+          ],
+          "actual": [
+            "91"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-07-16",
+          "trainThrough": "2025-07-01",
+          "trainDraws": 44,
+          "picks": [
+            "06",
+            "21",
+            "32",
+            "46",
+            "51"
+          ],
+          "randomPicks": [
+            "95",
+            "27",
+            "75",
+            "28",
+            "24"
+          ],
+          "actual": [
+            "26"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-08-01",
+          "trainThrough": "2025-07-16",
+          "trainDraws": 45,
+          "picks": [
+            "06",
+            "21",
+            "32",
+            "46",
+            "51"
+          ],
+          "randomPicks": [
+            "54",
+            "98",
+            "75",
+            "32",
+            "39"
+          ],
+          "actual": [
+            "50"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-08-16",
+          "trainThrough": "2025-08-01",
+          "trainDraws": 46,
+          "picks": [
+            "06",
+            "21",
+            "32",
+            "46",
+            "50"
+          ],
+          "randomPicks": [
+            "48",
+            "42",
+            "01",
+            "17",
+            "75"
+          ],
+          "actual": [
+            "63"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-09-01",
+          "trainThrough": "2025-08-16",
+          "trainDraws": 47,
+          "picks": [
+            "06",
+            "21",
+            "32",
+            "46",
+            "50"
+          ],
+          "randomPicks": [
+            "13",
+            "17",
+            "25",
+            "84",
+            "54"
+          ],
+          "actual": [
+            "31"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-09-16",
+          "trainThrough": "2025-09-01",
+          "trainDraws": 48,
+          "picks": [
+            "06",
+            "21",
+            "31",
+            "32",
+            "46"
+          ],
+          "randomPicks": [
+            "76",
+            "60",
+            "18",
+            "64",
+            "51"
+          ],
+          "actual": [
+            "58"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-10-01",
+          "trainThrough": "2025-09-16",
+          "trainDraws": 49,
+          "picks": [
+            "06",
+            "21",
+            "31",
+            "32",
+            "46"
+          ],
+          "randomPicks": [
+            "53",
+            "67",
+            "09",
+            "30",
+            "51"
+          ],
+          "actual": [
+            "77"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-10-16",
+          "trainThrough": "2025-10-01",
+          "trainDraws": 50,
+          "picks": [
+            "06",
+            "21",
+            "31",
+            "32",
+            "46"
+          ],
+          "randomPicks": [
+            "07",
+            "73",
+            "21",
+            "84",
+            "55"
+          ],
+          "actual": [
+            "61"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-11-01",
+          "trainThrough": "2025-10-16",
+          "trainDraws": 51,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "77",
+            "28",
+            "39",
+            "09",
+            "41"
+          ],
+          "actual": [
+            "87"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-11-16",
+          "trainThrough": "2025-11-01",
+          "trainDraws": 52,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "94",
+            "46",
+            "29",
+            "19",
+            "22"
+          ],
+          "actual": [
+            "37"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-12-01",
+          "trainThrough": "2025-11-16",
+          "trainDraws": 53,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "68",
+            "32",
+            "18",
+            "90",
+            "84"
+          ],
+          "actual": [
+            "22"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2025-12-16",
+          "trainThrough": "2025-12-01",
+          "trainDraws": 54,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "98",
+            "69",
+            "99",
+            "03",
+            "53"
+          ],
+          "actual": [
+            "52"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-01-02",
+          "trainThrough": "2025-12-16",
+          "trainDraws": 55,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "53",
+            "28",
+            "78",
+            "18",
+            "73"
+          ],
+          "actual": [
+            "16"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-01-17",
+          "trainThrough": "2026-01-02",
+          "trainDraws": 56,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "57",
+            "21",
+            "23",
+            "93",
+            "00"
+          ],
+          "actual": [
+            "02"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-02-01",
+          "trainThrough": "2026-01-17",
+          "trainDraws": 57,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "59",
+            "23",
+            "33",
+            "09",
+            "84"
+          ],
+          "actual": [
+            "48"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-02-16",
+          "trainThrough": "2026-02-01",
+          "trainDraws": 58,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "09",
+            "11",
+            "13",
+            "49",
+            "55"
+          ],
+          "actual": [
+            "07"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-03-01",
+          "trainThrough": "2026-02-16",
+          "trainDraws": 59,
+          "picks": [
+            "61",
+            "06",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "59",
+            "13",
+            "93",
+            "66",
+            "09"
+          ],
+          "actual": [
+            "06"
+          ],
+          "hit": true,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-03-16",
+          "trainThrough": "2026-03-01",
+          "trainDraws": 60,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "41",
+            "20",
+            "69",
+            "80",
+            "73"
+          ],
+          "actual": [
+            "64"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-04-01",
+          "trainThrough": "2026-03-16",
+          "trainDraws": 61,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "97",
+            "40",
+            "28",
+            "52",
+            "16"
+          ],
+          "actual": [
+            "47"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-04-16",
+          "trainThrough": "2026-04-01",
+          "trainDraws": 62,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "94",
+            "54",
+            "71",
+            "15",
+            "88"
+          ],
+          "actual": [
+            "77"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-05-02",
+          "trainThrough": "2026-04-16",
+          "trainDraws": 63,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "42",
+            "73",
+            "74",
+            "37",
+            "35"
+          ],
+          "actual": [
+            "43"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-05-16",
+          "trainThrough": "2026-05-02",
+          "trainDraws": 64,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "35",
+            "63",
+            "57",
+            "87",
+            "89"
+          ],
+          "actual": [
+            "08"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-06-01",
+          "trainThrough": "2026-05-16",
+          "trainDraws": 65,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "75",
+            "55",
+            "92",
+            "08",
+            "39"
+          ],
+          "actual": [
+            "95"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-06-16",
+          "trainThrough": "2026-06-01",
+          "trainDraws": 66,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "34",
+            "18",
+            "57",
+            "08",
+            "32"
+          ],
+          "actual": [
+            "48"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-07-01",
+          "trainThrough": "2026-06-16",
+          "trainDraws": 67,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "58",
+            "07",
+            "15",
+            "93",
+            "44"
+          ],
+          "actual": [
+            "62"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-07-16",
+          "trainThrough": "2026-07-01",
+          "trainDraws": 68,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "46",
+            "34",
+            "83",
+            "24",
+            "13"
+          ],
+          "actual": [
+            "71"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-08-01",
+          "trainThrough": "2026-07-16",
+          "trainDraws": 69,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "32",
+            "80",
+            "87",
+            "09",
+            "37"
+          ],
+          "actual": [
+            "69"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-08-16",
+          "trainThrough": "2026-08-01",
+          "trainDraws": 70,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "52",
+            "02",
+            "72",
+            "17",
+            "85"
+          ],
+          "actual": [
+            "53"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-09-01",
+          "trainThrough": "2026-08-16",
+          "trainDraws": 71,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "72",
+            "36",
+            "32",
+            "19",
+            "55"
+          ],
+          "actual": [
+            "04"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-09-16",
+          "trainThrough": "2026-09-01",
+          "trainDraws": 72,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "50",
+            "11",
+            "10",
+            "70",
+            "00"
+          ],
+          "actual": [
+            "64"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        },
+        {
+          "date": "2026-10-01",
+          "trainThrough": "2026-09-16",
+          "trainDraws": 73,
+          "picks": [
+            "06",
+            "61",
+            "21",
+            "31",
+            "32"
+          ],
+          "randomPicks": [
+            "14",
+            "60",
+            "39",
+            "18",
+            "93"
+          ],
+          "actual": [
+            "70"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.050000000000000044
+        }
+      ]
+    }
+  ]
+}
