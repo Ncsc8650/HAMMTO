@@ -4,1119 +4,1119 @@
     "position": 0,
     "digit": "0",
     "count": 9,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "last2",
     "position": 0,
     "digit": "1",
-    "count": 3,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "2",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "3",
-    "count": 8,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "4",
-    "count": 9,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "5",
-    "count": 9,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "6",
-    "count": 11,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "7",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "8",
-    "count": 6,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 0,
-    "digit": "9",
-    "count": 5,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "0",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "1",
-    "count": 12,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "2",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "3",
-    "count": 6,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "4",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "5",
-    "count": 3,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "6",
-    "count": 9,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "7",
-    "count": 9,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "8",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "last2",
-    "position": 1,
-    "digit": "9",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "0",
-    "count": 11,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "1",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "2",
-    "count": 5,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "3",
-    "count": 1,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "4",
-    "count": 9,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "5",
-    "count": 6,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "6",
-    "count": 10,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "7",
-    "count": 8,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "8",
-    "count": 5,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 0,
-    "digit": "9",
-    "count": 12,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "0",
-    "count": 5,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "1",
-    "count": 5,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "2",
-    "count": 11,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "3",
-    "count": 8,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "4",
-    "count": 8,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "5",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "6",
-    "count": 11,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "7",
-    "count": 8,
-    "observations": 74
-  },
-  {
-    "target": "top2",
-    "position": 1,
-    "digit": "8",
     "count": 4,
-    "observations": 74
+    "observations": 79
   },
   {
-    "target": "top2",
-    "position": 1,
-    "digit": "9",
-    "count": 7,
-    "observations": 74
-  },
-  {
-    "target": "top3",
-    "position": 0,
-    "digit": "0",
-    "count": 6,
-    "observations": 74
-  },
-  {
-    "target": "top3",
-    "position": 0,
-    "digit": "1",
-    "count": 3,
-    "observations": 74
-  },
-  {
-    "target": "top3",
+    "target": "last2",
     "position": 0,
     "digit": "2",
-    "count": 8,
-    "observations": 74
+    "count": 7,
+    "observations": 79
   },
   {
-    "target": "top3",
+    "target": "last2",
     "position": 0,
     "digit": "3",
-    "count": 10,
-    "observations": 74
+    "count": 9,
+    "observations": 79
   },
   {
-    "target": "top3",
+    "target": "last2",
     "position": 0,
     "digit": "4",
-    "count": 4,
-    "observations": 74
+    "count": 9,
+    "observations": 79
   },
   {
-    "target": "top3",
+    "target": "last2",
     "position": 0,
     "digit": "5",
-    "count": 8,
-    "observations": 74
+    "count": 9,
+    "observations": 79
   },
   {
-    "target": "top3",
+    "target": "last2",
     "position": 0,
     "digit": "6",
     "count": 13,
-    "observations": 74
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 0,
+    "digit": "7",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 0,
+    "digit": "8",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 0,
+    "digit": "9",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "0",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "1",
+    "count": 13,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "2",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "3",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "4",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "5",
+    "count": 3,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "6",
+    "count": 10,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "7",
+    "count": 10,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "8",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "last2",
+    "position": 1,
+    "digit": "9",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "0",
+    "count": 12,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "1",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "2",
+    "count": 5,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "3",
+    "count": 2,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "4",
+    "count": 9,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "5",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "6",
+    "count": 10,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "7",
+    "count": 10,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "8",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 0,
+    "digit": "9",
+    "count": 12,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "0",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "1",
+    "count": 5,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "2",
+    "count": 13,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "3",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "4",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "5",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "6",
+    "count": 11,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "7",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "8",
+    "count": 5,
+    "observations": 79
+  },
+  {
+    "target": "top2",
+    "position": 1,
+    "digit": "9",
+    "count": 7,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "0",
+    "count": 6,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "1",
+    "count": 3,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "2",
+    "count": 8,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "3",
+    "count": 10,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "4",
+    "count": 5,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "5",
+    "count": 9,
+    "observations": 79
+  },
+  {
+    "target": "top3",
+    "position": 0,
+    "digit": "6",
+    "count": 14,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 0,
     "digit": "7",
-    "count": 6,
-    "observations": 74
+    "count": 7,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 0,
     "digit": "8",
-    "count": 10,
-    "observations": 74
+    "count": 11,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 0,
     "digit": "9",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "0",
-    "count": 11,
-    "observations": 74
+    "count": 12,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "1",
     "count": 7,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "2",
     "count": 5,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "3",
-    "count": 1,
-    "observations": 74
+    "count": 2,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "4",
     "count": 9,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "5",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "6",
     "count": 10,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "7",
-    "count": 8,
-    "observations": 74
+    "count": 10,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "8",
-    "count": 5,
-    "observations": 74
+    "count": 6,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 1,
     "digit": "9",
     "count": 12,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "0",
-    "count": 5,
-    "observations": 74
+    "count": 6,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "1",
     "count": 5,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "2",
-    "count": 11,
-    "observations": 74
+    "count": 13,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "3",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "4",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "5",
-    "count": 7,
-    "observations": 74
+    "count": 8,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "6",
     "count": 11,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "7",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "8",
-    "count": 4,
-    "observations": 74
+    "count": 5,
+    "observations": 79
   },
   {
     "target": "top3",
     "position": 2,
     "digit": "9",
     "count": 7,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "0",
     "count": 5,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "1",
-    "count": 6,
-    "observations": 74
+    "count": 7,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "2",
-    "count": 9,
-    "observations": 74
+    "count": 10,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "3",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "4",
-    "count": 7,
-    "observations": 74
+    "count": 8,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "5",
     "count": 9,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "6",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "7",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "8",
     "count": 10,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 0,
     "digit": "9",
-    "count": 8,
-    "observations": 74
+    "count": 10,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "0",
     "count": 13,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "1",
-    "count": 6,
-    "observations": 74
+    "count": 7,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "2",
-    "count": 4,
-    "observations": 74
+    "count": 5,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "3",
     "count": 11,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "4",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "5",
     "count": 11,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "6",
-    "count": 6,
-    "observations": 74
+    "count": 8,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "7",
-    "count": 5,
-    "observations": 74
+    "count": 6,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "8",
     "count": 4,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 1,
     "digit": "9",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "0",
     "count": 7,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "1",
-    "count": 7,
-    "observations": 74
+    "count": 8,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "2",
-    "count": 4,
-    "observations": 74
+    "count": 5,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "3",
     "count": 8,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "4",
-    "count": 5,
-    "observations": 74
+    "count": 6,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "5",
-    "count": 6,
-    "observations": 74
+    "count": 7,
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "6",
     "count": 6,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "7",
     "count": 16,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "8",
     "count": 7,
-    "observations": 74
+    "observations": 79
   },
   {
     "target": "first3OfFirst",
     "position": 2,
     "digit": "9",
-    "count": 8,
-    "observations": 74
+    "count": 9,
+    "observations": 79
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "0",
     "count": 15,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "1",
     "count": 18,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "2",
-    "count": 18,
-    "observations": 148
+    "count": 20,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "3",
-    "count": 16,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 0,
-    "digit": "4",
     "count": 17,
-    "observations": 148
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 0,
+    "digit": "4",
+    "count": 18,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "5",
-    "count": 14,
-    "observations": 148
+    "count": 17,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "6",
-    "count": 15,
-    "observations": 148
+    "count": 16,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "7",
-    "count": 11,
-    "observations": 148
+    "count": 12,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "8",
-    "count": 8,
-    "observations": 148
+    "count": 9,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 0,
     "digit": "9",
     "count": 16,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "0",
     "count": 14,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "1",
+    "count": 23,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 1,
+    "digit": "2",
+    "count": 19,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 1,
+    "digit": "3",
     "count": 22,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 1,
-    "digit": "2",
-    "count": 17,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 1,
-    "digit": "3",
-    "count": 20,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "4",
     "count": 19,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "5",
     "count": 14,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "6",
-    "count": 12,
-    "observations": 148
+    "count": 14,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "7",
     "count": 10,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "8",
-    "count": 7,
-    "observations": 148
+    "count": 9,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 1,
     "digit": "9",
-    "count": 13,
-    "observations": 148
+    "count": 14,
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 2,
     "digit": "0",
     "count": 14,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "front3",
     "position": 2,
     "digit": "1",
-    "count": 17,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "2",
-    "count": 14,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "3",
-    "count": 14,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "4",
-    "count": 13,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "5",
-    "count": 20,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "6",
-    "count": 11,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "7",
-    "count": 12,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "8",
-    "count": 14,
-    "observations": 148
-  },
-  {
-    "target": "front3",
-    "position": 2,
-    "digit": "9",
-    "count": 19,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "0",
-    "count": 24,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "1",
-    "count": 11,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "2",
-    "count": 12,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "3",
-    "count": 16,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "4",
-    "count": 19,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "5",
-    "count": 10,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "6",
-    "count": 18,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "7",
-    "count": 15,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "8",
-    "count": 10,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 0,
-    "digit": "9",
-    "count": 13,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "0",
-    "count": 15,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "1",
-    "count": 10,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "2",
-    "count": 12,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "3",
-    "count": 20,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "4",
-    "count": 14,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "5",
-    "count": 13,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "6",
-    "count": 18,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "7",
-    "count": 13,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "8",
-    "count": 17,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 1,
-    "digit": "9",
-    "count": 16,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 2,
-    "digit": "0",
-    "count": 12,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 2,
-    "digit": "1",
-    "count": 17,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 2,
-    "digit": "2",
-    "count": 11,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 2,
-    "digit": "3",
-    "count": 7,
-    "observations": 148
-  },
-  {
-    "target": "last3",
-    "position": 2,
-    "digit": "4",
     "count": 21,
-    "observations": 148
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "2",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "3",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "4",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "5",
+    "count": 20,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "6",
+    "count": 12,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "7",
+    "count": 13,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "8",
+    "count": 15,
+    "observations": 158
+  },
+  {
+    "target": "front3",
+    "position": 2,
+    "digit": "9",
+    "count": 21,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "0",
+    "count": 25,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "1",
+    "count": 11,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "2",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "3",
+    "count": 16,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "4",
+    "count": 20,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "5",
+    "count": 10,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "6",
+    "count": 19,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "7",
+    "count": 18,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "8",
+    "count": 11,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 0,
+    "digit": "9",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "0",
+    "count": 16,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "1",
+    "count": 10,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "2",
+    "count": 12,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "3",
+    "count": 21,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "4",
+    "count": 16,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "5",
+    "count": 13,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "6",
+    "count": 19,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "7",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "8",
+    "count": 18,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 1,
+    "digit": "9",
+    "count": 19,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 2,
+    "digit": "0",
+    "count": 13,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 2,
+    "digit": "1",
+    "count": 19,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 2,
+    "digit": "2",
+    "count": 14,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 2,
+    "digit": "3",
+    "count": 7,
+    "observations": 158
+  },
+  {
+    "target": "last3",
+    "position": 2,
+    "digit": "4",
+    "count": 22,
+    "observations": 158
   },
   {
     "target": "last3",
     "position": 2,
     "digit": "5",
     "count": 9,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "last3",
     "position": 2,
     "digit": "6",
-    "count": 16,
-    "observations": 148
+    "count": 17,
+    "observations": 158
   },
   {
     "target": "last3",
     "position": 2,
     "digit": "7",
-    "count": 18,
-    "observations": 148
+    "count": 20,
+    "observations": 158
   },
   {
     "target": "last3",
     "position": 2,
     "digit": "8",
     "count": 19,
-    "observations": 148
+    "observations": 158
   },
   {
     "target": "last3",
     "position": 2,
     "digit": "9",
     "count": 18,
-    "observations": 148
+    "observations": 158
   }
 ]
