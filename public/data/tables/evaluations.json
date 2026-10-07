@@ -1,5 +1,617 @@
 [
   {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9877305175490798,
+    "logLoss": 4.406719247264253,
+    "actualProbability": 0.012195121951219513,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.9779166666666679,
+    "logLoss": 4.0943445622221,
+    "actualProbability": 0.016666666666666666,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.983343972650373,
+    "logLoss": 4.2882669724163645,
+    "actualProbability": 0.013728696903411827,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "position",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0014726589657987,
+    "logLoss": 5.31229332040401,
+    "actualProbability": 0.004930606281957634,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0090578841932747,
+    "logLoss": 5.777652323222656,
+    "actualProbability": 0.003095975232198142,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9920150692142814,
+    "logLoss": 4.694401319716034,
+    "actualProbability": 0.009146341463414634,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.993115396344849,
+    "logLoss": 4.73786118149886,
+    "actualProbability": 0.008757356565530594,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2024-12-16",
+    "trainEnd": "2024-12-01",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "21",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0000367309458225,
+    "logLoss": 5.10594547390058,
+    "actualProbability": 0.006060606060606061,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9947222222222231,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950265567766017,
+    "logLoss": 4.838430680471781,
+    "actualProbability": 0.007919472487625735,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "position",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9863376592592592,
+    "logLoss": 4.386480985023262,
+    "actualProbability": 0.012444444444444445,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9951989026063097,
+    "logLoss": 4.68213122712422,
+    "actualProbability": 0.009259259259259259,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9895233430991004,
+    "logLoss": 4.566948973167894,
+    "actualProbability": 0.01038961038961039,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9913449968307957,
+    "logLoss": 4.64271073372854,
+    "actualProbability": 0.009631553631553632,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-02",
+    "trainEnd": "2024-12-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "51",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "uniform",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "frequency",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0000725794745258,
+    "logLoss": 5.111987788356543,
+    "actualProbability": 0.006024096385542169,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "recent",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9945833333333347,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "decay",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9950106375213036,
+    "logLoss": 4.839262766195611,
+    "actualProbability": 0.007912885548457595,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "position",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.0029893733550235,
+    "logLoss": 5.483412850224717,
+    "actualProbability": 0.0041551246537396115,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "markov",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 1.002423822714682,
+    "logLoss": 5.0238805208462765,
+    "actualProbability": 0.006578947368421052,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "sum",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9882200632708685,
+    "logLoss": 4.5058519847862275,
+    "actualProbability": 0.01104417670682731,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "ensemble",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9964730543054348,
+    "logLoss": 4.951263327295956,
+    "actualProbability": 0.007074465915369696,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "fixed",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "random1",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-01-17",
+    "trainEnd": "2025-01-02",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "23",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
+    },
+    "brier": 0.9899999999999991,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
     "date": "2025-02-01",
     "trainEnd": "2025-01-17",
     "model": "uniform",
@@ -14,7 +626,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -28,10 +640,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9871532734076611,
-    "logLoss": 4.388257184424518,
-    "actualProbability": 0.012422360248447204,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9881315213883627,
+    "logLoss": 4.42484663185681,
+    "actualProbability": 0.011976047904191617,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -48,7 +660,7 @@
     "brier": 0.9779166666666673,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -62,10 +674,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9795676510172519,
-    "logLoss": 4.1588216064125145,
-    "actualProbability": 0.015625960606826615,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9797216962515399,
+    "logLoss": 4.164097216068401,
+    "actualProbability": 0.015543741207589487,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -76,13 +688,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
+      "10": true,
       "20": true
     },
-    "brier": 0.9807977677667217,
-    "logLoss": 4.181554332228947,
-    "actualProbability": 0.015274747073993252,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.981426500199513,
+    "logLoss": 4.210274029229161,
+    "actualProbability": 0.014842300556586271,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -99,7 +711,7 @@
     "brier": 0.9939776462853388,
     "logLoss": 4.579852378003801,
     "actualProbability": 0.010256410256410256,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -113,10 +725,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9891096910453799,
-    "logLoss": 4.542407864251776,
-    "actualProbability": 0.01064773735581189,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9880815500450479,
+    "logLoss": 4.498954604010532,
+    "actualProbability": 0.011120615911035072,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -130,10 +742,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9850808673280294,
-    "logLoss": 4.359747477080503,
-    "actualProbability": 0.012781614892750781,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9852918084166467,
+    "logLoss": 4.3703888999889715,
+    "actualProbability": 0.012646321457270987,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -150,7 +762,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -162,12 +774,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -184,7 +796,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-01",
@@ -201,7 +813,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -218,7 +830,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -232,10 +844,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9873494894071037,
-    "logLoss": 4.394449154672439,
-    "actualProbability": 0.012345679012345678,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9883078231292511,
+    "logLoss": 4.430816798843313,
+    "actualProbability": 0.011904761904761904,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -252,7 +864,7 @@
     "brier": 0.994722222222223,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -266,10 +878,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9926696053944951,
-    "logLoss": 4.697161367911675,
-    "actualProbability": 0.009121131925934613,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9927505397328604,
+    "logLoss": 4.702252854197162,
+    "actualProbability": 0.009074809832046619,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -281,12 +893,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9868094850251484,
-    "logLoss": 4.394449154672439,
-    "actualProbability": 0.012345679012345678,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9846099381829924,
+    "logLoss": 4.318968498706744,
+    "actualProbability": 0.013313609467455623,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -300,10 +912,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0083984374999975,
-    "logLoss": 5.768320995793772,
-    "actualProbability": 0.003125,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0092560553633219,
+    "logLoss": 5.8289456176102075,
+    "actualProbability": 0.0029411764705882353,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -315,12 +927,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9857218309007291,
-    "logLoss": 4.394449154672439,
-    "actualProbability": 0.012345679012345678,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.986527395349674,
+    "logLoss": 4.430816798843313,
+    "actualProbability": 0.011904761904761904,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -334,10 +946,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9859962471559809,
-    "logLoss": 4.394449154672439,
-    "actualProbability": 0.012345679012345678,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9858741751602517,
+    "logLoss": 4.392127253893134,
+    "actualProbability": 0.012374377758993143,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -354,7 +966,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -371,7 +983,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -388,7 +1000,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-02-16",
@@ -405,7 +1017,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -422,7 +1034,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -436,10 +1048,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9998118107568965,
-    "logLoss": 5.093750200806762,
-    "actualProbability": 0.006134969325153374,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0003151150169813,
+    "logLoss": 5.1298987149230735,
+    "actualProbability": 0.005917159763313609,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -456,7 +1068,7 @@
     "brier": 0.994722222222223,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -470,10 +1082,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950313075421976,
-    "logLoss": 4.836675174287314,
-    "actualProbability": 0.007933387380822436,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9950972251871264,
+    "logLoss": 4.84158911193831,
+    "actualProbability": 0.00789449883606675,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -487,10 +1099,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.987915131785803,
-    "logLoss": 4.437784155905249,
-    "actualProbability": 0.011822105460686808,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9888851322286076,
+    "logLoss": 4.490400462884684,
+    "actualProbability": 0.011216151257811249,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -502,12 +1114,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9861471965134508,
-    "logLoss": 4.2801323269925415,
-    "actualProbability": 0.01384083044982699,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9890641670477057,
+    "logLoss": 4.394449154672439,
+    "actualProbability": 0.012345679012345678,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -521,10 +1133,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9932647219250028,
-    "logLoss": 4.757277964185549,
-    "actualProbability": 0.008588957055214725,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9926093579712155,
+    "logLoss": 4.724433606814909,
+    "actualProbability": 0.008875739644970414,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -538,10 +1150,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9930197637037257,
-    "logLoss": 4.727487290979807,
-    "actualProbability": 0.008848677280351635,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9933154180705233,
+    "logLoss": 4.747922987660272,
+    "actualProbability": 0.00866968355536509,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -558,7 +1170,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -575,7 +1187,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -587,12 +1199,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-01",
@@ -609,7 +1221,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -626,7 +1238,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -640,10 +1252,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9876561570493768,
-    "logLoss": 4.406719247264253,
-    "actualProbability": 0.012195121951219513,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9885813148788942,
+    "logLoss": 4.442651256490317,
+    "actualProbability": 0.011764705882352941,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -660,7 +1272,7 @@
     "brier": 0.9780555555555566,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -674,10 +1286,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9830003899150069,
-    "logLoss": 4.273472337734128,
-    "actualProbability": 0.013933317872711935,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9831204425966726,
+    "logLoss": 4.278215056536626,
+    "actualProbability": 0.01386739252033361,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -691,10 +1303,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9984590438068028,
-    "logLoss": 5.02461124795223,
-    "actualProbability": 0.006574141709276845,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9963546874999994,
+    "logLoss": 4.892852258439873,
+    "actualProbability": 0.0075,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -708,10 +1320,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9998553240740755,
-    "logLoss": 4.969813299576001,
-    "actualProbability": 0.006944444444444444,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0008007271468147,
+    "logLoss": 5.0238805208462765,
+    "actualProbability": 0.006578947368421052,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -725,10 +1337,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9840007335722314,
-    "logLoss": 4.326676539590717,
-    "actualProbability": 0.013211382113821139,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9848563739221188,
+    "logLoss": 4.36260854881678,
+    "actualProbability": 0.012745098039215688,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -742,10 +1354,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9894011420191161,
-    "logLoss": 4.541236667380226,
-    "actualProbability": 0.01066021525810583,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9893168550767254,
+    "logLoss": 4.540325339223986,
+    "actualProbability": 0.010669934640522877,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -762,7 +1374,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -779,7 +1391,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -796,7 +1408,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-03-16",
@@ -806,14 +1418,14 @@
     "actual": "32",
     "hits": {
       "1": false,
-      "5": false,
-      "10": false,
-      "20": false
+      "5": true,
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -830,7 +1442,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -844,10 +1456,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.999963269054179,
-    "logLoss": 5.10594547390058,
-    "actualProbability": 0.006060606060606061,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.000444581238671,
+    "logLoss": 5.14166355650266,
+    "actualProbability": 0.005847953216374269,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -864,7 +1476,7 @@
     "brier": 0.9948611111111122,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -878,10 +1490,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950908413175867,
-    "logLoss": 4.838430680471781,
-    "actualProbability": 0.007919472487625737,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9951506201347837,
+    "logLoss": 4.843008275083793,
+    "actualProbability": 0.007883303200362358,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -895,10 +1507,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9990462577777779,
-    "logLoss": 5.079628165583207,
-    "actualProbability": 0.006222222222222223,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9984812083596334,
+    "logLoss": 5.051228691061509,
+    "actualProbability": 0.006401463191586648,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -912,10 +1524,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9945679012345664,
-    "logLoss": 4.722953221644475,
-    "actualProbability": 0.008888888888888889,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9970011534025378,
+    "logLoss": 4.848116364598481,
+    "actualProbability": 0.00784313725490196,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -929,10 +1541,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9922810063113092,
-    "logLoss": 4.700480365792417,
-    "actualProbability": 0.00909090909090909,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9916663545369815,
+    "logLoss": 4.671659927256925,
+    "actualProbability": 0.00935672514619883,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -946,10 +1558,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9964674030120455,
-    "logLoss": 4.9442046248066465,
-    "actualProbability": 0.007124579124579125,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9962528280344738,
+    "logLoss": 4.933389962163486,
+    "actualProbability": 0.007202047184719916,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -966,7 +1578,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -978,12 +1590,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -1000,7 +1612,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-01",
@@ -1017,7 +1629,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1034,7 +1646,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1048,10 +1660,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9879518072289158,
-    "logLoss": 4.418840607796598,
-    "actualProbability": 0.012048192771084338,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9888453217955645,
+    "logLoss": 4.454347296253507,
+    "actualProbability": 0.011627906976744186,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1068,7 +1680,7 @@
     "brier": 0.9948611111111114,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1082,10 +1694,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9896658572824228,
-    "logLoss": 4.545466873149678,
-    "actualProbability": 0.010615215600028385,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9897470662038285,
+    "logLoss": 4.5498852124821765,
+    "actualProbability": 0.010568417436634534,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1099,10 +1711,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9989079848988267,
-    "logLoss": 5.077947742116552,
-    "actualProbability": 0.006232686980609418,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0004720852188136,
+    "logLoss": 5.229919556072397,
+    "actualProbability": 0.005353955978584175,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1116,10 +1728,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952965561224489,
-    "logLoss": 4.718498871295095,
-    "actualProbability": 0.008928571428571428,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9973958333333331,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1133,10 +1745,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9903693229602287,
-    "logLoss": 4.601162164590552,
-    "actualProbability": 0.010040160642570281,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9890531776078014,
+    "logLoss": 4.5413586732431375,
+    "actualProbability": 0.01065891472868217,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1150,10 +1762,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.991801191881805,
-    "logLoss": 4.662762562413923,
-    "actualProbability": 0.009440346798088013,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.992198889756402,
+    "logLoss": 4.687075432966761,
+    "actualProbability": 0.009213592561336845,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1170,7 +1782,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1181,13 +1793,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1204,7 +1816,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-04-16",
@@ -1221,7 +1833,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1238,7 +1850,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1252,10 +1864,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0001075692925556,
-    "logLoss": 5.117993812416755,
-    "actualProbability": 0.005988023952095809,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9890073173176495,
+    "logLoss": 4.460144413937834,
+    "actualProbability": 0.011560693641618497,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1272,7 +1884,7 @@
     "brier": 0.9948611111111125,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1286,10 +1898,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950931355083098,
-    "logLoss": 4.840065851167636,
-    "actualProbability": 0.007906533379995187,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9937070462304889,
+    "logLoss": 4.756772783346033,
+    "actualProbability": 0.008593297127918929,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1303,10 +1915,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0011346102318714,
-    "logLoss": 5.286413462045212,
-    "actualProbability": 0.005059875189745319,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9947861408750631,
+    "logLoss": 4.812329524858047,
+    "actualProbability": 0.008128901146755697,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1323,7 +1935,7 @@
     "brier": 1.0054320987654326,
     "logLoss": 5.41610040220442,
     "actualProbability": 0.0044444444444444444,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1337,10 +1949,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9882091391781578,
-    "logLoss": 4.498954604010532,
-    "actualProbability": 0.011120615911035072,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9872581511694054,
+    "logLoss": 4.460144413937834,
+    "actualProbability": 0.011560693641618497,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1354,10 +1966,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9958831859746701,
-    "logLoss": 4.907694526288915,
-    "actualProbability": 0.007389505017625401,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9897697926239182,
+    "logLoss": 4.564338961750664,
+    "actualProbability": 0.010416762809997563,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1374,7 +1986,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1391,7 +2003,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1408,7 +2020,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-02",
@@ -1425,7 +2037,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1442,7 +2054,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1456,10 +2068,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.000141723356009,
-    "logLoss": 5.123963979403259,
-    "actualProbability": 0.005952380952380952,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0006605892456066,
+    "logLoss": 5.159055299214529,
+    "actualProbability": 0.005747126436781609,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1476,7 +2088,7 @@
     "brier": 0.9948611111111113,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1490,10 +2102,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950732576728235,
-    "logLoss": 4.840840968231703,
-    "actualProbability": 0.007900407265589365,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.995136765540502,
+    "logLoss": 4.844957545167848,
+    "actualProbability": 0.00786795148045547,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1507,10 +2119,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9995941111098141,
-    "logLoss": 5.15806959188977,
-    "actualProbability": 0.005752794214332675,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0010774670790463,
+    "logLoss": 5.306285536197214,
+    "actualProbability": 0.00496031746031746,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1524,10 +2136,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0040816326530617,
-    "logLoss": 5.3471075307174685,
-    "actualProbability": 0.0047619047619047615,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0068393166089968,
+    "logLoss": 5.605802066295998,
+    "actualProbability": 0.003676470588235294,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1541,10 +2153,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9955820415136956,
-    "logLoss": 4.900820428089049,
-    "actualProbability": 0.00744047619047619,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9960295964953116,
+    "logLoss": 4.935911747900319,
+    "actualProbability": 0.007183908045977011,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1558,10 +2170,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9978653659821155,
-    "logLoss": 5.054291960986347,
-    "actualProbability": 0.00638188378572994,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9986752513112609,
+    "logLoss": 5.122050103220975,
+    "actualProbability": 0.005963783981025361,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1578,7 +2190,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1590,12 +2202,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1606,13 +2218,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
+      "10": true,
       "20": true
     },
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-05-16",
@@ -1629,7 +2241,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1646,7 +2258,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1660,10 +2272,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0001750638983231,
-    "logLoss": 5.1298987149230735,
-    "actualProbability": 0.005917159763313609,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0006857142857135,
+    "logLoss": 5.1647859739235145,
+    "actualProbability": 0.005714285714285714,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1680,7 +2292,7 @@
     "brier": 0.9947222222222235,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1694,10 +2306,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950550237541438,
-    "logLoss": 4.84158911193831,
-    "actualProbability": 0.007894498836066749,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9951157052787604,
+    "logLoss": 4.8455627735120705,
+    "actualProbability": 0.007863191013938474,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1711,10 +2323,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9965601355232091,
-    "logLoss": 4.932233215163723,
-    "actualProbability": 0.007210382951450088,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9970209743657273,
+    "logLoss": 4.973279507552487,
+    "actualProbability": 0.006920415224913495,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1731,7 +2343,7 @@
     "brier": 0.9765624999999998,
     "logLoss": 4.02535169073515,
     "actualProbability": 0.017857142857142856,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1745,10 +2357,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9986015034376444,
-    "logLoss": 5.1298987149230735,
-    "actualProbability": 0.005917159763313609,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9951306252024625,
+    "logLoss": 4.877103901471733,
+    "actualProbability": 0.007619047619047619,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1762,10 +2374,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9978932285277178,
-    "logLoss": 5.059578589890678,
-    "actualProbability": 0.006348234159359103,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9970549873249718,
+    "logLoss": 4.998027677241681,
+    "actualProbability": 0.0067512495194156094,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1782,7 +2394,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1799,7 +2411,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1816,7 +2428,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-01",
@@ -1827,13 +2439,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1850,7 +2462,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1862,12 +2474,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9884429065743965,
-    "logLoss": 4.442651256490317,
-    "actualProbability": 0.011764705882352941,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9779829545454533,
+    "logLoss": 4.071871706370042,
+    "actualProbability": 0.017045454545454544,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1884,7 +2496,7 @@
     "brier": 0.9780555555555569,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1898,10 +2510,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9803172875980333,
-    "logLoss": 4.183220972456202,
-    "actualProbability": 0.015249310768531397,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9791354515978431,
+    "logLoss": 4.145278625008313,
+    "actualProbability": 0.015839022188768342,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1915,10 +2527,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9978005859374989,
-    "logLoss": 5.026383651064395,
-    "actualProbability": 0.0065625,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.991339361372598,
+    "logLoss": 4.63202847349096,
+    "actualProbability": 0.009734991887506761,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1932,10 +2544,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9992441421012833,
-    "logLoss": 4.836281906951478,
-    "actualProbability": 0.007936507936507936,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9995477415342857,
+    "logLoss": 4.890349128221754,
+    "actualProbability": 0.007518796992481203,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1949,10 +2561,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9868647360905156,
-    "logLoss": 4.442651256490317,
-    "actualProbability": 0.011764705882352941,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9859974286288214,
+    "logLoss": 4.408343942991255,
+    "actualProbability": 0.012175324675324674,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1964,12 +2576,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9904987554020447,
-    "logLoss": 4.602111144141009,
-    "actualProbability": 0.010030637254901961,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9845660192756954,
+    "logLoss": 4.343940639215799,
+    "actualProbability": 0.012985257036095326,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -1986,29 +2598,12 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
     "trainEnd": "2025-06-01",
     "model": "random1",
-    "phase": "validation",
-    "actual": "06",
-    "hits": {
-      "1": false,
-      "5": true,
-      "10": true,
-      "20": true
-    },
-    "brier": 0.989999999999999,
-    "logLoss": 4.605170185988091,
-    "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
-  },
-  {
-    "date": "2025-06-16",
-    "trainEnd": "2025-06-01",
-    "model": "random2",
     "phase": "validation",
     "actual": "06",
     "hits": {
@@ -2020,7 +2615,24 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-06-16",
+    "trainEnd": "2025-06-01",
+    "model": "random2",
+    "phase": "validation",
+    "actual": "06",
+    "hits": {
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": true
+    },
+    "brier": 0.989999999999999,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-06-16",
@@ -2037,7 +2649,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2054,7 +2666,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2068,10 +2680,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9769159741458907,
-    "logLoss": 4.04305126783455,
-    "actualProbability": 0.017543859649122806,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9782629512592168,
+    "logLoss": 4.07753744390572,
+    "actualProbability": 0.01694915254237288,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2088,7 +2700,7 @@
     "brier": 0.9948611111111113,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2102,10 +2714,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9872090654799515,
-    "logLoss": 4.435741468562961,
-    "actualProbability": 0.011846279006963561,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9873027894773475,
+    "logLoss": 4.4394442697693695,
+    "actualProbability": 0.011802495701228882,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2119,10 +2731,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.981571488337056,
-    "logLoss": 4.224550117877041,
-    "actualProbability": 0.014631915866483765,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9822725914321756,
+    "logLoss": 4.2496850101849475,
+    "actualProbability": 0.014268727705112961,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2136,10 +2748,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0047916666666667,
-    "logLoss": 5.480638923341991,
-    "actualProbability": 0.004166666666666667,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0003203895937463,
+    "logLoss": 5.030437921392435,
+    "actualProbability": 0.0065359477124183,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2151,12 +2763,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9870228012092175,
-    "logLoss": 4.448516375942715,
-    "actualProbability": 0.011695906432748537,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9877739677270464,
+    "logLoss": 4.483002552013884,
+    "actualProbability": 0.011299435028248588,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2170,10 +2782,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9813021948056838,
-    "logLoss": 4.225098513832655,
-    "actualProbability": 0.014623893982785038,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9822108306356296,
+    "logLoss": 4.256456156439581,
+    "actualProbability": 0.014172438425244809,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2190,7 +2802,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2207,7 +2819,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2219,12 +2831,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-01",
@@ -2241,7 +2853,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2258,7 +2870,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2272,10 +2884,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0004732287723075,
-    "logLoss": 5.147494476813453,
-    "actualProbability": 0.005813953488372093,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0010099734881936,
+    "logLoss": 5.181783550292085,
+    "actualProbability": 0.0056179775280898875,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2292,7 +2904,7 @@
     "brier": 0.9948611111111123,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2306,10 +2918,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9951736339142199,
-    "logLoss": 4.84368110552811,
-    "actualProbability": 0.007878000857956103,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9952346096151821,
+    "logLoss": 4.847255599497387,
+    "actualProbability": 0.007849891260123046,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2323,10 +2935,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9966816018764503,
-    "logLoss": 4.942237483620615,
-    "actualProbability": 0.007138607971445568,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9969652591609186,
+    "logLoss": 4.965689582392138,
+    "actualProbability": 0.006973140495867769,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2340,10 +2952,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.997748118855385,
-    "logLoss": 4.77912349311153,
-    "actualProbability": 0.008403361344537815,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9982223342011699,
+    "logLoss": 4.836281906951478,
+    "actualProbability": 0.007936507936507936,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2357,10 +2969,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9897609953256598,
-    "logLoss": 4.572130331909891,
-    "actualProbability": 0.0103359173126615,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9904113387559283,
+    "logLoss": 4.6064194053885235,
+    "actualProbability": 0.009987515605493134,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2374,10 +2986,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9950734983997217,
-    "logLoss": 4.858408802654978,
-    "actualProbability": 0.0077628262574930525,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9955438631741034,
+    "logLoss": 4.889363523184358,
+    "actualProbability": 0.00752621120981693,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2394,7 +3006,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2411,7 +3023,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2428,7 +3040,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-07-16",
@@ -2445,7 +3057,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2462,7 +3074,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2476,10 +3088,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9773797988572942,
-    "logLoss": 4.054679305829669,
-    "actualProbability": 0.017341040462427744,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9786835616865885,
+    "logLoss": 4.088773517172645,
+    "actualProbability": 0.01675977653631285,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2496,7 +3108,7 @@
     "brier": 0.978194444444445,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2510,10 +3122,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9824169574235274,
-    "logLoss": 4.25175632865546,
-    "actualProbability": 0.014239203213734708,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9825189657275675,
+    "logLoss": 4.25520703417545,
+    "actualProbability": 0.014190152594897365,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2524,13 +3136,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
+      "10": true,
       "20": true
     },
-    "brier": 0.9818570277696925,
-    "logLoss": 4.232511029605105,
-    "actualProbability": 0.014515894904920888,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9802931329787858,
+    "logLoss": 4.181482193867539,
+    "actualProbability": 0.015275849008963513,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2544,10 +3156,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9893425605536335,
-    "logLoss": 4.442651256490317,
-    "actualProbability": 0.011764705882352941,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9911111111111114,
+    "logLoss": 4.499809670330265,
+    "actualProbability": 0.011111111111111112,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2561,10 +3173,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9834601281233307,
-    "logLoss": 4.305993734110575,
-    "actualProbability": 0.01348747591522158,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.984314318509567,
+    "logLoss": 4.3400879454535515,
+    "actualProbability": 0.01303538175046555,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2574,14 +3186,14 @@
     "actual": "50",
     "hits": {
       "1": false,
-      "5": true,
+      "5": false,
       "10": true,
       "20": true
     },
-    "brier": 0.9803500098377783,
-    "logLoss": 4.192080633907657,
-    "actualProbability": 0.015114803760856737,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9805284552062965,
+    "logLoss": 4.198128381613637,
+    "actualProbability": 0.015023669098580638,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2598,7 +3210,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
@@ -2610,34 +3222,17 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-01",
     "trainEnd": "2025-07-16",
     "model": "random2",
-    "phase": "validation",
-    "actual": "50",
-    "hits": {
-      "1": false,
-      "5": true,
-      "10": true,
-      "20": true
-    },
-    "brier": 0.9899999999999994,
-    "logLoss": 4.605170185988091,
-    "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
-  },
-  {
-    "date": "2025-08-01",
-    "trainEnd": "2025-07-16",
-    "model": "random3",
     "phase": "validation",
     "actual": "50",
     "hits": {
@@ -2649,7 +3244,24 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
+  },
+  {
+    "date": "2025-08-01",
+    "trainEnd": "2025-07-16",
+    "model": "random3",
+    "phase": "validation",
+    "actual": "50",
+    "hits": {
+      "1": false,
+      "5": true,
+      "10": true,
+      "20": true
+    },
+    "brier": 0.9899999999999994,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2666,7 +3278,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2680,10 +3292,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9891663363720431,
-    "logLoss": 4.465908118654584,
-    "actualProbability": 0.011494252873563218,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9900617283950622,
+    "logLoss": 4.499809670330265,
+    "actualProbability": 0.011111111111111112,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2700,7 +3312,7 @@
     "brier": 0.9950000000000006,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2714,10 +3326,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9915536056381502,
-    "logLoss": 4.635297896132937,
-    "actualProbability": 0.009703216057224422,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.991620631062495,
+    "logLoss": 4.638629167897835,
+    "actualProbability": 0.009670945787905729,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2731,10 +3343,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9891694914927425,
-    "logLoss": 4.5178281758329435,
-    "actualProbability": 0.010912698412698412,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9919449474165523,
+    "logLoss": 4.655813918806846,
+    "actualProbability": 0.009506172839506173,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2748,10 +3360,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0086171837232667,
-    "logLoss": 5.888877958332881,
-    "actualProbability": 0.0027700831024930744,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0088000000000001,
+    "logLoss": 5.991464547107982,
+    "actualProbability": 0.0025000000000000005,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2765,10 +3377,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.99208431897443,
-    "logLoss": 4.689051669968793,
-    "actualProbability": 0.009195402298850575,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9915303008034494,
+    "logLoss": 4.66232859982804,
+    "actualProbability": 0.009444444444444445,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2782,10 +3394,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.989562149080949,
-    "logLoss": 4.553135969289393,
-    "actualProbability": 0.01053411786170407,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9905834963335531,
+    "logLoss": 4.603114686805996,
+    "actualProbability": 0.010020576131687242,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2802,7 +3414,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2819,7 +3431,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2836,7 +3448,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-08-16",
@@ -2853,7 +3465,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2870,7 +3482,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2884,10 +3496,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9893224489795912,
-    "logLoss": 4.471638793363569,
-    "actualProbability": 0.011428571428571429,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9902017642929111,
+    "logLoss": 4.505349850705881,
+    "actualProbability": 0.011049723756906077,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2904,7 +3516,7 @@
     "brier": 0.995000000000001,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2918,10 +3530,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9892658026707675,
-    "logLoss": 4.524255559902467,
-    "actualProbability": 0.010842783235304033,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9893370877158288,
+    "logLoss": 4.527471594807967,
+    "actualProbability": 0.010807968478689844,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2932,13 +3544,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": true,
+      "10": false,
       "20": true
     },
-    "brier": 0.982245059326396,
-    "logLoss": 4.24091161383926,
-    "actualProbability": 0.01439446366782007,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9858423689077991,
+    "logLoss": 4.377328113892327,
+    "actualProbability": 0.012558869701726845,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2955,7 +3567,7 @@
     "brier": 1.0018749999999992,
     "logLoss": 5.075173815233827,
     "actualProbability": 0.00625,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2969,10 +3581,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9967492193067705,
-    "logLoss": 4.98246441712956,
-    "actualProbability": 0.006857142857142858,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9971515443982703,
+    "logLoss": 5.016175474471871,
+    "actualProbability": 0.0066298342541436465,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -2986,10 +3598,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9888516142669493,
-    "logLoss": 4.519598852338682,
-    "actualProbability": 0.01089339265117812,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9904644841332019,
+    "logLoss": 4.597254011315743,
+    "actualProbability": 0.010079475904258854,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -3006,7 +3618,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -3023,7 +3635,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -3040,7 +3652,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-01",
@@ -3057,7 +3669,7 @@
     "brier": 0.9899999999999992,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3074,7 +3686,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3085,13 +3697,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
+      "10": true,
       "20": true
     },
-    "brier": 0.9894757231404955,
-    "logLoss": 4.477336814478207,
-    "actualProbability": 0.011363636363636364,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9793503200096599,
+    "logLoss": 4.105394398408686,
+    "actualProbability": 0.016483516483516484,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3108,7 +3720,7 @@
     "brier": 0.9948611111111118,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3122,10 +3734,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9934727119834785,
-    "logLoss": 4.739396811359319,
-    "actualProbability": 0.008743918827626368,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9925484422608778,
+    "logLoss": 4.6878507144533765,
+    "actualProbability": 0.009206452201850731,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3139,10 +3751,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9932992590092259,
-    "logLoss": 4.7190398504805895,
-    "actualProbability": 0.008923742563547865,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9911800361633927,
+    "logLoss": 4.612760355254767,
+    "actualProbability": 0.009924385633270322,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3159,7 +3771,7 @@
     "brier": 1.0043181103262884,
     "logLoss": 5.231108616854587,
     "actualProbability": 0.0053475935828877,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3173,10 +3785,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9895955419659259,
-    "logLoss": 4.564348191467836,
-    "actualProbability": 0.010416666666666666,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9883975892413883,
+    "logLoss": 4.51085950651685,
+    "actualProbability": 0.01098901098901099,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3188,12 +3800,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9901859775225205,
-    "logLoss": 4.581973143437761,
-    "actualProbability": 0.010234681864616964,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9856982250047344,
+    "logLoss": 4.3847794039142824,
+    "actualProbability": 0.012465637701932599,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3210,7 +3822,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3227,7 +3839,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3244,7 +3856,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-09-16",
@@ -3261,7 +3873,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3278,7 +3890,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3292,10 +3904,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0009256599316927,
-    "logLoss": 5.176149732573829,
-    "actualProbability": 0.005649717514124294,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0014631670100627,
+    "logLoss": 5.209486152841421,
+    "actualProbability": 0.00546448087431694,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3312,7 +3924,7 @@
     "brier": 0.9948611111111115,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3326,10 +3938,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952289032897336,
-    "logLoss": 4.846711076290201,
-    "actualProbability": 0.007854166872067395,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9952835382819968,
+    "logLoss": 4.849708626873233,
+    "actualProbability": 0.007830658860410048,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3343,10 +3955,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9984583109013142,
-    "logLoss": 5.060615226401277,
-    "actualProbability": 0.006341656757827982,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9999448835115085,
+    "logLoss": 5.193997975398621,
+    "actualProbability": 0.005549774540409296,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3358,12 +3970,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9865333333333326,
-    "logLoss": 4.31748811353631,
-    "actualProbability": 0.013333333333333334,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9892113095238094,
+    "logLoss": 4.430816798843313,
+    "actualProbability": 0.011904761904761904,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3377,10 +3989,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9968744030962741,
-    "logLoss": 4.993828175779875,
-    "actualProbability": 0.006779661016949152,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9972721912478256,
+    "logLoss": 5.0271645960474665,
+    "actualProbability": 0.006557377049180328,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3394,10 +4006,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9981434053334747,
-    "logLoss": 5.0740525619985,
-    "actualProbability": 0.006257011762967143,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9989294174694988,
+    "logLoss": 5.140081757763506,
+    "actualProbability": 0.0058572108213021876,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3414,7 +4026,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3431,7 +4043,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3442,13 +4054,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-01",
@@ -3465,7 +4077,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3482,7 +4094,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3492,14 +4104,14 @@
     "actual": "61",
     "hits": {
       "1": false,
-      "5": true,
+      "5": false,
       "10": true,
       "20": true
     },
-    "brier": 0.9672389849766431,
-    "logLoss": 3.7954891891721947,
-    "actualProbability": 0.02247191011235955,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.968868147448015,
+    "logLoss": 3.828641396489095,
+    "actualProbability": 0.021739130434782608,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3516,7 +4128,7 @@
     "brier": 0.9948611111111118,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3530,10 +4142,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9824723306950596,
-    "logLoss": 4.253469095108123,
-    "actualProbability": 0.014214835658080491,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9825611543203419,
+    "logLoss": 4.25636311179142,
+    "actualProbability": 0.014173757156141152,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3547,10 +4159,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9676593795889964,
-    "logLoss": 3.830709649553154,
-    "actualProbability": 0.021694214876033055,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9729082700283078,
+    "logLoss": 3.962625585136749,
+    "actualProbability": 0.01901312811226799,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3567,7 +4179,7 @@
     "brier": 0.9674740484429069,
     "logLoss": 3.7495040759303713,
     "actualProbability": 0.023529411764705882,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3581,10 +4193,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9907359605669475,
-    "logLoss": 4.622167762356662,
-    "actualProbability": 0.009831460674157303,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9913294072748824,
+    "logLoss": 4.655319969673563,
+    "actualProbability": 0.009510869565217392,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3593,15 +4205,15 @@
     "phase": "validation",
     "actual": "61",
     "hits": {
-      "1": true,
+      "1": false,
       "5": true,
       "10": true,
       "20": true
     },
-    "brier": 0.9746204184210012,
-    "logLoss": 4.017428232038272,
-    "actualProbability": 0.01799919522084997,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9770911841589184,
+    "logLoss": 4.089095798866927,
+    "actualProbability": 0.016754376037422664,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3618,7 +4230,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3627,15 +4239,15 @@
     "phase": "validation",
     "actual": "61",
     "hits": {
-      "1": true,
-      "5": true,
-      "10": true,
-      "20": true
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
     },
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3652,7 +4264,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-10-16",
@@ -3664,12 +4276,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3686,7 +4298,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3700,10 +4312,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9899815860928185,
-    "logLoss": 4.4942386252808095,
-    "actualProbability": 0.0111731843575419,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9908546384222056,
+    "logLoss": 4.52720864451838,
+    "actualProbability": 0.010810810810810811,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3720,7 +4332,7 @@
     "brier": 0.9781944444444446,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3734,10 +4346,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9841783848189061,
-    "logLoss": 4.312981296127866,
-    "actualProbability": 0.013393559845118096,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9842583772852685,
+    "logLoss": 4.315775402465618,
+    "actualProbability": 0.013356189047973272,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3751,10 +4363,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9971315815767564,
-    "logLoss": 4.9519210487291305,
-    "actualProbability": 0.007069814417371543,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9986924716661165,
+    "logLoss": 5.082402092465933,
+    "actualProbability": 0.006204986149584487,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3771,7 +4383,7 @@
     "brier": 1.009091727428211,
     "logLoss": 6.180016653652573,
     "actualProbability": 0.0020703933747412005,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3785,10 +4397,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9936363775975522,
-    "logLoss": 4.78192069773259,
-    "actualProbability": 0.008379888268156424,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9941292450751911,
+    "logLoss": 4.814890716970161,
+    "actualProbability": 0.008108108108108109,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3802,10 +4414,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.992940992978863,
-    "logLoss": 4.72459630665452,
-    "actualProbability": 0.008874295681023289,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9939047998952704,
+    "logLoss": 4.782547781583664,
+    "actualProbability": 0.008374635022834469,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3822,7 +4434,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3834,12 +4446,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3856,7 +4468,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-01",
@@ -3873,13 +4485,13 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "uniform",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3890,13 +4502,13 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "frequency",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3904,16 +4516,16 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9901234567901243,
-    "logLoss": 4.499809670330265,
-    "actualProbability": 0.011111111111111112,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9909816163718357,
+    "logLoss": 4.532599493153256,
+    "actualProbability": 0.010752688172043012,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "recent",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3924,13 +4536,13 @@
     "brier": 0.9948611111111121,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "decay",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3938,16 +4550,16 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9891760870804536,
-    "logLoss": 4.517337471747561,
-    "actualProbability": 0.01091805463244404,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9892389580482591,
+    "logLoss": 4.52003516125001,
+    "actualProbability": 0.01088864080360192,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "position",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3955,16 +4567,16 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9934151501295524,
-    "logLoss": 4.722953221644475,
-    "actualProbability": 0.008888888888888889,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9953835569782024,
+    "logLoss": 4.852030263919617,
+    "actualProbability": 0.0078125,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "markov",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3975,13 +4587,13 @@
     "brier": 1.0069204152249156,
     "logLoss": 5.605802066295998,
     "actualProbability": 0.003676470588235294,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "sum",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -3989,16 +4601,16 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9869244806976296,
-    "logLoss": 4.445742449059989,
-    "actualProbability": 0.011728395061728396,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9876283408303003,
+    "logLoss": 4.47853227188298,
+    "actualProbability": 0.011350059737156512,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "ensemble",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -4006,16 +4618,16 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9895145186927075,
-    "logLoss": 4.54915554443342,
-    "actualProbability": 0.010576131687242798,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9906819838768727,
+    "logLoss": 4.607999253722432,
+    "actualProbability": 0.009971749303066508,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "fixed",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -4026,13 +4638,13 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "random1",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -4043,13 +4655,13 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "random2",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
       "1": false,
@@ -4060,24 +4672,24 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-11-16",
     "trainEnd": "2025-11-01",
     "model": "random3",
-    "phase": "validation",
+    "phase": "holdout",
     "actual": "37",
     "hits": {
-      "1": true,
-      "5": true,
-      "10": true,
-      "20": true
+      "1": false,
+      "5": false,
+      "10": false,
+      "20": false
     },
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4094,7 +4706,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4108,10 +4720,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0013125362473683,
-    "logLoss": 5.198497031265826,
-    "actualProbability": 0.0055248618784530384,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0018015956990485,
+    "logLoss": 5.231108616854587,
+    "actualProbability": 0.0053475935828877,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4128,7 +4740,7 @@
     "brier": 0.9948611111111124,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4142,10 +4754,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9953423141655718,
-    "logLoss": 4.8487788084175705,
-    "actualProbability": 0.007837943337634311,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9953862413404727,
+    "logLoss": 4.851383449436583,
+    "actualProbability": 0.00781755487275492,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4159,10 +4771,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9993295366219735,
-    "logLoss": 5.1298987149230735,
-    "actualProbability": 0.00591715976331361,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9975672116889772,
+    "logLoss": 5.006287230615233,
+    "actualProbability": 0.006695716866829631,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4179,7 +4791,7 @@
     "brier": 1.0018796189499763,
     "logLoss": 5.030437921392435,
     "actualProbability": 0.0065359477124183,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4193,10 +4805,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9949295353602297,
-    "logLoss": 4.862024794644613,
-    "actualProbability": 0.007734806629834254,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9953689480977937,
+    "logLoss": 4.894636380233374,
+    "actualProbability": 0.0074866310160427805,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4210,10 +4822,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9978822977329745,
-    "logLoss": 5.052664878313658,
-    "actualProbability": 0.006392276090533634,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9975978890377762,
+    "logLoss": 5.03441881991105,
+    "actualProbability": 0.006509980488586704,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4230,7 +4842,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4242,12 +4854,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4264,7 +4876,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-01",
@@ -4281,7 +4893,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4298,7 +4910,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4312,10 +4924,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0013283419876826,
-    "logLoss": 5.204006687076795,
-    "actualProbability": 0.005494505494505495,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.00181077410593,
+    "logLoss": 5.236441962829949,
+    "actualProbability": 0.005319148936170213,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4332,7 +4944,7 @@
     "brier": 0.9948611111111119,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4346,10 +4958,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9953086987562578,
-    "logLoss": 4.84925188113939,
-    "actualProbability": 0.007834236297365063,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9953506271610918,
+    "logLoss": 4.851766721555791,
+    "actualProbability": 0.007814559196048176,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4361,12 +4973,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9883715775208068,
-    "logLoss": 4.479228962630245,
-    "actualProbability": 0.011342155009451795,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9838119303684544,
+    "logLoss": 4.3024005068855615,
+    "actualProbability": 0.013536026655560184,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4376,14 +4988,14 @@
     "actual": "52",
     "hits": {
       "1": false,
-      "5": false,
-      "10": false,
+      "5": true,
+      "10": true,
       "20": true
     },
-    "brier": 0.9832763671875,
-    "logLoss": 4.1588830833596715,
-    "actualProbability": 0.015625,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9592013888888898,
+    "logLoss": 3.58351893845611,
+    "actualProbability": 0.027777777777777776,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4397,10 +5009,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9897713593749696,
-    "logLoss": 4.575398027654421,
-    "actualProbability": 0.010302197802197802,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9903705507591593,
+    "logLoss": 4.607833303407575,
+    "actualProbability": 0.00997340425531915,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4414,10 +5026,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9925396092101153,
-    "logLoss": 4.705400980961258,
-    "actualProbability": 0.009046286102051696,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9913695236366187,
+    "logLoss": 4.645000316767527,
+    "actualProbability": 0.009609526615683182,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4434,7 +5046,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4451,7 +5063,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4461,14 +5073,14 @@
     "actual": "52",
     "hits": {
       "1": false,
-      "5": true,
-      "10": true,
-      "20": true
+      "5": false,
+      "10": false,
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2025-12-16",
@@ -4480,12 +5092,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4502,7 +5114,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4516,10 +5128,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9904147630565272,
-    "logLoss": 4.516338972281476,
-    "actualProbability": 0.01092896174863388,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9912376473223031,
+    "logLoss": 4.548599834499697,
+    "actualProbability": 0.010582010582010581,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4536,7 +5148,7 @@
     "brier": 0.9947222222222237,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4550,10 +5162,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9931793674872569,
-    "logLoss": 4.72398239294027,
-    "actualProbability": 0.008879745405505316,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9932244818690837,
+    "logLoss": 4.726410564661916,
+    "actualProbability": 0.008858210015210203,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4567,10 +5179,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9965260570585189,
-    "logLoss": 4.922064259914979,
-    "actualProbability": 0.007284079084287201,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9946331965297247,
+    "logLoss": 4.808213065595298,
+    "actualProbability": 0.008162432404856647,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4581,13 +5193,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": true,
-      "20": true
+      "10": false,
+      "20": false
     },
-    "brier": 0.9783050475091976,
-    "logLoss": 4.085976312551584,
-    "actualProbability": 0.01680672268907563,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.983963279228955,
+    "logLoss": 4.243721963296702,
+    "actualProbability": 0.014354066985645932,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4601,10 +5213,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9885204547145795,
-    "logLoss": 4.516338972281476,
-    "actualProbability": 0.01092896174863388,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9891529281383986,
+    "logLoss": 4.548599834499697,
+    "actualProbability": 0.010582010582010581,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4618,10 +5230,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9912109586705994,
-    "logLoss": 4.6341870464732144,
-    "actualProbability": 0.009714000860518318,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9910507638696286,
+    "logLoss": 4.627877606772973,
+    "actualProbability": 0.009775484522959269,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4638,7 +5250,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4655,7 +5267,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4672,7 +5284,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-02",
@@ -4689,7 +5301,7 @@
     "brier": 0.9899999999999991,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4706,7 +5318,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4720,10 +5332,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0014177693761817,
-    "logLoss": 5.214935757608986,
-    "actualProbability": 0.005434782608695652,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9913573407202196,
+    "logLoss": 4.553876891600541,
+    "actualProbability": 0.010526315789473684,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4740,7 +5352,7 @@
     "brier": 0.9947222222222238,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4754,10 +5366,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952645211577975,
-    "logLoss": 4.850149616180684,
-    "actualProbability": 0.007827206384890652,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9944818547949046,
+    "logLoss": 4.801272622992598,
+    "actualProbability": 0.00821928034519878,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4771,10 +5383,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9967699220502334,
-    "logLoss": 4.943454838148475,
-    "actualProbability": 0.007129923042100497,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9889194400000003,
+    "logLoss": 4.509860006183766,
+    "actualProbability": 0.011000000000000001,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4788,10 +5400,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9984085648148181,
-    "logLoss": 4.969813299576001,
-    "actualProbability": 0.006944444444444444,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9945077591082055,
+    "logLoss": 4.679040034554546,
+    "actualProbability": 0.009287925696594427,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4805,10 +5417,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.995894962230323,
-    "logLoss": 4.927253685157205,
-    "actualProbability": 0.007246376811594203,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9927790419030035,
+    "logLoss": 4.736198448394496,
+    "actualProbability": 0.008771929824561403,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4822,10 +5434,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9974182140096177,
-    "logLoss": 5.020126066212005,
-    "actualProbability": 0.006603694154130118,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9903948137933529,
+    "logLoss": 4.595277757338118,
+    "actualProbability": 0.010099415204678363,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4842,7 +5454,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4859,7 +5471,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4876,7 +5488,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-01-17",
@@ -4888,12 +5500,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4910,7 +5522,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4924,10 +5536,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0014317019722414,
-    "logLoss": 5.220355825078324,
-    "actualProbability": 0.005405405405405406,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0019462185795354,
+    "logLoss": 5.25227342804663,
+    "actualProbability": 0.005235602094240838,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4944,7 +5556,7 @@
     "brier": 0.9947222222222231,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4958,10 +5570,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952366907219107,
-    "logLoss": 4.850575399205189,
-    "actualProbability": 0.007823874402683742,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9952793020451715,
+    "logLoss": 4.852839186783424,
+    "actualProbability": 0.00780618284551633,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4975,10 +5587,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.998553246215114,
-    "logLoss": 5.082402092465933,
-    "actualProbability": 0.006204986149584487,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9983919051013462,
+    "logLoss": 5.071357950322847,
+    "actualProbability": 0.006273894716204294,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -4992,10 +5604,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9852430555555572,
-    "logLoss": 4.276666119016055,
-    "actualProbability": 0.013888888888888888,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9926454293628804,
+    "logLoss": 4.553876891600541,
+    "actualProbability": 0.010526315789473684,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5009,10 +5621,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9964637610583553,
-    "logLoss": 4.969041396797419,
-    "actualProbability": 0.00694980694980695,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9968526234356386,
+    "logLoss": 5.000958999765723,
+    "actualProbability": 0.006731488406881077,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5026,10 +5638,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9982245385743739,
-    "logLoss": 5.085348145047832,
-    "actualProbability": 0.006186732834932281,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9984389229701275,
+    "logLoss": 5.102696570354974,
+    "actualProbability": 0.006080328405775403,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5046,7 +5658,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5058,12 +5670,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5075,12 +5687,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-01",
@@ -5091,13 +5703,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": true,
-      "20": true
+      "10": false,
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5114,7 +5726,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5128,10 +5740,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.001445253786566,
-    "logLoss": 5.225746673713201,
-    "actualProbability": 0.005376344086021506,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0019531250000007,
+    "logLoss": 5.2574953720277815,
+    "actualProbability": 0.005208333333333333,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5148,7 +5760,7 @@
     "brier": 0.9947222222222237,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5162,10 +5774,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952109023695332,
-    "logLoss": 4.850986506435193,
-    "actualProbability": 0.00782065861241276,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9952514614050934,
+    "logLoss": 4.853172367523136,
+    "actualProbability": 0.007803582408973272,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5179,10 +5791,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952477349175348,
-    "logLoss": 4.852030263919617,
-    "actualProbability": 0.0078125,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9918236353953113,
+    "logLoss": 4.6548257764339525,
+    "actualProbability": 0.009515570934256057,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5196,10 +5808,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9922145328719717,
-    "logLoss": 4.507189777627888,
-    "actualProbability": 0.011029411764705881,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9930676117383633,
+    "logLoss": 4.567814399444322,
+    "actualProbability": 0.010380622837370243,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5213,10 +5825,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9874812346413102,
-    "logLoss": 4.471974871336821,
-    "actualProbability": 0.0114247311827957,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9881466389543377,
+    "logLoss": 4.5037235696514015,
+    "actualProbability": 0.011067708333333334,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5230,10 +5842,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9941522773414373,
-    "logLoss": 4.8030694367239155,
-    "actualProbability": 0.008204525089605735,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9933689490389674,
+    "logLoss": 4.756318221564347,
+    "actualProbability": 0.008597204200307575,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5250,7 +5862,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5267,7 +5879,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5284,7 +5896,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-02-16",
@@ -5301,7 +5913,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5318,7 +5930,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5328,14 +5940,14 @@
     "actual": "06",
     "hits": {
       "1": false,
-      "5": false,
-      "10": false,
+      "5": true,
+      "10": true,
       "20": true
     },
-    "brier": 0.9800680602819639,
-    "logLoss": 4.132496328186477,
-    "actualProbability": 0.016042780748663103,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9708717012537269,
+    "logLoss": 3.876395827784995,
+    "actualProbability": 0.02072538860103627,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5352,7 +5964,7 @@
     "brier": 0.9613888888888903,
     "logLoss": 3.6888794541139363,
     "actualProbability": 0.025,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5366,10 +5978,10 @@
       "10": true,
       "20": true
     },
-    "brier": 0.9781137580092604,
-    "logLoss": 4.113271679840678,
-    "actualProbability": 0.016354181258955443,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9774745290805826,
+    "logLoss": 4.0937475555319685,
+    "actualProbability": 0.016676619748901587,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5383,10 +5995,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9916949173008645,
-    "logLoss": 4.649612286676501,
-    "actualProbability": 0.009565309809756615,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9859635483439698,
+    "logLoss": 4.386656053872901,
+    "actualProbability": 0.012442266000565557,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5400,10 +6012,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0084155666623937,
-    "logLoss": 5.723585101952381,
-    "actualProbability": 0.00326797385620915,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9981481481481498,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5415,12 +6027,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
-    "brier": 0.9874273562933515,
-    "logLoss": 4.46896856480769,
-    "actualProbability": 0.01145912910618793,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9866070762739122,
+    "logLoss": 4.4360116157204175,
+    "actualProbability": 0.011843079200592155,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5430,14 +6042,14 @@
     "actual": "06",
     "hits": {
       "1": false,
-      "5": false,
-      "10": false,
+      "5": true,
+      "10": true,
       "20": true
     },
-    "brier": 0.9858375709077827,
-    "logLoss": 4.393634555603962,
-    "actualProbability": 0.01235573988820255,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.980552388024473,
+    "logLoss": 4.199466577385787,
+    "actualProbability": 0.015003577934064661,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5454,7 +6066,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5466,12 +6078,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5488,7 +6100,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-01",
@@ -5505,7 +6117,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5522,7 +6134,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5536,10 +6148,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9909461294703477,
-    "logLoss": 4.543294782270004,
-    "actualProbability": 0.010638297872340425,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9918163460516515,
+    "logLoss": 4.574710978503383,
+    "actualProbability": 0.010309278350515464,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5556,7 +6168,7 @@
     "brier": 0.9947222222222227,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5570,10 +6182,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9942467770546917,
-    "logLoss": 4.786929018857,
-    "actualProbability": 0.008338024019032138,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9942905289004458,
+    "logLoss": 4.788967059433578,
+    "actualProbability": 0.00832104809244243,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5587,10 +6199,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9891614645501201,
-    "logLoss": 4.525544058199771,
-    "actualProbability": 0.010828821324448146,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9916644966037608,
+    "logLoss": 4.6443908991413725,
+    "actualProbability": 0.009615384615384616,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5604,10 +6216,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0009746588693955,
-    "logLoss": 5.14166355650266,
-    "actualProbability": 0.005847953216374269,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0048185941043077,
+    "logLoss": 5.3471075307174685,
+    "actualProbability": 0.004761904761904762,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5621,10 +6233,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9867204846515334,
-    "logLoss": 4.437934266612178,
-    "actualProbability": 0.01182033096926714,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9874031449119126,
+    "logLoss": 4.469350462845557,
+    "actualProbability": 0.011454753722794959,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5638,10 +6250,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.988367505871345,
-    "logLoss": 4.501187113588126,
-    "actualProbability": 0.01109581672201857,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9896709391354946,
+    "logLoss": 4.560215409151176,
+    "actualProbability": 0.010459805562898347,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5658,7 +6270,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5675,7 +6287,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5692,7 +6304,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-03-16",
@@ -5704,12 +6316,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5726,7 +6338,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5740,10 +6352,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9910696789003665,
-    "logLoss": 4.548599834499697,
-    "actualProbability": 0.010582010582010581,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9919263642340568,
+    "logLoss": 4.579852378003801,
+    "actualProbability": 0.010256410256410256,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5760,7 +6372,7 @@
     "brier": 0.9945833333333343,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5774,10 +6386,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9941111824461472,
-    "logLoss": 4.780443827285374,
-    "actualProbability": 0.0083922734208725,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9941529947089749,
+    "logLoss": 4.782411785294381,
+    "actualProbability": 0.008375774019569576,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5791,10 +6403,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9924863835318242,
-    "logLoss": 4.690430029938915,
-    "actualProbability": 0.009182736455463728,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9945726070927229,
+    "logLoss": 4.808111029984782,
+    "actualProbability": 0.008163265306122448,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5811,7 +6423,7 @@
     "brier": 0.9809259629957958,
     "logLoss": 4.132496328186477,
     "actualProbability": 0.0160427807486631,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5825,10 +6437,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9931835592686353,
-    "logLoss": 4.756239199277942,
-    "actualProbability": 0.008597883597883597,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9923782390449056,
+    "logLoss": 4.713383770628324,
+    "actualProbability": 0.008974358974358974,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5842,10 +6454,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9916663960841071,
-    "logLoss": 4.66129511163659,
-    "actualProbability": 0.009454210211785968,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9923336085733324,
+    "logLoss": 4.696042295591837,
+    "actualProbability": 0.00913134484563056,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5862,7 +6474,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5879,7 +6491,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5896,7 +6508,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-01",
@@ -5913,7 +6525,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -5930,7 +6542,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -5944,10 +6556,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9911911357340715,
-    "logLoss": 4.553876891600541,
-    "actualProbability": 0.010526315789473684,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9920345689296127,
+    "logLoss": 4.584967478670572,
+    "actualProbability": 0.01020408163265306,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -5964,7 +6576,7 @@
     "brier": 0.9779166666666669,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -5978,10 +6590,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9849496432111705,
-    "logLoss": 4.345824767723749,
-    "actualProbability": 0.012960814177105179,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.985006754014502,
+    "logLoss": 4.347725075000861,
+    "actualProbability": 0.012936208034627673,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -5995,10 +6607,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9910365600000002,
-    "logLoss": 4.615220521841593,
-    "actualProbability": 0.009899999999999999,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9932395122680102,
+    "logLoss": 4.731758338089544,
+    "actualProbability": 0.008810964756140975,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6015,7 +6627,7 @@
     "brier": 0.9898430286241918,
     "logLoss": 4.448516375942715,
     "actualProbability": 0.011695906432748537,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6029,10 +6641,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9956270061117708,
-    "logLoss": 4.910551835539273,
-    "actualProbability": 0.007368421052631578,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9960304961391745,
+    "logLoss": 4.941642422609305,
+    "actualProbability": 0.007142857142857143,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6046,10 +6658,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9920361330865173,
-    "logLoss": 4.6815208871038,
-    "actualProbability": 0.009264912280701754,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9931441426839307,
+    "logLoss": 4.74221618450005,
+    "actualProbability": 0.00871930117721706,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6066,7 +6678,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6083,7 +6695,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6100,7 +6712,7 @@
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-04-16",
@@ -6112,12 +6724,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999998,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6134,7 +6746,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6148,10 +6760,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9913105452153175,
-    "logLoss": 4.5591262474866845,
-    "actualProbability": 0.010471204188481676,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9921409982220631,
+    "logLoss": 4.590056548178043,
+    "actualProbability": 0.01015228426395939,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6168,7 +6780,7 @@
     "brier": 0.9945833333333343,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6182,10 +6794,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9927298810494686,
-    "logLoss": 4.700170900432985,
-    "actualProbability": 0.009093722847716139,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9927700258152853,
+    "logLoss": 4.702005902951666,
+    "actualProbability": 0.00907705114437333,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6199,10 +6811,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9951531514855495,
-    "logLoss": 4.848214399008637,
-    "actualProbability": 0.007842368395255367,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9968644930495325,
+    "logLoss": 4.963631034249931,
+    "actualProbability": 0.006987509826185692,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6219,7 +6831,7 @@
     "brier": 1.0100000000000005,
     "logLoss": 5.886104031450156,
     "actualProbability": 0.002777777777777778,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6233,10 +6845,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9867776354988872,
-    "logLoss": 4.441343211830301,
-    "actualProbability": 0.011780104712041885,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9874464052071048,
+    "logLoss": 4.47227351252166,
+    "actualProbability": 0.011421319796954314,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6250,10 +6862,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9904939092266175,
-    "logLoss": 4.602052474579039,
-    "actualProbability": 0.010031225765259643,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9915252804088367,
+    "logLoss": 4.6543214292902695,
+    "actualProbability": 0.0095203712956998,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6270,7 +6882,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6287,7 +6899,7 @@
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6299,12 +6911,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-02",
@@ -6315,13 +6927,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999993,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6338,7 +6950,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6352,10 +6964,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.99142795138889,
-    "logLoss": 4.564348191467836,
-    "actualProbability": 0.010416666666666666,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9922456892153867,
+    "logLoss": 4.59511985013459,
+    "actualProbability": 0.010101010101010102,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6372,7 +6984,7 @@
     "brier": 0.9945833333333348,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6386,10 +6998,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9943525695694375,
-    "logLoss": 4.7945535012475045,
-    "actualProbability": 0.00827469264300991,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9943878780071034,
+    "logLoss": 4.7963254622504055,
+    "actualProbability": 0.00826004319329539,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6403,10 +7015,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9954167658876646,
-    "logLoss": 4.867918991894661,
-    "actualProbability": 0.0076893502499038825,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9907175725997809,
+    "logLoss": 4.6020885194506835,
+    "actualProbability": 0.010030864197530864,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6423,7 +7035,7 @@
     "brier": 1.0021566390936358,
     "logLoss": 5.084505142662711,
     "actualProbability": 0.006191950464396284,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6437,10 +7049,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9906799746989359,
-    "logLoss": 4.6215066053077845,
-    "actualProbability": 0.009837962962962963,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9912236644139006,
+    "logLoss": 4.652278263974538,
+    "actualProbability": 0.009539842873176206,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6454,10 +7066,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9919270789133476,
-    "logLoss": 4.67616578017412,
-    "actualProbability": 0.009314659959844504,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9907779032823614,
+    "logLoss": 4.616173259332422,
+    "actualProbability": 0.009890572390572389,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6474,7 +7086,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6491,7 +7103,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6508,7 +7120,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-05-16",
@@ -6525,7 +7137,7 @@
     "brier": 0.989999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6542,7 +7154,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6556,10 +7168,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0019060914386966,
-    "logLoss": 5.262690188904886,
-    "actualProbability": 0.0051813471502590676,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0023989293199664,
+    "logLoss": 5.293304824724492,
+    "actualProbability": 0.005025125628140704,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6576,7 +7188,7 @@
     "brier": 0.9945833333333335,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6590,10 +7202,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952731228895437,
-    "logLoss": 4.8534940935363045,
-    "actualProbability": 0.00780107219733825,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9953051201702235,
+    "logLoss": 4.855205196545756,
+    "actualProbability": 0.007787735172989775,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6607,10 +7219,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9988739048608601,
-    "logLoss": 5.126323250067739,
-    "actualProbability": 0.005938354227542652,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9990040604170239,
+    "logLoss": 5.134200522408928,
+    "actualProbability": 0.005891759952865921,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6624,10 +7236,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0029426142299838,
-    "logLoss": 5.084505142662711,
-    "actualProbability": 0.006191950464396284,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0003826140189775,
+    "logLoss": 4.882801922586371,
+    "actualProbability": 0.007575757575757575,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6641,10 +7253,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9937729552343367,
-    "logLoss": 4.79268655965915,
-    "actualProbability": 0.008290155440414507,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9942178588563781,
+    "logLoss": 4.823301195478757,
+    "actualProbability": 0.008040201005025126,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6658,10 +7270,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9976040020801844,
-    "logLoss": 5.040586547198431,
-    "actualProbability": 0.006469952272738742,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9979204212940999,
+    "logLoss": 5.064189743704718,
+    "actualProbability": 0.006319028862010583,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6678,7 +7290,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6695,7 +7307,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6712,7 +7324,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-01",
@@ -6729,7 +7341,7 @@
     "brier": 0.9899999999999999,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6746,7 +7358,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6760,10 +7372,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9916037836114342,
-    "logLoss": 4.574710978503383,
-    "actualProbability": 0.010309278350515464,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9924000000000008,
+    "logLoss": 4.605170185988091,
+    "actualProbability": 0.01,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6780,7 +7392,7 @@
     "brier": 0.9779166666666673,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6794,10 +7406,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.983425398406041,
-    "logLoss": 4.289708578601566,
-    "actualProbability": 0.01370891978787228,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9834753785985215,
+    "logLoss": 4.291360930314275,
+    "actualProbability": 0.013686286534978054,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6811,10 +7423,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9923590762972238,
-    "logLoss": 4.693661948148155,
-    "actualProbability": 0.00915310650887574,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.992524335769415,
+    "logLoss": 4.700480365792416,
+    "actualProbability": 0.009090909090909092,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6828,10 +7440,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0007716049382709,
-    "logLoss": 4.969813299576001,
-    "actualProbability": 0.006944444444444444,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0010387811634354,
+    "logLoss": 5.0238805208462765,
+    "actualProbability": 0.006578947368421052,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6845,10 +7457,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.995609605038741,
-    "logLoss": 4.911183215124596,
-    "actualProbability": 0.007363770250368188,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9959948214285721,
+    "logLoss": 4.941642422609304,
+    "actualProbability": 0.0071428571428571435,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6862,10 +7474,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9926320638815435,
-    "logLoss": 4.716990219118944,
-    "actualProbability": 0.00894205170325313,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9930406246858232,
+    "logLoss": 4.73932019910868,
+    "actualProbability": 0.008744588744588744,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6882,7 +7494,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6892,14 +7504,14 @@
     "actual": "48",
     "hits": {
       "1": false,
-      "5": false,
-      "10": false,
-      "20": false
+      "5": true,
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6916,7 +7528,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-06-16",
@@ -6933,7 +7545,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -6950,7 +7562,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -6964,10 +7576,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9917159763313611,
-    "logLoss": 4.579852378003801,
-    "actualProbability": 0.010256410256410256,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9925001856389694,
+    "logLoss": 4.61015772749913,
+    "actualProbability": 0.009950248756218905,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -6984,7 +7596,7 @@
     "brier": 0.9947222222222227,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -6998,10 +7610,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9938828887635752,
-    "logLoss": 4.766546952602473,
-    "actualProbability": 0.008509713930898485,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9939138910914586,
+    "logLoss": 4.7681425856732895,
+    "actualProbability": 0.008496146377224458,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7015,10 +7627,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9852575254137934,
-    "logLoss": 4.366278277705742,
-    "actualProbability": 0.012698412698412697,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9834210259061704,
+    "logLoss": 4.295096423221409,
+    "actualProbability": 0.013635256878500122,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7032,10 +7644,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9982407407407411,
-    "logLoss": 4.787491742782046,
-    "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9985457063711908,
+    "logLoss": 4.841558964052322,
+    "actualProbability": 0.007894736842105262,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7049,10 +7661,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9897974703359311,
-    "logLoss": 4.579852378003801,
-    "actualProbability": 0.010256410256410256,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9903522543642842,
+    "logLoss": 4.61015772749913,
+    "actualProbability": 0.009950248756218905,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7066,10 +7678,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9883641352355595,
-    "logLoss": 4.503479399219228,
-    "actualProbability": 0.01107041107041107,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9881595924438397,
+    "logLoss": 4.49375540272199,
+    "actualProbability": 0.011178584796979312,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7086,7 +7698,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7103,7 +7715,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7120,7 +7732,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-01",
@@ -7137,7 +7749,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7154,7 +7766,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7168,10 +7780,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.991826322365681,
-    "logLoss": 4.584967478670572,
-    "actualProbability": 0.01020408163265306,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9925987648269774,
+    "logLoss": 4.61512051684126,
+    "actualProbability": 0.009900990099009901,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7188,7 +7800,7 @@
     "brier": 0.9947222222222226,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7202,10 +7814,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9941718803425025,
-    "logLoss": 4.785060895912995,
-    "actualProbability": 0.008353615031439523,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9942009473212192,
+    "logLoss": 4.786601771632387,
+    "actualProbability": 0.008340753060762431,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7217,12 +7829,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9840135221160788,
-    "logLoss": 4.316242894127878,
-    "actualProbability": 0.013349946600213599,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.986840657619872,
+    "logLoss": 4.426362448493934,
+    "actualProbability": 0.011957908163265306,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7236,10 +7848,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0035136592850147,
-    "logLoss": 5.3867860145356445,
-    "actualProbability": 0.004576659038901602,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0004758046886049,
+    "logLoss": 5.081404364984463,
+    "actualProbability": 0.006211180124223602,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7253,10 +7865,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9887704176665804,
-    "logLoss": 4.530900257400296,
-    "actualProbability": 0.010770975056689343,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9893501531907083,
+    "logLoss": 4.561053295570984,
+    "actualProbability": 0.010451045104510451,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7270,10 +7882,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9876388520516592,
-    "logLoss": 4.470493520160645,
-    "actualProbability": 0.011441667763185335,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9889938626377341,
+    "logLoss": 4.530992540623,
+    "actualProbability": 0.010769981122261886,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7290,7 +7902,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7307,7 +7919,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7324,7 +7936,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-07-16",
@@ -7341,7 +7953,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7358,7 +7970,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7372,10 +7984,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0020871447344692,
-    "logLoss": 5.2832037287379885,
-    "actualProbability": 0.005076142131979695,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0025479870901999,
+    "logLoss": 5.313205979041787,
+    "actualProbability": 0.0049261083743842365,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7392,7 +8004,7 @@
     "brier": 0.9947222222222227,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7406,10 +8018,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952713671864621,
-    "logLoss": 4.854674189302106,
-    "actualProbability": 0.007791871614921385,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9952974067926663,
+    "logLoss": 4.856162200171769,
+    "actualProbability": 0.007780285847275197,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7423,10 +8035,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9845820479725135,
-    "logLoss": 4.335022374827557,
-    "actualProbability": 0.013101580924098173,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.984956242254053,
+    "logLoss": 4.3488301635241005,
+    "actualProbability": 0.012921920275667633,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7443,7 +8055,7 @@
     "brier": 0.9616516620498622,
     "logLoss": 3.6375861597263857,
     "actualProbability": 0.02631578947368421,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7457,10 +8069,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9925530998986896,
-    "logLoss": 4.723587940802566,
-    "actualProbability": 0.008883248730964468,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9930152605745317,
+    "logLoss": 4.7535901911063645,
+    "actualProbability": 0.008620689655172414,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7474,10 +8086,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9925017319002994,
-    "logLoss": 4.708275033244885,
-    "actualProbability": 0.009020323929014112,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9928994499791985,
+    "logLoss": 4.730403973239985,
+    "actualProbability": 0.008822906101741428,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7494,7 +8106,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7511,7 +8123,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7523,12 +8135,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-01",
@@ -7545,7 +8157,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7562,7 +8174,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7576,10 +8188,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9919906132027346,
-    "logLoss": 4.59511985013459,
-    "actualProbability": 0.010101010101010102,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.992743175701654,
+    "logLoss": 4.624972813284271,
+    "actualProbability": 0.00980392156862745,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7596,7 +8208,7 @@
     "brier": 0.9945833333333342,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7610,10 +8222,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9946854783593845,
-    "logLoss": 4.819676780774085,
-    "actualProbability": 0.008069394901211061,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9947111084775553,
+    "logLoss": 4.821113752984881,
+    "actualProbability": 0.008057807732193868,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7627,10 +8239,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9907887822919196,
-    "logLoss": 4.6020885194506835,
-    "actualProbability": 0.010030864197530864,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.991463907591521,
+    "logLoss": 4.636114989837513,
+    "actualProbability": 0.009695290858725761,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7644,10 +8256,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9958737303785796,
-    "logLoss": 4.736198448394496,
-    "actualProbability": 0.008771929824561403,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9962499999999995,
+    "logLoss": 4.787491742782046,
+    "actualProbability": 0.008333333333333333,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7661,10 +8273,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9878645866230048,
-    "logLoss": 4.489759334476764,
-    "actualProbability": 0.01122334455667789,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9884599482494527,
+    "logLoss": 4.519612297626445,
+    "actualProbability": 0.010893246187363835,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7678,10 +8290,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9896473097539561,
-    "logLoss": 4.560986843765131,
-    "actualProbability": 0.010451739618406284,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9902886502782978,
+    "logLoss": 4.592173061897298,
+    "actualProbability": 0.010130819538239015,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7698,7 +8310,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7710,12 +8322,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7732,7 +8344,7 @@
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-08-16",
@@ -7744,12 +8356,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999994,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7766,7 +8378,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7780,10 +8392,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.0021464104441806,
-    "logLoss": 5.293304824724492,
-    "actualProbability": 0.005025125628140704,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0025936942296247,
+    "logLoss": 5.3230099791384085,
+    "actualProbability": 0.004878048780487805,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7800,7 +8412,7 @@
     "brier": 0.9945833333333349,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7814,10 +8426,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9952242020182916,
-    "logLoss": 4.855205196545755,
-    "actualProbability": 0.007787735172989778,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.995247865535985,
+    "logLoss": 4.85659289236201,
+    "actualProbability": 0.007776935660424375,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7831,10 +8443,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9941917988007795,
-    "logLoss": 4.787575914323697,
-    "actualProbability": 0.008332631933338946,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9918014186627412,
+    "logLoss": 4.653582349775022,
+    "actualProbability": 0.00952741020793951,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7845,13 +8457,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
-    "brier": 0.9839812264054676,
-    "logLoss": 4.189654742026425,
-    "actualProbability": 0.015151515151515152,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9707577773110221,
+    "logLoss": 3.828641396489095,
+    "actualProbability": 0.021739130434782608,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7865,10 +8477,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9942425395703085,
-    "logLoss": 4.823301195478757,
-    "actualProbability": 0.008040201005025126,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9946453641539886,
+    "logLoss": 4.853006349892673,
+    "actualProbability": 0.007804878048780488,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7882,10 +8494,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9962928336059244,
-    "logLoss": 4.943072044261308,
-    "actualProbability": 0.007132652855501592,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9957470060217619,
+    "logLoss": 4.905809754838438,
+    "actualProbability": 0.007403445679069268,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7902,7 +8514,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7913,13 +8525,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": false,
-      "20": false
+      "10": true,
+      "20": true
     },
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7936,7 +8548,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-01",
@@ -7953,7 +8565,7 @@
     "brier": 0.9899999999999989,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -7970,7 +8582,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -7984,10 +8596,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9821500000000007,
-    "logLoss": 4.199705077879927,
-    "actualProbability": 0.015,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9831746630219625,
+    "logLoss": 4.229263880121471,
+    "actualProbability": 0.014563106796116505,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8004,7 +8616,7 @@
     "brier": 0.9779166666666671,
     "logLoss": 4.0943445622221,
     "actualProbability": 0.016666666666666666,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8018,10 +8630,10 @@
       "10": false,
       "20": true
     },
-    "brier": 0.9838770915173461,
-    "logLoss": 4.3089472330904055,
-    "actualProbability": 0.013447699437673112,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.983914827008435,
+    "logLoss": 4.310287353144389,
+    "actualProbability": 0.013429689976092363,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8033,12 +8645,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9843792090704183,
-    "logLoss": 4.325786916351006,
-    "actualProbability": 0.013223140495867768,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9870732292045173,
+    "logLoss": 4.432006566978902,
+    "actualProbability": 0.011890606420927468,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8052,10 +8664,10 @@
       "10": false,
       "20": false
     },
-    "brier": 1.003086419753087,
-    "logLoss": 5.19295685089021,
-    "actualProbability": 0.005555555555555556,
-    "runId": "4777779000ca1ffb"
+    "brier": 1.0055077131321617,
+    "logLoss": 5.332718793265369,
+    "actualProbability": 0.004830917874396135,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8067,12 +8679,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.986971636904762,
-    "logLoss": 4.451019506160833,
-    "actualProbability": 0.011666666666666665,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.987582196607552,
+    "logLoss": 4.480578308402378,
+    "actualProbability": 0.011326860841423947,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8083,13 +8695,13 @@
     "hits": {
       "1": false,
       "5": false,
-      "10": true,
+      "10": false,
       "20": true
     },
-    "brier": 0.983944942974023,
-    "logLoss": 4.32024673597539,
-    "actualProbability": 0.013296602387511477,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9853538491197299,
+    "logLoss": 4.374572510920805,
+    "actualProbability": 0.012593524686155974,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8106,7 +8718,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8123,7 +8735,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8140,7 +8752,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-09-16",
@@ -8157,7 +8769,7 @@
     "brier": 0.9899999999999995,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8174,7 +8786,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8188,10 +8800,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9923021707383481,
-    "logLoss": 4.61015772749913,
-    "actualProbability": 0.009950248756218905,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9930220075147606,
+    "logLoss": 4.639571612705423,
+    "actualProbability": 0.00966183574879227,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8208,7 +8820,7 @@
     "brier": 0.9947222222222227,
     "logLoss": 4.787491742782046,
     "actualProbability": 0.008333333333333333,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8222,10 +8834,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9946225332959256,
-    "logLoss": 4.81529324386909,
-    "actualProbability": 0.008104845033276919,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9946446751122429,
+    "logLoss": 4.816587429369336,
+    "actualProbability": 0.008094362644893736,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8239,10 +8851,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.9912508998841502,
-    "logLoss": 4.623269857027927,
-    "actualProbability": 0.009820631442253064,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9916092121681108,
+    "logLoss": 4.641545947009141,
+    "actualProbability": 0.009642778873548103,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8259,7 +8871,7 @@
     "brier": 1.004347922437673,
     "logLoss": 5.470167623474696,
     "actualProbability": 0.004210526315789474,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8271,12 +8883,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
-    "brier": 0.9866891063909705,
-    "logLoss": 4.438307470572472,
-    "actualProbability": 0.01181592039800995,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9873019021762276,
+    "logLoss": 4.467721355778765,
+    "actualProbability": 0.011473429951690822,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8290,10 +8902,10 @@
       "10": false,
       "20": false
     },
-    "brier": 0.989508688682792,
-    "logLoss": 4.553628236962407,
-    "actualProbability": 0.01052893353216064,
-    "runId": "4777779000ca1ffb"
+    "brier": 0.9900417201300798,
+    "logLoss": 4.579565970366371,
+    "actualProbability": 0.010259348191343732,
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8310,7 +8922,7 @@
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8322,12 +8934,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8339,12 +8951,12 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": true
+      "20": false
     },
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   },
   {
     "date": "2026-10-01",
@@ -8356,11 +8968,11 @@
       "1": false,
       "5": false,
       "10": false,
-      "20": false
+      "20": true
     },
     "brier": 0.9899999999999997,
     "logLoss": 4.605170185988091,
     "actualProbability": 0.01,
-    "runId": "4777779000ca1ffb"
+    "runId": "a2fc4488a9eb2b71"
   }
 ]
