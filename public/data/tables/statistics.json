@@ -15,7 +15,7 @@
   {
     "number": "01",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -145,7 +145,7 @@
   {
     "number": "11",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -158,7 +158,7 @@
   {
     "number": "12",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -171,7 +171,7 @@
   {
     "number": "13",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -196,16 +196,16 @@
   },
   {
     "number": "15",
-    "count": 1,
+    "count": 2,
     "current": 94,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 42,
+    "median": 42,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 42,
+    "overdue": 2.238095238095238,
+    "percentile": 1
   },
   {
     "number": "16",
@@ -248,9 +248,9 @@
   },
   {
     "number": "19",
-    "count": 0,
+    "count": 1,
     "current": 132,
-    "censored": true,
+    "censored": false,
     "completed": 0,
     "mean": null,
     "median": null,
@@ -314,7 +314,7 @@
   {
     "number": "24",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -327,7 +327,7 @@
   {
     "number": "25",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -353,7 +353,7 @@
   {
     "number": "27",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -431,7 +431,7 @@
   {
     "number": "33",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -444,7 +444,7 @@
   {
     "number": "34",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -457,7 +457,7 @@
   {
     "number": "35",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -508,9 +508,9 @@
   },
   {
     "number": "39",
-    "count": 0,
-    "current": 132,
-    "censored": true,
+    "count": 1,
+    "current": 134,
+    "censored": false,
     "completed": 0,
     "mean": null,
     "median": null,
@@ -522,7 +522,7 @@
   {
     "number": "40",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -535,7 +535,7 @@
   {
     "number": "41",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -639,7 +639,7 @@
   {
     "number": "49",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -886,7 +886,7 @@
   {
     "number": "68",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -938,7 +938,7 @@
   {
     "number": "72",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -950,21 +950,21 @@
   },
   {
     "number": "73",
-    "count": 1,
+    "count": 2,
     "current": 84,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 49,
+    "median": 49,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 49,
+    "overdue": 1.7142857142857142,
+    "percentile": 1
   },
   {
     "number": "74",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -990,7 +990,7 @@
   {
     "number": "76",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1055,7 +1055,7 @@
   {
     "number": "81",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1094,7 +1094,7 @@
   {
     "number": "84",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1120,7 +1120,7 @@
   {
     "number": "86",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1146,7 +1146,7 @@
   {
     "number": "88",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1211,7 +1211,7 @@
   {
     "number": "93",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1250,7 +1250,7 @@
   {
     "number": "96",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1262,9 +1262,9 @@
   },
   {
     "number": "97",
-    "count": 0,
-    "current": 132,
-    "censored": true,
+    "count": 1,
+    "current": 135,
+    "censored": false,
     "completed": 0,
     "mean": null,
     "median": null,
@@ -1276,7 +1276,7 @@
   {
     "number": "98",
     "count": 0,
-    "current": 132,
+    "current": 137,
     "censored": true,
     "completed": 0,
     "mean": null,

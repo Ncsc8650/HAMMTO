@@ -4087,5 +4087,170 @@
     "httpStatus": 200,
     "parserVersion": "glo-1",
     "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/lottery/getLatestLottery",
+    "body": {},
+    "retrievedAt": "2026-10-12T20:19:23.308Z",
+    "rawHash": "a87d58f00495732a49d739852bacdcc60e66a21d1c26781f24f50f1fcbbde1c1",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "unchanged"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "03",
+      "date": "17"
+    },
+    "retrievedAt": "2026-10-12T20:19:28.037Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "03",
+      "date": "16"
+    },
+    "retrievedAt": "2026-10-12T20:19:30.852Z",
+    "rawHash": "002d2629776919f7846a5b000445c32c77db8f5f9807ea84f3c1f22d860d43b4",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "03",
+      "date": "02"
+    },
+    "retrievedAt": "2026-10-12T20:19:33.753Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "03",
+      "date": "01"
+    },
+    "retrievedAt": "2026-10-12T20:19:36.568Z",
+    "rawHash": "25deb73e859b44931628e46cf516060a32aa472e822af50d81adad608b2d5fd1",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "02",
+      "date": "17"
+    },
+    "retrievedAt": "2026-10-12T20:19:39.470Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "02",
+      "date": "16"
+    },
+    "retrievedAt": "2026-10-12T20:19:42.262Z",
+    "rawHash": "e90913731db36f1f0cddc91c89200cc092acb44d5bbba7d9ff47276d0f94d862",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "02",
+      "date": "02"
+    },
+    "retrievedAt": "2026-10-12T20:19:45.155Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "02",
+      "date": "01"
+    },
+    "retrievedAt": "2026-10-12T20:19:47.967Z",
+    "rawHash": "c7ca97b5828c472347567a89fbdeb4d3be57490110488fcc59a456a0068c9630",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "01",
+      "date": "17"
+    },
+    "retrievedAt": "2026-10-12T20:19:50.860Z",
+    "rawHash": "24acca950276d3bffa7c060500d0f5dd90efbf128fbd691950121f20ce849798",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "01",
+      "date": "16"
+    },
+    "retrievedAt": "2026-10-12T20:19:53.767Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "01",
+      "date": "02"
+    },
+    "retrievedAt": "2026-10-12T20:19:56.575Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2021",
+      "month": "01",
+      "date": "01"
+    },
+    "retrievedAt": "2026-10-12T20:19:59.374Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
   }
 ]
