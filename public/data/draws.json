@@ -1,5 +1,71 @@
 [
   {
+    "id": "2020-06-01",
+    "drawDate": "2020-06-01",
+    "firstPrize": "831567",
+    "last2": "24",
+    "front3": [
+      "264",
+      "489"
+    ],
+    "last3": [
+      "562",
+      "582"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-15T15:37:53.334Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "680f97a13d49c924d3817a70f54d1bc91d5e2b72ea0d1ef84ba32414ed3f8166",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/a65fdc52-edfb-4b49-a8ff-63f31a473056"
+  },
+  {
+    "id": "2020-06-16",
+    "drawDate": "2020-06-16",
+    "firstPrize": "516967",
+    "last2": "64",
+    "front3": [
+      "876",
+      "882"
+    ],
+    "last3": [
+      "565",
+      "625"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-15T15:37:47.656Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "9a77ba96ccf480089139158e87b183c94d9c99cd19b7c9056e71f20da0d14f8f",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/afe111fb-f8f7-4e8a-9cd3-c22ec1410089"
+  },
+  {
+    "id": "2020-07-01",
+    "drawDate": "2020-07-01",
+    "firstPrize": "347258",
+    "last2": "83",
+    "front3": [
+      "095",
+      "362"
+    ],
+    "last3": [
+      "094",
+      "307"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "retrievedAt": "2026-10-15T15:37:41.985Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "bb9df9ceaafb3245040d3dfcb1d661b737a3817e4f69758a20fcf964fb97ea84",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/867ef6cb-528d-488e-a2db-e0ae9cfa5091"
+  },
+  {
     "id": "2020-07-16",
     "drawDate": "2020-07-16",
     "firstPrize": "873286",
