@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T15:38:16.093Z",
+  "updatedAt": "2026-10-16T15:24:20.202Z",
   "version": "draw-frequency-top5-v1",
   "notice": "Public workflow records; not tamper-proof certification. Same-day draws excluded. Missing future draws may delay evaluation. Settled results retained.",
   "records": [
@@ -21,7 +21,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/36987620735",
       "id": "c7299e6cac17192cb0f73c33de325935e26142fa649c85608444c4362356d879",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-10-16",
+        "actual": [
+          "392",
+          "402"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "1d7c8f80f41f34fc8cbd4534e126ac7ca1483eed43d926dd1959aced150cc8e5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last3",
@@ -41,7 +51,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/36987620735",
       "id": "96dabd21ab0af5642e2cb2f4dc04e5e8966c4fd03c982b6a4b4624b4fcef3b9d",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-10-16",
+        "actual": [
+          "171",
+          "255"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "1d7c8f80f41f34fc8cbd4534e126ac7ca1483eed43d926dd1959aced150cc8e5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last2",
@@ -61,6 +81,75 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/36987620735",
       "id": "3519f51f05c7a0847bf7af505a1eacfeec773523c521d965ccc37d486f5d0c10",
+      "evaluation": {
+        "drawDate": "2026-10-16",
+        "actual": [
+          "48"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "1d7c8f80f41f34fc8cbd4534e126ac7ca1483eed43d926dd1959aced150cc8e5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
+    },
+    {
+      "target": "front3",
+      "version": "draw-frequency-top5-v1",
+      "recordedAt": "2026-10-16T15:24:20.202Z",
+      "recordedDate": "2026-10-16",
+      "dataThrough": "2026-10-01",
+      "datasetHash": "3d38acc3d93322be9051132785df14ce5616beb7206be156f70702e07df7d7e0",
+      "picks": [
+        "285",
+        "247",
+        "602",
+        "648",
+        "739"
+      ],
+      "historyDraws": 158,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
+      "id": "42e3938e9d91fbf7bfcf1dfe9629e4f031ed969aaa3936479113b469a9084e7b",
+      "evaluation": null
+    },
+    {
+      "target": "last3",
+      "version": "draw-frequency-top5-v1",
+      "recordedAt": "2026-10-16T15:24:20.202Z",
+      "recordedDate": "2026-10-16",
+      "dataThrough": "2026-10-01",
+      "datasetHash": "3d38acc3d93322be9051132785df14ce5616beb7206be156f70702e07df7d7e0",
+      "picks": [
+        "041",
+        "094",
+        "379",
+        "421",
+        "447"
+      ],
+      "historyDraws": 158,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
+      "id": "6195831f913e58a9faa6d46a6ce142d217a245e4e570dbfa18cbfdc9cff0383c",
+      "evaluation": null
+    },
+    {
+      "target": "last2",
+      "version": "draw-frequency-top5-v1",
+      "recordedAt": "2026-10-16T15:24:20.202Z",
+      "recordedDate": "2026-10-16",
+      "dataThrough": "2026-10-01",
+      "datasetHash": "3d38acc3d93322be9051132785df14ce5616beb7206be156f70702e07df7d7e0",
+      "picks": [
+        "06",
+        "14",
+        "61",
+        "64",
+        "70"
+      ],
+      "historyDraws": 158,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
+      "id": "3aea03c24baecb21511bee3e7c466a41d4055eea5aac7488eb050c95d8e1f562",
       "evaluation": null
     }
   ]
