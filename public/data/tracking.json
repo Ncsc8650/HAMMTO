@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T07:02:14.131Z",
+  "updatedAt": "2026-10-18T07:03:25.339Z",
   "version": "draw-frequency-top1-v2",
   "notice": "Public workflow records; not tamper-proof certification. Same-day draws excluded. Missing future draws may delay evaluation. Settled results retained.",
   "records": [
@@ -150,6 +150,54 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
       "id": "3aea03c24baecb21511bee3e7c466a41d4055eea5aac7488eb050c95d8e1f562",
+      "evaluation": null
+    },
+    {
+      "target": "front3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-10-18T07:03:25.339Z",
+      "recordedDate": "2026-10-18",
+      "dataThrough": "2026-10-16",
+      "datasetHash": "d4b23341a5373b80665f7fdfd1d151a87b41485621b56ae29595d8b27ff181b0",
+      "picks": [
+        "285"
+      ],
+      "historyDraws": 164,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
+      "id": "780f9947eda44a6bc8ccb4e0ab1e8904ec6ac4a8adabb20e2859aaddc0f3c3e2",
+      "evaluation": null
+    },
+    {
+      "target": "last3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-10-18T07:03:25.339Z",
+      "recordedDate": "2026-10-18",
+      "dataThrough": "2026-10-16",
+      "datasetHash": "d4b23341a5373b80665f7fdfd1d151a87b41485621b56ae29595d8b27ff181b0",
+      "picks": [
+        "041"
+      ],
+      "historyDraws": 164,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
+      "id": "e5f5d674d5369f91455e8dc08d19e3f50e18a4b295073730be8990235a16e795",
+      "evaluation": null
+    },
+    {
+      "target": "last2",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-10-18T07:03:25.339Z",
+      "recordedDate": "2026-10-18",
+      "dataThrough": "2026-10-16",
+      "datasetHash": "d4b23341a5373b80665f7fdfd1d151a87b41485621b56ae29595d8b27ff181b0",
+      "picks": [
+        "06"
+      ],
+      "historyDraws": 164,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
+      "id": "4f347079607a98ba5cb407de1bc1404553ae671fb3cd0c3d8fd1b30471756e9f",
       "evaluation": null
     }
   ]
