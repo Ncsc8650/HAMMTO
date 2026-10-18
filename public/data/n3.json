@@ -383,15 +383,15 @@
       "two": "48",
       "special": "781000004657",
       "sourceUrl": "https://digitaln3.com/reward/show?period_id=51",
-      "retrievedAt": "2026-10-18T07:59:22.641Z",
-      "sourceHash": "868393c0a2bf95e3ebe6ed9f89ac5721c0d412e3f19278fd6d73fffa9625162f",
+      "retrievedAt": "2026-10-18T14:39:46.839Z",
+      "sourceHash": "18dfe4c9e3c2ed2b15c09af4bedd478601fd2e851e8a8114bc5e366454d36e2e",
       "verification": "single_source"
     }
   ],
   "conflicts": [],
-  "lastSuccessfulFetch": "2026-10-18T07:59:23.091Z",
+  "lastSuccessfulFetch": "2026-10-18T14:39:47.290Z",
   "availablePeriods": 24,
-  "checkedAt": "2026-10-18T07:59:23.091Z",
+  "checkedAt": "2026-10-18T14:39:47.290Z",
   "source": "Digital N3 (third-party source)",
   "completeness": "Only public periods listed by source; not certified complete",
   "lastFetchErrors": []
