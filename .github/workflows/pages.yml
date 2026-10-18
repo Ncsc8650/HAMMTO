@@ -35,6 +35,8 @@ jobs:
           BACKFILL_LIMIT: '12'
           FETCH_DELAY_MS: '2500'
         run: node scripts/ingest.mjs
+      - name: Refresh public N3 results
+        run: node scripts/ingest-n3.mjs
       - run: node scripts/registry.mjs
       - run: node scripts/reproduce.mjs
       - run: node scripts/export-database.mjs

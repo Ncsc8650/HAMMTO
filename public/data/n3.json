@@ -1,0 +1,398 @@
+{
+  "draws": [
+    {
+      "drawDate": "2025-11-01",
+      "straight": "898",
+      "swap": [
+        "889",
+        "988"
+      ],
+      "two": "87",
+      "special": "898000001942",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=26",
+      "retrievedAt": "2026-10-18T07:48:20.050Z",
+      "sourceHash": "df8655fdd882683f68c2590a34d65e10ed8a6a8e4a5e0262d0ac1dad7fbd7ee3",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2025-11-16",
+      "straight": "145",
+      "swap": [
+        "154",
+        "415",
+        "451",
+        "514",
+        "541"
+      ],
+      "two": "37",
+      "special": "145000000855",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=27",
+      "retrievedAt": "2026-10-18T07:48:19.438Z",
+      "sourceHash": "4213778fce7e94da2302f9bf447442a125fdbad4c86566ed1b7b602fdb695ebc",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2025-12-01",
+      "straight": "252",
+      "swap": [
+        "225",
+        "522"
+      ],
+      "two": "22",
+      "special": "252000000745",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=28",
+      "retrievedAt": "2026-10-18T07:48:18.846Z",
+      "sourceHash": "5b96cd5f4528136e29a9eb11d79908cce716969cef0687629b5a4b5954ac59a2",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2025-12-16",
+      "straight": "895",
+      "swap": [
+        "859",
+        "985",
+        "958",
+        "589",
+        "598"
+      ],
+      "two": "52",
+      "special": "895000002646",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=29",
+      "retrievedAt": "2026-10-18T07:48:18.238Z",
+      "sourceHash": "12c21b3da233d2744d7befd65006c3451ce55bec9201bf25cd691ed51229e19e",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-01-02",
+      "straight": "706",
+      "swap": [
+        "760",
+        "076",
+        "067",
+        "670",
+        "607"
+      ],
+      "two": "16",
+      "special": "706000001660",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=30",
+      "retrievedAt": "2026-10-18T07:48:17.635Z",
+      "sourceHash": "20b54ebd99aeaf1fa18cad6482ba7d22c7fe86d603cc5a477aaba0a610f71857",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-01-17",
+      "straight": "972",
+      "swap": [
+        "927",
+        "792",
+        "729",
+        "297",
+        "279"
+      ],
+      "two": "02",
+      "special": "972000005027",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=31",
+      "retrievedAt": "2026-10-18T07:48:17.038Z",
+      "sourceHash": "b730cbdad9e6d59c6ebca4e26e60981315f1469cedbe7546712f405c48f23f1b",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-02-01",
+      "straight": "629",
+      "swap": [
+        "692",
+        "269",
+        "296",
+        "962",
+        "926"
+      ],
+      "two": "48",
+      "special": "629000004986",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=32",
+      "retrievedAt": "2026-10-18T07:48:16.452Z",
+      "sourceHash": "5a10bfdbca546a7d4fe4eafc26806ae9f5913683f08a44947abf4e635aa0927a",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-02-16",
+      "straight": "563",
+      "swap": [
+        "536",
+        "653",
+        "635",
+        "356",
+        "365"
+      ],
+      "two": "07",
+      "special": "563000004667",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=33",
+      "retrievedAt": "2026-10-18T07:48:15.847Z",
+      "sourceHash": "5f35b939a97c5d38692022ab3e067ac48c9c60dcb4d2c1a326609bdea6f1dce2",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-03-01",
+      "straight": "866",
+      "swap": [
+        "686",
+        "668"
+      ],
+      "two": "06",
+      "special": "866000001598",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=34",
+      "retrievedAt": "2026-10-18T07:48:15.250Z",
+      "sourceHash": "4153637c359b2e3bce13eb929bcb7603b53120de1c1e2139966fb14c97c699a7",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-03-16",
+      "straight": "009",
+      "swap": [
+        "090",
+        "900"
+      ],
+      "two": "64",
+      "special": "009000001003",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=35",
+      "retrievedAt": "2026-10-18T07:48:14.613Z",
+      "sourceHash": "b0668c6b25cd7f90e94142efab37f3b1037b0d456941712e07b4c8a13b77e6de",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-04-01",
+      "straight": "514",
+      "swap": [
+        "541",
+        "154",
+        "145",
+        "451",
+        "415"
+      ],
+      "two": "47",
+      "special": "514000005522",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=36",
+      "retrievedAt": "2026-10-18T07:48:14.030Z",
+      "sourceHash": "613146542d52423993081d988480ae5edc05d4d201a29cb61a913356b5925382",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-04-16",
+      "straight": "612",
+      "swap": [
+        "621",
+        "162",
+        "126",
+        "261",
+        "216"
+      ],
+      "two": "77",
+      "special": "612000002575",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=37",
+      "retrievedAt": "2026-10-18T07:48:13.444Z",
+      "sourceHash": "f19acf1e85b0f436e31b34a5b0736d5eab790d7107c4b22625c9733b1e7a8a18",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-05-02",
+      "straight": "077",
+      "swap": [
+        "707",
+        "770"
+      ],
+      "two": "43",
+      "special": "077000001685",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=38",
+      "retrievedAt": "2026-10-18T07:48:12.854Z",
+      "sourceHash": "52666535602af33085cd6e4e71dfb8bf99b5a51e5d6b08351c8a8cbc00cded65",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-05-16",
+      "straight": "387",
+      "swap": [
+        "378",
+        "837",
+        "873",
+        "738",
+        "783"
+      ],
+      "two": "08",
+      "special": "387000004270",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=39",
+      "retrievedAt": "2026-10-18T07:48:12.272Z",
+      "sourceHash": "4d7180c7ea44037b08b8073aad918f8959b5a0f13532474325ae6b657b596c43",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-06-01",
+      "straight": "770",
+      "swap": [
+        "707",
+        "077"
+      ],
+      "two": "95",
+      "special": "770000002443",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=41",
+      "retrievedAt": "2026-10-18T07:48:11.695Z",
+      "sourceHash": "0124eaefcc8f2e5f90201ff621092c6a73144640fdbc1a422d6d63e2cd4fda4a",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-06-16",
+      "straight": "184",
+      "swap": [
+        "148",
+        "814",
+        "841",
+        "418",
+        "481"
+      ],
+      "two": "48",
+      "special": "184000002008",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=42",
+      "retrievedAt": "2026-10-18T07:48:11.112Z",
+      "sourceHash": "b3bd2e736f403051415388f8ff10b8ec18a53f7a47ef23976ed401153e8fcbd4",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-07-01",
+      "straight": "495",
+      "swap": [
+        "459",
+        "945",
+        "954",
+        "549",
+        "594"
+      ],
+      "two": "62",
+      "special": "495000011496",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=44",
+      "retrievedAt": "2026-10-18T07:48:10.518Z",
+      "sourceHash": "3d0e83249d9179ff1361d27beb779bd4ac3415e2edd61f5d7d89e20e2437420e",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-07-16",
+      "straight": "214",
+      "swap": [
+        "241",
+        "124",
+        "142",
+        "421",
+        "412"
+      ],
+      "two": "71",
+      "special": "214000002996",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=45",
+      "retrievedAt": "2026-10-18T07:48:09.935Z",
+      "sourceHash": "5d21ab12150b226513a6b4f88f0600426b03b2f028f2f9c46dbcdcad13bfa3d8",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-08-01",
+      "straight": "479",
+      "swap": [
+        "497",
+        "749",
+        "794",
+        "947",
+        "974"
+      ],
+      "two": "69",
+      "special": "479000006171",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=46",
+      "retrievedAt": "2026-10-18T07:48:09.351Z",
+      "sourceHash": "282dc34f059b90496fc5613723278949c0a9125b73481e3c335dabc047e67b0a",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-08-16",
+      "straight": "615",
+      "swap": [
+        "651",
+        "165",
+        "156",
+        "561",
+        "516"
+      ],
+      "two": "53",
+      "special": "615000004951",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=47",
+      "retrievedAt": "2026-10-18T07:48:08.771Z",
+      "sourceHash": "8d07dddb282f5c507aa6ddd127e9eed03ca8b36135e38c5c0d9451aafcf76cac",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-09-01",
+      "straight": "212",
+      "swap": [
+        "221",
+        "122"
+      ],
+      "two": "04",
+      "special": "212000003860",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=48",
+      "retrievedAt": "2026-10-18T07:48:08.181Z",
+      "sourceHash": "8e692966d8351ac7dfcc7e4c25f5b8c1d8114ec2b2662c293b4907655c582661",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-09-16",
+      "straight": "640",
+      "swap": [
+        "604",
+        "460",
+        "406",
+        "064",
+        "046"
+      ],
+      "two": "64",
+      "special": "640000000349",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=49",
+      "retrievedAt": "2026-10-18T07:48:07.587Z",
+      "sourceHash": "14e329ad1c297e9fa63ded906ada78faf224d9fbf2099006feeec23d1ab19491",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-10-01",
+      "straight": "701",
+      "swap": [
+        "710",
+        "071",
+        "017",
+        "170",
+        "107"
+      ],
+      "two": "70",
+      "special": "701000001140",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=50",
+      "retrievedAt": "2026-10-18T07:48:06.999Z",
+      "sourceHash": "bd747c077aee7d43271d301047605460c8216bda5bc0c625b140253adb4c6e57",
+      "verification": "single_source"
+    },
+    {
+      "drawDate": "2026-10-16",
+      "straight": "781",
+      "swap": [
+        "718",
+        "871",
+        "817",
+        "178",
+        "187"
+      ],
+      "two": "48",
+      "special": "781000004657",
+      "sourceUrl": "https://digitaln3.com/reward/show?period_id=51",
+      "retrievedAt": "2026-10-18T07:48:06.412Z",
+      "sourceHash": "8365832b92c0f6a09116494420fb761020654e6227c2fe7e27f6be7e429ca098",
+      "verification": "single_source"
+    }
+  ],
+  "conflicts": [],
+  "lastSuccessfulFetch": "2026-10-18T07:48:20.503Z",
+  "availablePeriods": 24,
+  "checkedAt": "2026-10-18T07:48:20.503Z",
+  "source": "Digital N3 (third-party source)",
+  "completeness": "Only public periods listed by source; not certified complete",
+  "lastFetchErrors": []
+}

@@ -1,0 +1,9 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import {parseN3} from '../src/n3.mjs';
+const path='public/data/n3.json';let saved=fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):{draws:[],conflicts:[]};const map=new Map(saved.draws.map(d=>[d.drawDate,d]));const logs=[];
+const get=async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error('HTTP '+r.status);return r.text();};
+try{const root=await get('https://digitaln3.com/'),ids=[...new Set([...root.matchAll(/<option value="(\d+)"/g)].map(m=>m[1]))];
+const ingest=(html,url)=>{const d=parseN3(html),old=map.get(d.drawDate),retrievedAt=new Date().toISOString();if(old&&JSON.stringify([old.straight,old.swap,old.two,old.special])!==JSON.stringify([d.straight,d.swap,d.two,d.special])){saved.conflicts.push({previous:old,incoming:d,sourceUrl:url,retrievedAt});map.set(d.drawDate,{...old,verification:'conflict'});return;}map.set(d.drawDate,{...d,sourceUrl:url,retrievedAt,sourceHash:crypto.createHash('sha256').update(html).digest('hex'),verification:'single_source'});};
+ingest(root,'https://digitaln3.com/');for(const id of ids){const url='https://digitaln3.com/reward/show?period_id='+id;if([...map.values()].some(d=>d.sourceUrl===url))continue;try{ingest(await get(url),url);}catch(e){logs.push({url,error:e.message});}await new Promise(r=>setTimeout(r,450));}
+saved.lastSuccessfulFetch=new Date().toISOString();saved.availablePeriods=ids.length;
+}catch(e){logs.push({url:'https://digitaln3.com/',error:e.message});if(!map.size)throw e;}
+saved={...saved,checkedAt:new Date().toISOString(),source:'Digital N3 (third-party source)',completeness:'Only public periods listed by source; not certified complete',draws:[...map.values()].sort((a,b)=>a.drawDate.localeCompare(b.drawDate)),lastFetchErrors:logs};fs.writeFileSync(path,JSON.stringify(saved,null,2));console.log(JSON.stringify({draws:saved.draws.length,latest:saved.draws.at(-1),errors:logs}));
