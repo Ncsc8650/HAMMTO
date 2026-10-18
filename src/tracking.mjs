@@ -1,7 +1,7 @@
 import {frequencyLeaders} from './leaders.mjs';
 import {rng,wilson} from './engine.mjs';
 export const trackedTargets={front3:'เลขหน้า 3 ตัว',last3:'เลขท้าย 3 ตัว',last2:'2 ตัวล่าง'};
-export const trackVersion='draw-frequency-top5-v1';
+export const trackVersion='draw-frequency-top1-v2';
 export function actualNumbers(d,target){const v=d[target];return (Array.isArray(v)?v:v==null?[]:[v]).filter(n=>typeof n==='string'&&new RegExp('^\\d{'+(target==='last2'?2:3)+'}$').test(n));}
 const clean=rows=>rows.filter(d=>!['conflict','demo'].includes(d.verification)).sort((a,b)=>a.drawDate.localeCompare(b.drawDate));
 export function randomHitChance(k,u,m){let miss=1;for(let i=0;i<k;i++)miss*=Math.max(0,(u-m-i)/(u-i));return 1-miss;}

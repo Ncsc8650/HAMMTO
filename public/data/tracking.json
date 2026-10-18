@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T14:15:37.982Z",
-  "version": "draw-frequency-top5-v1",
+  "updatedAt": "2026-10-18T07:02:14.131Z",
+  "version": "draw-frequency-top1-v2",
   "notice": "Public workflow records; not tamper-proof certification. Same-day draws excluded. Missing future draws may delay evaluation. Settled results retained.",
   "records": [
     {
