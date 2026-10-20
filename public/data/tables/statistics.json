@@ -15,7 +15,7 @@
   {
     "number": "01",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -53,16 +53,16 @@
   },
   {
     "number": "04",
-    "count": 1,
+    "count": 2,
     "current": 3,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 177,
+    "median": 177,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 177,
+    "overdue": 0.01694915254237288,
+    "percentile": 0
   },
   {
     "number": "05",
@@ -145,7 +145,7 @@
   {
     "number": "11",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -158,7 +158,7 @@
   {
     "number": "12",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -171,7 +171,7 @@
   {
     "number": "13",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -300,15 +300,15 @@
   },
   {
     "number": "23",
-    "count": 2,
+    "count": 3,
     "current": 42,
     "censored": false,
-    "completed": 1,
-    "mean": 81,
-    "median": 81,
-    "sd": null,
+    "completed": 2,
+    "mean": 66.5,
+    "median": 66.5,
+    "sd": 20.506096654409877,
     "max": 81,
-    "overdue": 0.5185185185185185,
+    "overdue": 0.631578947368421,
     "percentile": 0
   },
   {
@@ -353,7 +353,7 @@
   {
     "number": "27",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -431,7 +431,7 @@
   {
     "number": "33",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -444,7 +444,7 @@
   {
     "number": "34",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -457,7 +457,7 @@
   {
     "number": "35",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -535,7 +535,7 @@
   {
     "number": "41",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -639,7 +639,7 @@
   {
     "number": "49",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -677,16 +677,16 @@
   },
   {
     "number": "52",
-    "count": 1,
+    "count": 2,
     "current": 20,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 156,
+    "median": 156,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 156,
+    "overdue": 0.1282051282051282,
+    "percentile": 0
   },
   {
     "number": "53",
@@ -729,16 +729,16 @@
   },
   {
     "number": "56",
-    "count": 1,
+    "count": 2,
     "current": 131,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 48,
+    "median": 48,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 48,
+    "overdue": 2.7291666666666665,
+    "percentile": 1
   },
   {
     "number": "57",
@@ -833,29 +833,29 @@
   },
   {
     "number": "64",
-    "count": 4,
+    "count": 5,
     "current": 2,
     "censored": false,
-    "completed": 3,
-    "mean": 49.666666666666664,
-    "median": 58,
-    "sd": 34.26854728950927,
+    "completed": 4,
+    "mean": 43.75,
+    "median": 42,
+    "sd": 30.379543555930308,
     "max": 79,
-    "overdue": 0.04026845637583893,
+    "overdue": 0.045714285714285714,
     "percentile": 0
   },
   {
     "number": "65",
-    "count": 1,
+    "count": 3,
     "current": 82,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
-    "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "completed": 2,
+    "mean": 49.5,
+    "median": 49.5,
+    "sd": 65.76093065034893,
+    "max": 96,
+    "overdue": 1.6565656565656566,
+    "percentile": 0.5
   },
   {
     "number": "66",
@@ -938,7 +938,7 @@
   {
     "number": "72",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -964,7 +964,7 @@
   {
     "number": "74",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -990,7 +990,7 @@
   {
     "number": "76",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1211,7 +1211,7 @@
   {
     "number": "93",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1250,7 +1250,7 @@
   {
     "number": "96",
     "count": 0,
-    "current": 175,
+    "current": 182,
     "censored": true,
     "completed": 0,
     "mean": null,
