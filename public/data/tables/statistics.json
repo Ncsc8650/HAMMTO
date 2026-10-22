@@ -15,7 +15,7 @@
   {
     "number": "01",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -131,21 +131,21 @@
   },
   {
     "number": "10",
-    "count": 1,
+    "count": 2,
     "current": 108,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 83,
+    "median": 83,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 83,
+    "overdue": 1.3012048192771084,
+    "percentile": 1
   },
   {
     "number": "11",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -158,7 +158,7 @@
   {
     "number": "12",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -171,7 +171,7 @@
   {
     "number": "13",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -339,21 +339,21 @@
   },
   {
     "number": "26",
-    "count": 1,
+    "count": 2,
     "current": 30,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 160,
+    "median": 160,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 160,
+    "overdue": 0.1875,
+    "percentile": 0
   },
   {
     "number": "27",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -431,7 +431,7 @@
   {
     "number": "33",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -444,7 +444,7 @@
   {
     "number": "34",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -457,7 +457,7 @@
   {
     "number": "35",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -535,7 +535,7 @@
   {
     "number": "41",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -639,7 +639,7 @@
   {
     "number": "49",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -938,7 +938,7 @@
   {
     "number": "72",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -964,7 +964,7 @@
   {
     "number": "74",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -990,7 +990,7 @@
   {
     "number": "76",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1015,28 +1015,28 @@
   },
   {
     "number": "78",
-    "count": 1,
+    "count": 2,
     "current": 62,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 130,
+    "median": 130,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 130,
+    "overdue": 0.47692307692307695,
+    "percentile": 0
   },
   {
     "number": "79",
-    "count": 4,
+    "count": 5,
     "current": 60,
     "censored": false,
-    "completed": 3,
-    "mean": 34.333333333333336,
-    "median": 41,
-    "sd": 28.589042189855423,
+    "completed": 4,
+    "mean": 32.25,
+    "median": 33.5,
+    "sd": 23.71181140275875,
     "max": 59,
-    "overdue": 1.7475728155339805,
+    "overdue": 1.8604651162790697,
     "percentile": 1
   },
   {
@@ -1210,9 +1210,9 @@
   },
   {
     "number": "93",
-    "count": 0,
+    "count": 1,
     "current": 187,
-    "censored": true,
+    "censored": false,
     "completed": 0,
     "mean": null,
     "median": null,
@@ -1250,7 +1250,7 @@
   {
     "number": "96",
     "count": 0,
-    "current": 187,
+    "current": 193,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1288,15 +1288,15 @@
   },
   {
     "number": "99",
-    "count": 2,
+    "count": 3,
     "current": 81,
     "censored": false,
-    "completed": 1,
-    "mean": 3,
-    "median": 3,
-    "sd": null,
-    "max": 3,
-    "overdue": 27,
-    "percentile": 1
+    "completed": 2,
+    "mean": 53.5,
+    "median": 53.5,
+    "sd": 71.4177848998413,
+    "max": 104,
+    "overdue": 1.514018691588785,
+    "percentile": 0.5
   }
 ]
