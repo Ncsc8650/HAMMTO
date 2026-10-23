@@ -2,241 +2,241 @@
   {
     "sets": [
       {
-        "number": "917607",
-        "score": 0.000007218152290354253
+        "number": "947607",
+        "score": 0.000007215148356861651
       },
       {
-        "number": "937607",
-        "score": 0.000006917395944922824
+        "number": "917607",
+        "score": 0.000007215148356861651
       },
       {
         "number": "907607",
-        "score": 0.000006917395944922824
+        "score": 0.000006914517175325748
       },
       {
-        "number": "947607",
-        "score": 0.000006917395944922824
+        "number": "937607",
+        "score": 0.000006914517175325748
       },
       {
-        "number": "917507",
-        "score": 0.000006683474342920605
+        "number": "977607",
+        "score": 0.000006313254812253943
       }
     ],
     "prize": "first",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 193,
+    "draws": 199,
+    "observations": 199,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.782Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.312Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
   {
     "sets": [
       {
         "number": "074706",
-        "score": 0.0000021735245807897793
+        "score": 0.0000021641377367718116
+      },
+      {
+        "number": "474706",
+        "score": 0.000002144463757346613
       },
       {
         "number": "174706",
-        "score": 0.0000021532112669506225
-      },
-      {
-        "number": "274706",
-        "score": 0.000002112584639272309
+        "score": 0.0000021247897779214148
       },
       {
         "number": "024706",
-        "score": 0.0000020965856575759815
+        "score": 0.0000020907771355253096
       },
       {
-        "number": "074506",
-        "score": 0.000002093023670390158
+        "number": "274706",
+        "score": 0.000002085441819071019
       }
     ],
     "prize": "second",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 965,
+    "draws": 199,
+    "observations": 995,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.783Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.313Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
   {
     "sets": [
       {
         "number": "345723",
-        "score": 0.0000017469028471982142
+        "score": 0.0000016656472125562499
       },
       {
         "number": "345523",
-        "score": 0.0000017298598925914021
+        "score": 0.0000016577531499374997
       },
       {
-        "number": "145723",
-        "score": 0.0000017128169379845907
+        "number": "345724",
+        "score": 0.0000016426198317375
       },
       {
         "number": "385723",
-        "score": 0.0000017062771995889535
+        "score": 0.0000016353627177824998
       },
       {
-        "number": "345720",
-        "score": 0.0000016974622005793967
+        "number": "345524",
+        "score": 0.0000016348349036249999
       }
     ],
     "prize": "third",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 1930,
+    "draws": 199,
+    "observations": 1990,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.785Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.314Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
   {
     "sets": [
       {
-        "number": "216101",
-        "score": 0.0000013490352293147965
+        "number": "466101",
+        "score": 0.000001357926001649932
       },
       {
         "number": "416101",
-        "score": 0.0000013450122614341367
+        "score": 0.0000013526525026143984
       },
       {
         "number": "266101",
-        "score": 0.0000013395919827095936
+        "score": 0.0000013475004661286275
       },
       {
-        "number": "466101",
-        "score": 0.0000013355971756040977
+        "number": "216101",
+        "score": 0.0000013422674546096813
       },
       {
-        "number": "226101",
-        "score": 0.0000013314977713337045
+        "number": "461101",
+        "score": 0.0000013385823264127537
       }
     ],
     "prize": "fourth",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 9650,
+    "draws": 199,
+    "observations": 9950,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.788Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.319Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
   {
     "sets": [
       {
-        "number": "256475",
-        "score": 0.0000012270202008224394
+        "number": "423470",
+        "score": 0.0000012285020939073585
       },
       {
-        "number": "226475",
-        "score": 0.0000012270202008224394
+        "number": "463470",
+        "score": 0.000001227900476819255
       },
       {
-        "number": "456475",
-        "score": 0.0000012270202008224394
+        "number": "423475",
+        "score": 0.0000012255202927085542
       },
       {
-        "number": "426475",
-        "score": 0.0000012270202008224394
+        "number": "463475",
+        "score": 0.0000012249201358561015
       },
       {
-        "number": "256470",
-        "score": 0.0000012245698359680761
+        "number": "426470",
+        "score": 0.000001222541385057735
       }
     ],
     "prize": "fifth",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 19300,
+    "draws": 199,
+    "observations": 19900,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.794Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.328Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   },
   {
     "sets": [
       {
         "number": "917606",
-        "score": 0.000006278885070553986
-      },
-      {
-        "number": "907606",
-        "score": 0.000006011698471807008
+        "score": 0.000006171491724367314
       },
       {
         "number": "947606",
-        "score": 0.000006011698471807008
+        "score": 0.000006171491724367314
+      },
+      {
+        "number": "907606",
+        "score": 0.0000059088750552453026
       },
       {
         "number": "937606",
-        "score": 0.000006011698471807008
+        "score": 0.0000059088750552453026
       },
       {
-        "number": "917506",
-        "score": 0.0000056975068232804695
+        "number": "917608",
+        "score": 0.000005677772386417929
       }
     ],
     "prize": "near1",
     "mode": "frequency",
-    "seed": 1583446156,
+    "seed": 3960836049,
     "version": "six-digit-position-1",
     "status": "experimental",
     "scoreType": "uncalibrated product of smoothed digit frequencies",
-    "draws": 193,
-    "observations": 386,
+    "draws": 199,
+    "observations": 398,
     "cutoff": "2026-10-16",
     "alpha": 1,
     "firstPrizeBaseline": 0.000005,
-    "datasetHash": "5e61788c41ecbe6b9289a04e6abc018372e8479550c2c1ffeec5fd3c54a1dc35",
+    "datasetHash": "ec158fd177261d1c2be6415f2a40a91a4a63c8da7d26b2ea939654e0680603d0",
     "scope": "next draw after latest observed date; no confirmed future draw date",
-    "generatedAt": "2026-10-22T15:55:21.795Z",
-    "dataSnapshotAt": "2026-10-22T15:55:18.997Z",
+    "generatedAt": "2026-10-23T15:47:00.328Z",
+    "dataSnapshotAt": "2026-10-23T15:46:57.412Z",
     "timestampEvidence": "retrospective derivation; not a certified pre-draw prediction"
   }
 ]
