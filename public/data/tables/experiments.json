@@ -9,15 +9,15 @@
       "window": 20
     },
     "trainDates": [
-      "2017-08-16",
-      "2023-02-16"
+      "2017-05-02",
+      "2022-12-30"
     ],
     "validationDates": [
-      "2023-03-01",
-      "2024-12-16"
+      "2023-01-17",
+      "2024-12-01"
     ],
     "holdoutDates": [
-      "2025-01-02",
+      "2024-12-16",
       "2026-10-16"
     ],
     "cutoffPolicy": "strict drawDate < evaluation date",
@@ -26,13 +26,13 @@
     "selection": "No tuning; fixed parameters; historical holdout is exploratory, not a frozen prospective test",
     "event": "single result, exact match",
     "status": "experimental",
-    "datasetHash": "d7547203fd76f86a5f0249f65c3193e2fe620693e78eb5a8fddc23b2e7bf1c10",
+    "datasetHash": "d8411fc5fc44d380022fc9b1804f15e921c48963e4a9e8d0875c547b35cbcf8c",
     "sourceUrls": [
       "https://www.glo.or.th/api/checking/getLotteryResult",
       "https://www.glo.or.th/api/lottery/getLatestLottery"
     ],
-    "gitCommit": "1e62d4267f34fd7856ef0505d7eee28f6090f463",
+    "gitCommit": "d6decb78232fcf476118ece963a74ee56a7ee077",
     "nodeVersion": "v22.23.3",
-    "runId": "2327423a4676dc78"
+    "runId": "e0e33f0884cd80a6"
   }
 ]
