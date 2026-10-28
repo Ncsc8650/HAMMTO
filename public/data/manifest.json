@@ -1,14 +1,14 @@
 {
-  "datasetHash": "d8411fc5fc44d380022fc9b1804f15e921c48963e4a9e8d0875c547b35cbcf8c",
+  "datasetHash": "2b4188d284b0d61363181e9b859b15b254db6a32fccaf637ed98d3da79ab0069",
   "version": "glo-1",
-  "generatedAt": "2026-10-27T16:44:04.920Z",
-  "count": 223,
-  "firstDate": "2017-05-02",
+  "generatedAt": "2026-10-28T17:12:00.256Z",
+  "count": 228,
+  "firstDate": "2017-02-16",
   "lastDate": "2026-10-16",
   "source": "GLO official API",
   "verification": "single_source",
   "completeness": "unknown: candidate-date backfill is not an official draw schedule",
-  "backfillRemaining": 71,
+  "backfillRemaining": 61,
   "license": "GLO catalog: Creative Commons Non-Commercial (Any)",
   "myhora": "Direct requests blocked by access challenge; not bypassed"
 }

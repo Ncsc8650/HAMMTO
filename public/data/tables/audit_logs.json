@@ -1,9 +1,9 @@
 [
   {
-    "at": "2026-10-27T16:44:04.920Z",
+    "at": "2026-10-28T17:12:00.256Z",
     "event": "snapshot published",
-    "datasetHash": "d8411fc5fc44d380022fc9b1804f15e921c48963e4a9e8d0875c547b35cbcf8c",
-    "count": 223,
+    "datasetHash": "2b4188d284b0d61363181e9b859b15b254db6a32fccaf637ed98d3da79ab0069",
+    "count": 228,
     "limitations": "unknown: candidate-date backfill is not an official draw schedule"
   }
 ]
