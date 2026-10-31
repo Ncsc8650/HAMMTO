@@ -15,7 +15,7 @@
   {
     "number": "01",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -145,7 +145,7 @@
   {
     "number": "11",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -158,7 +158,7 @@
   {
     "number": "12",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -171,7 +171,7 @@
   {
     "number": "13",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -183,16 +183,16 @@
   },
   {
     "number": "14",
-    "count": 5,
+    "count": 6,
     "current": 70,
     "censored": false,
-    "completed": 4,
-    "mean": 39.25,
-    "median": 25,
-    "sd": 40.01978677271199,
+    "completed": 5,
+    "mean": 34.8,
+    "median": 21,
+    "sd": 36.05828614895611,
     "max": 98,
-    "overdue": 1.78343949044586,
-    "percentile": 0.75
+    "overdue": 2.0114942528735633,
+    "percentile": 0.8
   },
   {
     "number": "15",
@@ -444,7 +444,7 @@
   {
     "number": "34",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -535,7 +535,7 @@
   {
     "number": "41",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -639,7 +639,7 @@
   {
     "number": "49",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -690,15 +690,15 @@
   },
   {
     "number": "53",
-    "count": 4,
+    "count": 5,
     "current": 4,
     "censored": false,
-    "completed": 3,
-    "mean": 72.33333333333333,
-    "median": 72,
-    "sd": 24.5017006212494,
+    "completed": 4,
+    "mean": 59.5,
+    "median": 60,
+    "sd": 32.54228019054596,
     "max": 97,
-    "overdue": 0.055299539170506916,
+    "overdue": 0.06722689075630252,
     "percentile": 0
   },
   {
@@ -716,16 +716,16 @@
   },
   {
     "number": "55",
-    "count": 1,
+    "count": 2,
     "current": 86,
     "censored": false,
-    "completed": 0,
-    "mean": null,
-    "median": null,
+    "completed": 1,
+    "mean": 155,
+    "median": 155,
     "sd": null,
-    "max": null,
-    "overdue": null,
-    "percentile": null
+    "max": 155,
+    "overdue": 0.5548387096774193,
+    "percentile": 0
   },
   {
     "number": "56",
@@ -742,15 +742,15 @@
   },
   {
     "number": "57",
-    "count": 3,
+    "count": 4,
     "current": 111,
     "censored": false,
-    "completed": 2,
-    "mean": 17,
-    "median": 17,
-    "sd": 15.556349186104045,
-    "max": 28,
-    "overdue": 6.529411764705882,
+    "completed": 3,
+    "mean": 43,
+    "median": 28,
+    "sd": 46.357307945997036,
+    "max": 95,
+    "overdue": 2.5813953488372094,
     "percentile": 1
   },
   {
@@ -938,7 +938,7 @@
   {
     "number": "72",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -964,7 +964,7 @@
   {
     "number": "74",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -990,7 +990,7 @@
   {
     "number": "76",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1028,15 +1028,15 @@
   },
   {
     "number": "79",
-    "count": 5,
+    "count": 6,
     "current": 60,
     "censored": false,
-    "completed": 4,
-    "mean": 32.25,
-    "median": 33.5,
-    "sd": 23.71181140275875,
+    "completed": 5,
+    "mean": 36.6,
+    "median": 41,
+    "sd": 22.722235805483578,
     "max": 59,
-    "overdue": 1.8604651162790697,
+    "overdue": 1.639344262295082,
     "percentile": 1
   },
   {
@@ -1250,7 +1250,7 @@
   {
     "number": "96",
     "count": 0,
-    "current": 240,
+    "current": 246,
     "censored": true,
     "completed": 0,
     "mean": null,
@@ -1275,15 +1275,15 @@
   },
   {
     "number": "98",
-    "count": 5,
+    "count": 6,
     "current": 146,
     "censored": false,
-    "completed": 4,
-    "mean": 22.25,
-    "median": 17.5,
-    "sd": 21.5,
+    "completed": 5,
+    "mean": 19.8,
+    "median": 10,
+    "sd": 19.40876090841453,
     "max": 51,
-    "overdue": 6.561797752808989,
+    "overdue": 7.373737373737374,
     "percentile": 1
   },
   {
