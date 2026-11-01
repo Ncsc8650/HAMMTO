@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T16:09:54.130Z",
+  "updatedAt": "2026-11-01T17:10:38.804Z",
   "version": "draw-frequency-top1-v2",
   "notice": "Public workflow records; not tamper-proof certification. Same-day draws excluded. Missing future draws may delay evaluation. Settled results retained.",
   "records": [
@@ -110,7 +110,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
       "id": "42e3938e9d91fbf7bfcf1dfe9629e4f031ed969aaa3936479113b469a9084e7b",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "300",
+          "950"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last3",
@@ -130,7 +140,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
       "id": "6195831f913e58a9faa6d46a6ce142d217a245e4e570dbfa18cbfdc9cff0383c",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "393",
+          "804"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last2",
@@ -150,7 +170,16 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/38923545465",
       "id": "3aea03c24baecb21511bee3e7c466a41d4055eea5aac7488eb050c95d8e1f562",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "85"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "front3",
@@ -166,7 +195,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
       "id": "780f9947eda44a6bc8ccb4e0ab1e8904ec6ac4a8adabb20e2859aaddc0f3c3e2",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "300",
+          "950"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last3",
@@ -182,7 +221,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
       "id": "e5f5d674d5369f91455e8dc08d19e3f50e18a4b295073730be8990235a16e795",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "393",
+          "804"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last2",
@@ -198,6 +247,63 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/39106234832",
       "id": "4f347079607a98ba5cb407de1bc1404553ae671fb3cd0c3d8fd1b30471756e9f",
+      "evaluation": {
+        "drawDate": "2026-11-01",
+        "actual": [
+          "85"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
+    },
+    {
+      "target": "front3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-01T17:10:38.804Z",
+      "recordedDate": "2026-11-02",
+      "dataThrough": "2026-11-01",
+      "datasetHash": "bb41dbe896252444a97ab1b2127502a84b0e95afb0769a9883962cd2bc221c4d",
+      "picks": [
+        "285"
+      ],
+      "historyDraws": 253,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
+      "id": "f3b04c2108bfecbc9987bcebe61e7ede083da67b813112a966798bd1f3376ff5",
+      "evaluation": null
+    },
+    {
+      "target": "last3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-01T17:10:38.804Z",
+      "recordedDate": "2026-11-02",
+      "dataThrough": "2026-11-01",
+      "datasetHash": "bb41dbe896252444a97ab1b2127502a84b0e95afb0769a9883962cd2bc221c4d",
+      "picks": [
+        "375"
+      ],
+      "historyDraws": 253,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
+      "id": "6548bd20358f3323093525d45841230f5c89ca3e30edb9c5c7a2a94040bcc3c7",
+      "evaluation": null
+    },
+    {
+      "target": "last2",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-01T17:10:38.804Z",
+      "recordedDate": "2026-11-02",
+      "dataThrough": "2026-11-01",
+      "datasetHash": "bb41dbe896252444a97ab1b2127502a84b0e95afb0769a9883962cd2bc221c4d",
+      "picks": [
+        "85"
+      ],
+      "historyDraws": 253,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
+      "id": "08235615aeee62676627b66181e26b7c595d22d57fd348e5df2d71a016937404",
       "evaluation": null
     }
   ]
