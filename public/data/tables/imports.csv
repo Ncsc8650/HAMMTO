@@ -608,3 +608,4 @@
 "https://www.glo.or.th/api/checking/getLotteryResult","{""year"":""2016"",""month"":""01"",""date"":""01""}","2026-11-02T20:49:04.949Z","afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46","200","glo-1","no_result"
 "https://www.glo.or.th/api/lottery/getLatestLottery","{}","2026-11-03T18:28:21.879Z","c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7","200","glo-1","unchanged"
 "https://www.glo.or.th/api/lottery/getLatestLottery","{}","2026-11-04T18:40:36.697Z","c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7","200","glo-1","unchanged"
+"https://www.glo.or.th/api/lottery/getLatestLottery","{}","2026-11-05T18:49:05.769Z","c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7","200","glo-1","unchanged"
