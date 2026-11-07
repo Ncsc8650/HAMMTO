@@ -397,15 +397,15 @@
       "two": "85",
       "special": "224000002001",
       "sourceUrl": "https://digitaln3.com/reward/show?period_id=52",
-      "retrievedAt": "2026-11-06T18:03:27.925Z",
-      "sourceHash": "962748421e1c08f817ddcf9ca19e1fa29e0e2a9b8834ad4392a89ec25e26ede2",
+      "retrievedAt": "2026-11-07T16:52:41.919Z",
+      "sourceHash": "b943300efe44b7429c5a991908c2c20d075cf84f95e4553928a036c9519c59bf",
       "verification": "single_source"
     }
   ],
   "conflicts": [],
-  "lastSuccessfulFetch": "2026-11-06T18:03:28.375Z",
+  "lastSuccessfulFetch": "2026-11-07T16:52:42.370Z",
   "availablePeriods": 24,
-  "checkedAt": "2026-11-06T18:03:28.376Z",
+  "checkedAt": "2026-11-07T16:52:42.370Z",
   "source": "Digital N3 (third-party source)",
   "completeness": "Only public periods listed by source; not certified complete",
   "lastFetchErrors": []
