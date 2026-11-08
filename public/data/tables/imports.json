@@ -7706,5 +7706,14 @@
     "httpStatus": 200,
     "parserVersion": "glo-1",
     "status": "unchanged"
+  },
+  {
+    "url": "https://www.glo.or.th/api/lottery/getLatestLottery",
+    "body": {},
+    "retrievedAt": "2026-11-08T17:06:36.903Z",
+    "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "unchanged"
   }
 ]
