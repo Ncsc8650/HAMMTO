@@ -5608,5 +5608,27 @@
     "rawHash": "c68a7274fced7864d9760681951816baa00252de9f4c80df0f0c1beeeb6ff3c7",
     "datasetVersion": "glo-1",
     "pdfUrl": "https://api.glo.or.th/utility/file/download/a4f5131b-e5b1-4a02-8ace-89e135c87387"
+  },
+  {
+    "id": "2026-11-16",
+    "drawDate": "2026-11-16",
+    "firstPrize": "645654",
+    "last2": "06",
+    "front3": [
+      "101",
+      "938"
+    ],
+    "last3": [
+      "106",
+      "782"
+    ],
+    "regimeId": "L6-front3-2015",
+    "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery",
+    "retrievedAt": "2026-11-16T21:05:27.935Z",
+    "publishedAt": null,
+    "verification": "single_source",
+    "rawHash": "0f81f7573faa9dacc69c46caf96e63a6ee30b2898ec8e1fd1c36b10ab6a98cb5",
+    "datasetVersion": "glo-1",
+    "pdfUrl": "https://api.glo.or.th/utility/file/download/efe8c80a-d006-4b28-b037-87f26772bb4e"
   }
 ]

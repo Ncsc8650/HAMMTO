@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T17:48:21.169Z",
-  "datasetHash": "780b51ad3d828e798a199bae9eb75e24bc045b4c333da4ab6799462adf3f2e7d",
+  "generatedAt": "2026-11-16T21:05:34.065Z",
+  "datasetHash": "0c4471cfa181657b140935bd24aa4bae852635109d2d42c97c1809b1dcaacef0",
   "notice": "Retrospective comparison, fixed top 1, expanding history, not calibration or proof of future advantage. Random expectation conditions on distinct actual winners, not assumptions about prize drawing rules.",
   "results": [
     {
@@ -10,15 +10,15 @@
       "minTrain": 30,
       "k": 1,
       "seed": 20261002,
-      "n": 225,
+      "n": 226,
       "hits": 0,
       "rate": 0,
       "ci": [
-        1.734723475976807e-18,
-        0.016787157579740745
+        0,
+        0.01671411963717621
       ],
       "randomHits": 1,
-      "randomRate": 0.0044444444444444444,
+      "randomRate": 0.004424778761061947,
       "expectedRandomRate": 0.0020000000000000018,
       "rows": [
         {
@@ -4070,6 +4070,24 @@
           "hit": false,
           "randomHit": false,
           "randomExpected": 0.0020000000000000018
+        },
+        {
+          "date": "2026-11-16",
+          "trainThrough": "2026-11-01",
+          "trainDraws": 255,
+          "picks": [
+            "285"
+          ],
+          "randomPicks": [
+            "807"
+          ],
+          "actual": [
+            "101",
+            "938"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.0020000000000000018
         }
       ]
     },
@@ -4080,15 +4098,15 @@
       "minTrain": 30,
       "k": 1,
       "seed": 20261002,
-      "n": 225,
+      "n": 226,
       "hits": 1,
-      "rate": 0.0044444444444444444,
+      "rate": 0.004424778761061947,
       "ci": [
-        0.0007849646791219054,
-        0.024741862611021147
+        0.0007814894820824484,
+        0.024634275114056803
       ],
       "randomHits": 1,
-      "randomRate": 0.0044444444444444444,
+      "randomRate": 0.004424778761061947,
       "expectedRandomRate": 0.0020000000000000018,
       "rows": [
         {
@@ -8140,6 +8158,24 @@
           "hit": false,
           "randomHit": false,
           "randomExpected": 0.0020000000000000018
+        },
+        {
+          "date": "2026-11-16",
+          "trainThrough": "2026-11-01",
+          "trainDraws": 255,
+          "picks": [
+            "375"
+          ],
+          "randomPicks": [
+            "807"
+          ],
+          "actual": [
+            "106",
+            "782"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.0020000000000000018
         }
       ]
     },
@@ -8150,16 +8186,16 @@
       "minTrain": 30,
       "k": 1,
       "seed": 20261002,
-      "n": 225,
+      "n": 226,
       "hits": 4,
-      "rate": 0.017777777777777778,
+      "rate": 0.017699115044247787,
       "ci": [
-        0.006934489426563512,
-        0.04481134699478645
+        0.006903711962463501,
+        0.04461698751056488
       ],
       "randomHits": 5,
-      "randomRate": 0.022222222222222223,
-      "expectedRandomRate": 0.009999999999999985,
+      "randomRate": 0.022123893805309734,
+      "expectedRandomRate": 0.009999999999999983,
       "rows": [
         {
           "date": "2017-04-16",
@@ -11981,6 +12017,23 @@
           ],
           "actual": [
             "85"
+          ],
+          "hit": false,
+          "randomHit": false,
+          "randomExpected": 0.010000000000000009
+        },
+        {
+          "date": "2026-11-16",
+          "trainThrough": "2026-11-01",
+          "trainDraws": 255,
+          "picks": [
+            "85"
+          ],
+          "randomPicks": [
+            "80"
+          ],
+          "actual": [
+            "06"
           ],
           "hit": false,
           "randomHit": false,

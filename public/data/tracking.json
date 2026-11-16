@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:48:21.169Z",
+  "updatedAt": "2026-11-16T21:05:34.065Z",
   "version": "draw-frequency-top1-v2",
   "notice": "Public workflow records; not tamper-proof certification. Same-day draws excluded. Missing future draws may delay evaluation. Settled results retained.",
   "records": [
@@ -272,7 +272,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
       "id": "f3b04c2108bfecbc9987bcebe61e7ede083da67b813112a966798bd1f3376ff5",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-16",
+        "actual": [
+          "101",
+          "938"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "0f81f7573faa9dacc69c46caf96e63a6ee30b2898ec8e1fd1c36b10ab6a98cb5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last3",
@@ -288,7 +298,17 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
       "id": "6548bd20358f3323093525d45841230f5c89ca3e30edb9c5c7a2a94040bcc3c7",
-      "evaluation": null
+      "evaluation": {
+        "drawDate": "2026-11-16",
+        "actual": [
+          "106",
+          "782"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "0f81f7573faa9dacc69c46caf96e63a6ee30b2898ec8e1fd1c36b10ab6a98cb5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
     },
     {
       "target": "last2",
@@ -304,6 +324,63 @@
       "rule": "first available official draw strictly after recorded Bangkok date",
       "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/41330035627",
       "id": "08235615aeee62676627b66181e26b7c595d22d57fd348e5df2d71a016937404",
+      "evaluation": {
+        "drawDate": "2026-11-16",
+        "actual": [
+          "06"
+        ],
+        "matched": [],
+        "hit": false,
+        "rawHash": "0f81f7573faa9dacc69c46caf96e63a6ee30b2898ec8e1fd1c36b10ab6a98cb5",
+        "sourceUrl": "https://www.glo.or.th/api/lottery/getLatestLottery"
+      }
+    },
+    {
+      "target": "front3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-16T21:05:34.065Z",
+      "recordedDate": "2026-11-17",
+      "dataThrough": "2026-11-16",
+      "datasetHash": "0c4471cfa181657b140935bd24aa4bae852635109d2d42c97c1809b1dcaacef0",
+      "picks": [
+        "285"
+      ],
+      "historyDraws": 256,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/43956428426",
+      "id": "b9ca22f54c058582f739e4ea352eee21a3575234ff8abaadae6c25e1a9a0a0ba",
+      "evaluation": null
+    },
+    {
+      "target": "last3",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-16T21:05:34.065Z",
+      "recordedDate": "2026-11-17",
+      "dataThrough": "2026-11-16",
+      "datasetHash": "0c4471cfa181657b140935bd24aa4bae852635109d2d42c97c1809b1dcaacef0",
+      "picks": [
+        "375"
+      ],
+      "historyDraws": 256,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/43956428426",
+      "id": "48defae44d4cf84ff5cdd23aa93acdc5333a3d7c1af82f25c4e87866407c765c",
+      "evaluation": null
+    },
+    {
+      "target": "last2",
+      "version": "draw-frequency-top1-v2",
+      "recordedAt": "2026-11-16T21:05:34.065Z",
+      "recordedDate": "2026-11-17",
+      "dataThrough": "2026-11-16",
+      "datasetHash": "0c4471cfa181657b140935bd24aa4bae852635109d2d42c97c1809b1dcaacef0",
+      "picks": [
+        "06"
+      ],
+      "historyDraws": 256,
+      "rule": "first available official draw strictly after recorded Bangkok date",
+      "runUrl": "https://github.com/Ncsc8650/HAMMTO/actions/runs/43956428426",
+      "id": "0e967ccc4af482027e97a616aea42b6237e3866411240b0aaf84ced4515992e9",
       "evaluation": null
     }
   ]

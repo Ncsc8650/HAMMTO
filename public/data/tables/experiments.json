@@ -18,7 +18,7 @@
     ],
     "holdoutDates": [
       "2024-10-01",
-      "2026-11-01"
+      "2026-11-16"
     ],
     "cutoffPolicy": "strict drawDate < evaluation date",
     "trialCount": 12,
@@ -26,13 +26,13 @@
     "selection": "No tuning; fixed parameters; historical holdout is exploratory, not a frozen prospective test",
     "event": "single result, exact match",
     "status": "experimental",
-    "datasetHash": "780b51ad3d828e798a199bae9eb75e24bc045b4c333da4ab6799462adf3f2e7d",
+    "datasetHash": "0c4471cfa181657b140935bd24aa4bae852635109d2d42c97c1809b1dcaacef0",
     "sourceUrls": [
       "https://www.glo.or.th/api/checking/getLotteryResult",
       "https://www.glo.or.th/api/lottery/getLatestLottery"
     ],
-    "gitCommit": "150a1194ab597998f9ad9033409080ff1a5af8eb",
+    "gitCommit": "c7e44f5941ac4f048480d3a0e5fe2b1e365b0df5",
     "nodeVersion": "v22.23.4",
-    "runId": "a5e55d1eb2eed993"
+    "runId": "2299a3e454811d16"
   }
 ]
