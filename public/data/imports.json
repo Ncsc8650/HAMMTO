@@ -7787,5 +7787,27 @@
     "httpStatus": 200,
     "parserVersion": "glo-1",
     "status": "accepted"
+  },
+  {
+    "url": "https://www.glo.or.th/api/lottery/getLatestLottery",
+    "body": {},
+    "retrievedAt": "2026-11-17T19:54:04.564Z",
+    "rawHash": "0f81f7573faa9dacc69c46caf96e63a6ee30b2898ec8e1fd1c36b10ab6a98cb5",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "unchanged"
+  },
+  {
+    "url": "https://www.glo.or.th/api/checking/getLotteryResult",
+    "body": {
+      "year": "2026",
+      "month": "11",
+      "date": "17"
+    },
+    "retrievedAt": "2026-11-17T19:54:07.345Z",
+    "rawHash": "afe94da460509c7b93673132eb40f228d9d4beeea0ab0ee7e989d96bc491eb46",
+    "httpStatus": 200,
+    "parserVersion": "glo-1",
+    "status": "no_result"
   }
 ]
