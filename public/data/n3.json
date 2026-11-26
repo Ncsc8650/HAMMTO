@@ -422,8 +422,13 @@
   "conflicts": [],
   "lastSuccessfulFetch": "2026-11-25T20:29:58.690Z",
   "availablePeriods": 24,
-  "checkedAt": "2026-11-25T20:29:58.690Z",
+  "checkedAt": "2026-11-26T20:13:46.739Z",
   "source": "Digital N3 (third-party source)",
   "completeness": "Only public periods listed by source; not certified complete",
-  "lastFetchErrors": []
+  "lastFetchErrors": [
+    {
+      "url": "https://digitaln3.com/",
+      "error": "Missing N3 draw date"
+    }
+  ]
 }
